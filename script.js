@@ -167,6 +167,59 @@ function renderEnhancedStats() {
     document.getElementById('maxRainfallStation').textContent = maxRainfallStation?.gauge || '--';
     document.getElementById('avgWaterLevel').textContent = avgWater + ' m';
     document.getElementById('totalRainfall').textContent = totalRain + ' mm';
+
+    // Calculate percentages
+    let alertCount = 0, minorCount = 0, majorCount = 0;
+    let safetyMarginSum = 0;
+
+    allData.forEach(station => {
+        const status = getStationStatus(station);
+        if (status === 'alert') alertCount++;
+        if (status === 'minor') minorCount++;
+        if (status === 'major') majorCount++;
+
+        // Calculate safety margin (how far below alert level)
+        safetyMarginSum += (station.alertpull - station.water_level);
+    });
+
+    const alertPct = ((alertCount / allData.length) * 100).toFixed(1);
+    const minorPct = ((minorCount / allData.length) * 100).toFixed(1);
+    const majorPct = ((majorCount / allData.length) * 100).toFixed(1);
+    const avgSafetyMargin = (safetyMarginSum / allData.length).toFixed(2);
+
+    document.getElementById('alertPercentage').textContent = alertPct + '%';
+    document.getElementById('minorPercentage').textContent = minorPct + '%';
+    document.getElementById('majorPercentage').textContent = majorPct + '%';
+    document.getElementById('safetyMargin').textContent = avgSafetyMargin + ' m';
+}
+
+// ========================== RISK ASSESSMENT ========================== 
+function renderRiskAssessment() {
+    if (allData.length === 0) return;
+
+    let critical = 0, highRisk = 0, mediumRisk = 0, lowRisk = 0;
+
+    allData.forEach(station => {
+        const level = station.water_level;
+        const majorThreshold = station.majorpull;
+        const minorThreshold = station.minorpull;
+        const alertThreshold = station.alertpull;
+
+        if (level >= majorThreshold) {
+            critical++;
+        } else if (level >= minorThreshold) {
+            highRisk++;
+        } else if (level >= alertThreshold) {
+            mediumRisk++;
+        } else {
+            lowRisk++;
+        }
+    });
+
+    document.getElementById('criticalCount').textContent = critical;
+    document.getElementById('highRiskCount').textContent = highRisk;
+    document.getElementById('mediumRiskCount').textContent = mediumRisk;
+    document.getElementById('lowRiskCount').textContent = lowRisk;
 }
 
 // ========================== STATUS LOGIC ========================== 
