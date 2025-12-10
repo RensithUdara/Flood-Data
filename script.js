@@ -87,10 +87,10 @@ async function fetchAndRenderData() {
 
         // Update last updated time
         const lastUpdated = new Date(data.last_updated_utc);
-        document.getElementById('lastUpdated').textContent = 
-            lastUpdated.toLocaleString('en-US', { 
-                hour: '2-digit', 
-                minute: '2-digit', 
+        document.getElementById('lastUpdated').textContent =
+            lastUpdated.toLocaleString('en-US', {
+                hour: '2-digit',
+                minute: '2-digit',
                 second: '2-digit',
                 timeZone: 'UTC'
             }) + ' UTC';
@@ -123,7 +123,7 @@ function renderMetrics() {
 
     allData.forEach(station => {
         const status = getStationStatus(station);
-        switch(status) {
+        switch (status) {
             case 'normal': normalCount++; break;
             case 'alert': alertCount++; break;
             case 'minor': minorCount++; break;
@@ -175,7 +175,7 @@ function renderWaterLevelChart(data) {
             data: data.map(d => d.water_level),
             backgroundColor: data.map(d => {
                 const status = getStationStatus(d);
-                switch(status) {
+                switch (status) {
                     case 'normal': return '#10b981';
                     case 'alert': return '#f59e0b';
                     case 'minor': return '#f97316';
@@ -328,7 +328,7 @@ function renderTopAlerts() {
 }
 
 function getThreshold(station, status) {
-    switch(status) {
+    switch (status) {
         case 'major': return station.majorpull;
         case 'minor': return station.minorpull;
         case 'alert': return station.alertpull;
@@ -447,9 +447,9 @@ function renderStationsTable() {
             </thead>
             <tbody>
                 ${allData.map(station => {
-                    const status = getStationStatus(station);
-                    const updated = new Date(station.EditDate).toLocaleTimeString();
-                    return `
+        const status = getStationStatus(station);
+        const updated = new Date(station.EditDate).toLocaleTimeString();
+        return `
                         <tr>
                             <td><strong>${station.gauge}</strong></td>
                             <td>${station.basin}</td>
@@ -460,7 +460,7 @@ function renderStationsTable() {
                             <td>${updated}</td>
                         </tr>
                     `;
-                }).join('')}
+    }).join('')}
             </tbody>
         </table>
     `;
@@ -471,8 +471,8 @@ function filterTable() {
     const basinFilter = document.getElementById('basinFilter').value;
 
     let filtered = allData.filter(station => {
-        const matchesSearch = station.gauge.toLowerCase().includes(searchTerm) || 
-                            station.basin.toLowerCase().includes(searchTerm);
+        const matchesSearch = station.gauge.toLowerCase().includes(searchTerm) ||
+            station.basin.toLowerCase().includes(searchTerm);
         const matchesBasin = !basinFilter || station.basin === basinFilter;
         return matchesSearch && matchesBasin;
     });
@@ -499,9 +499,9 @@ function filterTable() {
             </thead>
             <tbody>
                 ${filtered.map(station => {
-                    const status = getStationStatus(station);
-                    const updated = new Date(station.EditDate).toLocaleTimeString();
-                    return `
+        const status = getStationStatus(station);
+        const updated = new Date(station.EditDate).toLocaleTimeString();
+        return `
                         <tr>
                             <td><strong>${station.gauge}</strong></td>
                             <td>${station.basin}</td>
@@ -512,7 +512,7 @@ function filterTable() {
                             <td>${updated}</td>
                         </tr>
                     `;
-                }).join('')}
+    }).join('')}
             </tbody>
         </table>
     `;
@@ -521,7 +521,7 @@ function filterTable() {
 function populateBasinFilter() {
     const basins = [...new Set(allData.map(s => s.basin))].sort();
     const select = document.getElementById('basinFilter');
-    
+
     select.innerHTML = '<option value="">All Basins</option>';
     basins.forEach(basin => {
         const option = document.createElement('option');
