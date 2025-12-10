@@ -314,7 +314,112 @@ function renderRainfallChart(data) {
     });
 }
 
-// ========================== TOP ALERTS ========================== 
+// ========================== BASIN AND STATUS CHARTS ========================== 
+function renderBasinAndStatusCharts() {
+    renderBasinChart();
+    renderStatusChart();
+}
+
+function renderBasinChart() {
+    // Count stations by basin
+    const basinCounts = {};
+    allData.forEach(station => {
+        basinCounts[station.basin] = (basinCounts[station.basin] || 0) + 1;
+    });
+
+    const basins = Object.keys(basinCounts).sort();
+    const counts = basins.map(b => basinCounts[b]);
+
+    const ctx = document.getElementById('basinChart').getContext('2d');
+
+    if (chartsInstance.basin) {
+        chartsInstance.basin.destroy();
+    }
+
+    const colors = [
+        '#3b82f6', '#06b6d4', '#10b981', '#f59e0b', '#ef4444',
+        '#8b5cf6', '#ec4899', '#14b8a6', '#f97316', '#06b6d4'
+    ];
+
+    chartsInstance.basin = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            labels: basins,
+            datasets: [{
+                data: counts,
+                backgroundColor: colors.slice(0, basins.length),
+                borderColor: '#fff',
+                borderWidth: 2
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: true,
+            plugins: {
+                legend: {
+                    position: 'bottom',
+                    labels: {
+                        color: '#6b7280',
+                        font: {
+                            size: 12
+                        },
+                        padding: 15
+                    }
+                }
+            }
+        }
+    });
+}
+
+function renderStatusChart() {
+    // Count stations by status
+    let normalCount = 0, alertCount = 0, minorCount = 0, majorCount = 0;
+
+    allData.forEach(station => {
+        const status = getStationStatus(station);
+        switch(status) {
+            case 'normal': normalCount++; break;
+            case 'alert': alertCount++; break;
+            case 'minor': minorCount++; break;
+            case 'major': majorCount++; break;
+        }
+    });
+
+    const ctx = document.getElementById('statusChart').getContext('2d');
+
+    if (chartsInstance.status) {
+        chartsInstance.status.destroy();
+    }
+
+    chartsInstance.status = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ['Normal', 'Alert', 'Minor Flood', 'Major Flood'],
+            datasets: [{
+                data: [normalCount, alertCount, minorCount, majorCount],
+                backgroundColor: ['#10b981', '#f59e0b', '#f97316', '#ef4444'],
+                borderColor: '#fff',
+                borderWidth: 2
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: true,
+            plugins: {
+                legend: {
+                    position: 'bottom',
+                    labels: {
+                        color: '#6b7280',
+                        font: {
+                            size: 12
+                        },
+                        padding: 15
+                    }
+                }
+            }
+        }
+    });
+} 
 function renderTopAlerts() {
     const alertStations = allData
         .filter(s => getStationStatus(s) !== 'normal')
