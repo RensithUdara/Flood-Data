@@ -222,6 +222,91 @@ function renderRiskAssessment() {
     document.getElementById('lowRiskCount').textContent = lowRisk;
 }
 
+function renderThresholdComparison() {
+    if (allData.length === 0) return;
+    
+    // Get top 8 stations by water level
+    const topStations = [...allData].sort((a, b) => b.water_level - a.water_level).slice(0, 8);
+    
+    const labels = topStations.map(s => s.station_name);
+    const waterLevels = topStations.map(s => parseFloat(s.water_level) || 0);
+    const alertThresholds = topStations.map(s => parseFloat(s.alertpull) || 0);
+    const minorThresholds = topStations.map(s => parseFloat(s.minorpull) || 0);
+    const majorThresholds = topStations.map(s => parseFloat(s.majorpull) || 0);
+
+    if (chartsInstance.threshold) chartsInstance.threshold.destroy();
+
+    const ctx = document.getElementById('thresholdChart').getContext('2d');
+    chartsInstance.threshold = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [
+                {
+                    label: 'Current Water Level',
+                    data: waterLevels,
+                    backgroundColor: '#3b82f6',
+                    borderColor: '#1e40af',
+                    borderWidth: 1
+                },
+                {
+                    label: 'Alert Threshold',
+                    data: alertThresholds,
+                    backgroundColor: '#fbbf24',
+                    borderColor: '#d97706',
+                    borderWidth: 1
+                },
+                {
+                    label: 'Minor Flood',
+                    data: minorThresholds,
+                    backgroundColor: '#f97316',
+                    borderColor: '#c2410c',
+                    borderWidth: 1
+                },
+                {
+                    label: 'Major Flood',
+                    data: majorThresholds,
+                    backgroundColor: '#ef4444',
+                    borderColor: '#7f1d1d',
+                    borderWidth: 1
+                }
+            ]
+        },
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    position: 'top',
+                    labels: {
+                        font: { size: 12 },
+                        padding: 15,
+                        usePointStyle: true
+                    }
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function(context) {
+                            return context.dataset.label + ': ' + context.parsed.x.toFixed(2) + ' m';
+                        }
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    beginAtZero: true,
+                    ticks: { font: { size: 11 } },
+                    title: { display: true, text: 'Water Level (meters)' }
+                },
+                y: {
+                    ticks: { font: { size: 11 } }
+                }
+            }
+        }
+    });
+}
+
 // ========================== STATUS LOGIC ========================== 
 function getStationStatus(station) {
     const level = station.water_level;
