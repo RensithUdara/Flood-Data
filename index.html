@@ -364,7 +364,10 @@
     <!-- Map Tab -->
     <div id="map" class="tab-content">
         <div class="map-section">
-            <h2>Station Locations & Status</h2>
+            <div class="section-header">
+                <h2><i class="fas fa-map-location-dot"></i> Station Locations & Status</h2>
+                <p class="section-desc">Interactive station map with real-time status indicators</p>
+            </div>
             <div id="stationMap" class="station-grid">
                 <p class="loading">Loading station data...</p>
             </div>
@@ -374,16 +377,22 @@
     <!-- Alerts Tab -->
     <div id="alerts" class="tab-content">
         <div class="alerts-full">
-            <h2>Critical & Alert Stations</h2>
+            <div class="section-header">
+                <h2><i class="fas fa-bell"></i> Critical & Alert Stations</h2>
+                <p class="section-desc">Real-time alerts and flood warnings</p>
+            </div>
             <div class="filter-controls">
-                <label>
-                    <input type="checkbox" id="filterAlert" checked> Show Alert Level
+                <label class="filter-label">
+                    <input type="checkbox" id="filterAlert" checked class="filter-checkbox">
+                    <span class="filter-text"><i class="fas fa-exclamation-circle alert"></i> Alert Level</span>
                 </label>
-                <label>
-                    <input type="checkbox" id="filterMinor" checked> Show Minor Flood
+                <label class="filter-label">
+                    <input type="checkbox" id="filterMinor" checked class="filter-checkbox">
+                    <span class="filter-text"><i class="fas fa-triangle-exclamation warning"></i> Minor Flood</span>
                 </label>
-                <label>
-                    <input type="checkbox" id="filterMajor" checked> Show Major Flood
+                <label class="filter-label">
+                    <input type="checkbox" id="filterMajor" checked class="filter-checkbox">
+                    <span class="filter-text"><i class="fas fa-radiation-alt danger"></i> Major Flood</span>
                 </label>
             </div>
             <div id="alertsList" class="alerts-table">
@@ -395,9 +404,16 @@
     <!-- Table Tab -->
     <div id="table" class="tab-content">
         <div class="table-section">
-            <h2>All Monitoring Stations</h2>
+            <div class="section-header">
+                <h2><i class="fas fa-list"></i> All Monitoring Stations</h2>
+                <p class="section-desc">Complete list of all active monitoring stations</p>
+            </div>
             <div class="table-controls">
-                <input type="text" id="searchInput" placeholder="Search by station name or basin..." class="search-box">
+                <div class="search-wrapper">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchInput" placeholder="Search by station name or basin..."
+                        class="search-box">
+                </div>
                 <select id="basinFilter" class="filter-select">
                     <option value="">All Basins</option>
                 </select>
