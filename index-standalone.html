@@ -173,67 +173,139 @@
 
                     <!-- Extended Statistics -->
                     <div class="extended-stats">
-                        <div class="summary-box">
-                            <div class="summary-label"><i class="fas fa-exclamation-circle"></i> Alert Level</div>
-                            <div class="summary-value" id="alertPercentage">0%</div>
-                            <div class="summary-info">Stations at alert level</div>
+                        <div class="stat-summary alert-level">
+                            <div class="stat-header">
+                                <div class="stat-icon-circle alert">
+                                    <i class="fas fa-exclamation-circle"></i>
+                                </div>
+                                <div class="stat-info">
+                                    <span class="stat-title">Alert Level</span>
+                                    <span class="stat-desc">Stations at alert level</span>
+                                </div>
+                            </div>
+                            <div class="stat-value-box">
+                                <span class="stat-value-large" id="alertPercentage">0%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill alert" id="alertProgressBar"></div>
+                            </div>
                         </div>
-                        <div class="summary-box">
-                            <div class="summary-label"><i class="fas fa-water"></i> Minor Flood</div>
-                            <div class="summary-value" id="minorPercentage">0%</div>
-                            <div class="summary-info">Stations with minor flooding</div>
+                        <div class="stat-summary warning-level">
+                            <div class="stat-header">
+                                <div class="stat-icon-circle warning">
+                                    <i class="fas fa-water"></i>
+                                </div>
+                                <div class="stat-info">
+                                    <span class="stat-title">Minor Flood</span>
+                                    <span class="stat-desc">Stations with minor flooding</span>
+                                </div>
+                            </div>
+                            <div class="stat-value-box">
+                                <span class="stat-value-large" id="minorPercentage">0%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill warning" id="minorProgressBar"></div>
+                            </div>
                         </div>
-                        <div class="summary-box">
-                            <div class="summary-label"><i class="fas fa-wave"></i> Major Flood</div>
-                            <div class="summary-value" id="majorPercentage">0%</div>
-                            <div class="summary-info">Stations with major flooding</div>
+                        <div class="stat-summary danger-level">
+                            <div class="stat-header">
+                                <div class="stat-icon-circle danger">
+                                    <i class="fas fa-wave"></i>
+                                </div>
+                                <div class="stat-info">
+                                    <span class="stat-title">Major Flood</span>
+                                    <span class="stat-desc">Stations with major flooding</span>
+                                </div>
+                            </div>
+                            <div class="stat-value-box">
+                                <span class="stat-value-large" id="majorPercentage">0%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill danger" id="majorProgressBar"></div>
+                            </div>
                         </div>
-                        <div class="summary-box">
-                            <div class="summary-label"><i class="fas fa-shield"></i> Safety Margin</div>
-                            <div class="summary-value" id="safetyMargin">0 m</div>
-                            <div class="summary-info">Avg distance to alert level</div>
+                        <div class="stat-summary safe-level">
+                            <div class="stat-header">
+                                <div class="stat-icon-circle success">
+                                    <i class="fas fa-shield"></i>
+                                </div>
+                                <div class="stat-info">
+                                    <span class="stat-title">Safety Margin</span>
+                                    <span class="stat-desc">Avg distance to alert level</span>
+                                </div>
+                            </div>
+                            <div class="stat-value-box">
+                                <span class="stat-value-large" id="safetyMargin">0 m</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill success" id="safetyProgressBar" style="width: 75%;"></div>
+                            </div>
                         </div>
                     </div>
 
                     <!-- Risk Assessment Matrix -->
                     <div class="risk-section">
-                        <h2><i class="fas fa-chart-bar"></i> Risk Assessment by Severity</h2>
+                        <div class="risk-header">
+                            <h2><i class="fas fa-chart-bar"></i> Risk Assessment by Severity</h2>
+                            <p class="risk-subtitle">Station distribution across risk categories</p>
+                        </div>
                         <div class="risk-matrix">
                             <div class="risk-item critical">
-                                <div class="risk-icon"><i class="fas fa-exclamation"></i></div>
-                                <div class="risk-info">
+                                <div class="risk-icon-box">
+                                    <i class="fas fa-exclamation"></i>
+                                </div>
+                                <div class="risk-details">
                                     <div class="risk-label">Critical</div>
                                     <div class="risk-count" id="criticalCount">0</div>
+                                    <div class="risk-description">Major flood threshold exceeded</div>
                                 </div>
+                                <div class="risk-badge critical">Critical</div>
                             </div>
                             <div class="risk-item high">
-                                <div class="risk-icon"><i class="fas fa-triangle-exclamation"></i></div>
-                                <div class="risk-info">
+                                <div class="risk-icon-box">
+                                    <i class="fas fa-triangle-exclamation"></i>
+                                </div>
+                                <div class="risk-details">
                                     <div class="risk-label">High Risk</div>
                                     <div class="risk-count" id="highRiskCount">0</div>
+                                    <div class="risk-description">Minor flood threshold exceeded</div>
                                 </div>
+                                <div class="risk-badge high">High</div>
                             </div>
                             <div class="risk-item medium">
-                                <div class="risk-icon"><i class="fas fa-circle-exclamation"></i></div>
-                                <div class="risk-info">
+                                <div class="risk-icon-box">
+                                    <i class="fas fa-circle-exclamation"></i>
+                                </div>
+                                <div class="risk-details">
                                     <div class="risk-label">Medium Risk</div>
                                     <div class="risk-count" id="mediumRiskCount">0</div>
+                                    <div class="risk-description">Alert threshold reached</div>
                                 </div>
+                                <div class="risk-badge medium">Medium</div>
                             </div>
                             <div class="risk-item low">
-                                <div class="risk-icon"><i class="fas fa-check-circle"></i></div>
-                                <div class="risk-info">
+                                <div class="risk-icon-box">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="risk-details">
                                     <div class="risk-label">Low Risk</div>
                                     <div class="risk-count" id="lowRiskCount">0</div>
+                                    <div class="risk-description">Below alert threshold</div>
                                 </div>
+                                <div class="risk-badge low">Low</div>
                             </div>
                         </div>
                     </div>
 
                     <!-- Threshold Comparison Chart -->
                     <div class="threshold-section">
-                        <h2><i class="fas fa-arrows-up-down"></i> Water Level vs Thresholds</h2>
-                        <canvas id="thresholdChart" height="300"></canvas>
+                        <div class="chart-header">
+                            <h2><i class="fas fa-arrows-up-down"></i> Water Level vs Thresholds</h2>
+                            <p class="chart-subtitle">Top 8 stations comparing current levels with alert & flood thresholds</p>
+                        </div>
+                        <div class="chart-wrapper">
+                            <canvas id="thresholdChart" height="300"></canvas>
+                        </div>
                     </div>
 
                     <div class="charts-section">
