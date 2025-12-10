@@ -251,12 +251,38 @@ function renderEnhancedStats() {
     const maxWaterStation = allData.find(s => s.water_level === maxWater);
     const maxRainfallStation = allData.find(s => s.rain_fall === maxRain);
 
+    // Calculate percentages and safety margins
+    let alertCount = 0, minorCount = 0, majorCount = 0;
+    let safetyMarginSum = 0;
+    
+    allData.forEach(station => {
+        const level = parseFloat(station.water_level) || 0;
+        const alertThreshold = parseFloat(station.alertpull) || 0;
+        const minorThreshold = parseFloat(station.minorpull) || 0;
+        const majorThreshold = parseFloat(station.majorpull) || 0;
+        
+        if (level >= majorThreshold) majorCount++;
+        else if (level >= minorThreshold) minorCount++;
+        else if (level >= alertThreshold) alertCount++;
+        
+        safetyMarginSum += Math.max(0, alertThreshold - level);
+    });
+    
+    const alertPct = ((alertCount / allData.length) * 100).toFixed(1);
+    const minorPct = ((minorCount / allData.length) * 100).toFixed(1);
+    const majorPct = ((majorCount / allData.length) * 100).toFixed(1);
+    const avgSafetyMargin = (safetyMarginSum / allData.length).toFixed(2);
+
     document.getElementById('maxWaterLevel').textContent = maxWater.toFixed(2) + ' m';
     document.getElementById('maxWaterStation').textContent = maxWaterStation?.gauge || '--';
     document.getElementById('maxRainfall').textContent = maxRain.toFixed(1) + ' mm';
     document.getElementById('maxRainfallStation').textContent = maxRainfallStation?.gauge || '--';
     document.getElementById('avgWaterLevel').textContent = avgWater + ' m';
     document.getElementById('totalRainfall').textContent = totalRain + ' mm';
+    document.getElementById('alertPercentage').textContent = alertPct + '%';
+    document.getElementById('minorPercentage').textContent = minorPct + '%';
+    document.getElementById('majorPercentage').textContent = majorPct + '%';
+    document.getElementById('safetyMargin').textContent = avgSafetyMargin + ' m';
 }
 
 // ========================== STATUS LOGIC ========================== 
