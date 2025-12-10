@@ -254,20 +254,20 @@ function renderEnhancedStats() {
     // Calculate percentages and safety margins
     let alertCount = 0, minorCount = 0, majorCount = 0;
     let safetyMarginSum = 0;
-    
+
     allData.forEach(station => {
         const level = parseFloat(station.water_level) || 0;
         const alertThreshold = parseFloat(station.alertpull) || 0;
         const minorThreshold = parseFloat(station.minorpull) || 0;
         const majorThreshold = parseFloat(station.majorpull) || 0;
-        
+
         if (level >= majorThreshold) majorCount++;
         else if (level >= minorThreshold) minorCount++;
         else if (level >= alertThreshold) alertCount++;
-        
+
         safetyMarginSum += Math.max(0, alertThreshold - level);
     });
-    
+
     const alertPct = ((alertCount / allData.length) * 100).toFixed(1);
     const minorPct = ((minorCount / allData.length) * 100).toFixed(1);
     const majorPct = ((majorCount / allData.length) * 100).toFixed(1);
