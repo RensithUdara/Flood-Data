@@ -244,65 +244,73 @@
                     </div>
                 </div>
 
-                    <div class="charts-section">
-                        <div class="chart-container">
-                            <div class="chart-header">
-                                <h2><i class="fas fa-water"></i> Top 15 Water Levels</h2>
-                                <span class="chart-badge">By Station</span>
-                            </div>
-                            <canvas id="waterLevelChart"></canvas>
+                <div class="charts-section">
+                    <div class="chart-container">
+                        <div class="chart-header">
+                            <h2><i class="fas fa-water"></i> Top 15 Water Levels</h2>
+                            <span class="chart-badge">By Station</span>
                         </div>
-                        <div class="chart-container">
-                            <div class="chart-header">
-                                <h2><i class="fas fa-cloud-rain"></i> Top 15 Rainfall Measurements</h2>
-                                <span class="chart-badge">By Intensity</span>
-                            </div>
-                            <canvas id="rainfallChart"></canvas>
-                        </div>
+                        <canvas id="waterLevelChart"></canvas>
                     </div>
+                    <div class="chart-container">
+                        <div class="chart-header">
+                            <h2><i class="fas fa-cloud-rain"></i> Top 15 Rainfall Measurements</h2>
+                            <span class="chart-badge">By Intensity</span>
+                        </div>
+                        <canvas id="rainfallChart"></canvas>
+                    </div>
+                </div>
 
-                <!-- Risk Matrix -->
+                <!-- Risk Assessment Matrix -->
                 <div class="risk-section">
-                    <h2>
-                        <i class="fas fa-thermometer-half"></i>
-                        Risk Assessment Matrix
-                    </h2>
+                    <div class="risk-header">
+                        <h2><i class="fas fa-chart-bar"></i> Risk Assessment by Severity</h2>
+                        <p class="risk-subtitle">Station distribution across risk categories</p>
+                    </div>
                     <div class="risk-matrix">
                         <div class="risk-item critical">
-                            <div class="risk-icon">
-                                <i class="fas fa-skull-crossbones"></i>
-                            </div>
-                            <div class="risk-info">
-                                <span class="risk-label">Critical Risk</span>
-                                <span class="risk-count" id="criticalCount">0</span>
-                            </div>
-                        </div>
-                        <div class="risk-item high">
-                            <div class="risk-icon">
+                            <div class="risk-icon-box">
                                 <i class="fas fa-exclamation"></i>
                             </div>
-                            <div class="risk-info">
-                                <span class="risk-label">High Risk</span>
-                                <span class="risk-count" id="highRiskCount">0</span>
+                            <div class="risk-details">
+                                <div class="risk-label">Critical</div>
+                                <div class="risk-count" id="criticalCount">0</div>
+                                <div class="risk-description">Major flood threshold exceeded</div>
                             </div>
+                            <div class="risk-badge critical">Critical</div>
                         </div>
-                        <div class="risk-item medium">
-                            <div class="risk-icon">
+                        <div class="risk-item high">
+                            <div class="risk-icon-box">
                                 <i class="fas fa-triangle-exclamation"></i>
                             </div>
-                            <div class="risk-info">
-                                <span class="risk-label">Medium Risk</span>
-                                <span class="risk-count" id="mediumRiskCount">0</span>
+                            <div class="risk-details">
+                                <div class="risk-label">High Risk</div>
+                                <div class="risk-count" id="highRiskCount">0</div>
+                                <div class="risk-description">Minor flood threshold exceeded</div>
                             </div>
+                            <div class="risk-badge high">High</div>
+                        </div>
+                        <div class="risk-item medium">
+                            <div class="risk-icon-box">
+                                <i class="fas fa-circle-exclamation"></i>
+                            </div>
+                            <div class="risk-details">
+                                <div class="risk-label">Medium Risk</div>
+                                <div class="risk-count" id="mediumRiskCount">0</div>
+                                <div class="risk-description">Alert threshold reached</div>
+                            </div>
+                            <div class="risk-badge medium">Medium</div>
                         </div>
                         <div class="risk-item low">
-                            <div class="risk-icon">
-                                <i class="fas fa-check"></i>
+                            <div class="risk-icon-box">
+                                <i class="fas fa-check-circle"></i>
                             </div>
-                            <div class="risk-info">
-                                <span class="risk-label">Low Risk</span>
-                                <span class="risk-count" id="lowRiskCount">0</span>
+                            <div class="risk-details">
+                                <div class="risk-label">Low Risk</div>
+                                <div class="risk-count" id="lowRiskCount">0</div>
+                                <div class="risk-description">Below alert threshold</div>
                             </div>
+                            <div class="risk-badge low">Low</div>
                         </div>
                     </div>
                 </div>
