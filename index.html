@@ -148,6 +148,52 @@
                         </div>
                     </div>
 
+                    <!-- Risk Matrix -->
+                    <div class="risk-section">
+                        <h2>
+                            <i class="fas fa-thermometer-half"></i>
+                            Risk Assessment Matrix
+                        </h2>
+                        <div class="risk-matrix">
+                            <div class="risk-item critical">
+                                <div class="risk-icon">
+                                    <i class="fas fa-skull-crossbones"></i>
+                                </div>
+                                <div class="risk-info">
+                                    <span class="risk-label">Critical Risk</span>
+                                    <span class="risk-count" id="criticalCount">0</span>
+                                </div>
+                            </div>
+                            <div class="risk-item high">
+                                <div class="risk-icon">
+                                    <i class="fas fa-exclamation"></i>
+                                </div>
+                                <div class="risk-info">
+                                    <span class="risk-label">High Risk</span>
+                                    <span class="risk-count" id="highRiskCount">0</span>
+                                </div>
+                            </div>
+                            <div class="risk-item medium">
+                                <div class="risk-icon">
+                                    <i class="fas fa-triangle-exclamation"></i>
+                                </div>
+                                <div class="risk-info">
+                                    <span class="risk-label">Medium Risk</span>
+                                    <span class="risk-count" id="mediumRiskCount">0</span>
+                                </div>
+                            </div>
+                            <div class="risk-item low">
+                                <div class="risk-icon">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <div class="risk-info">
+                                    <span class="risk-label">Low Risk</span>
+                                    <span class="risk-count" id="lowRiskCount">0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- Basin Distribution -->
                     <div class="basin-section">
                         <div class="chart-container">
@@ -158,6 +204,15 @@
                             <h2>Alert Distribution by Status</h2>
                             <canvas id="statusChart"></canvas>
                         </div>
+                    </div>
+
+                    <!-- Water Level Threshold Comparison -->
+                    <div class="threshold-section">
+                        <h2>
+                            <i class="fas fa-chart-line"></i>
+                            Water Level vs Thresholds (Top 8)
+                        </h2>
+                        <canvas id="thresholdChart"></canvas>
                     </div>
 
                     <!-- Top Alert Stations -->
