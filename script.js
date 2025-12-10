@@ -111,7 +111,9 @@ async function fetchAndRenderData() {
 function renderAllViews() {
     renderMetrics();
     renderEnhancedStats();
+    renderRiskAssessment();
     renderCharts();
+    renderThresholdComparison();
     renderBasinAndStatusCharts();
     renderTopAlerts();
     renderStationMap();
