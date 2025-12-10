@@ -1,5 +1,5 @@
 // ========================== DATA FETCHING ========================== 
-const DATA_URL = 'https://raw.githubusercontent.com/RensithUdara/Flood-Data/main/data/gauges_2_view.json';
+const DATA_URL = './data/gauges_2_view.json';
 const REFRESH_INTERVAL = 5 * 60 * 1000; // 5 minutes
 
 let allData = [];
