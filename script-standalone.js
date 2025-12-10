@@ -470,7 +470,7 @@ function renderStatusChart() {
 
     allData.forEach(station => {
         const status = getStationStatus(station);
-        switch(status) {
+        switch (status) {
             case 'normal': normalCount++; break;
             case 'alert': alertCount++; break;
             case 'minor': minorCount++; break;
@@ -512,7 +512,7 @@ function renderStatusChart() {
             }
         }
     });
-} 
+}
 function renderTopAlerts() {
     const alertStations = allData
         .filter(s => getStationStatus(s) !== 'normal')
