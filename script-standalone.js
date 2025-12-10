@@ -2,7 +2,9 @@
 let allData = [];
 let chartsInstance = {
     waterLevel: null,
-    rainfall: null
+    rainfall: null,
+    basin: null,
+    status: null
 };
 
 // ========================== INIT ========================== 
