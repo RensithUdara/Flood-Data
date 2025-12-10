@@ -4,7 +4,8 @@ let chartsInstance = {
     waterLevel: null,
     rainfall: null,
     basin: null,
-    status: null
+    status: null,
+    threshold: null
 };
 
 // ========================== INIT ========================== 
@@ -196,7 +197,9 @@ function switchTab(tabName) {
 function renderAllViews() {
     renderMetrics();
     renderEnhancedStats();
+    renderRiskAssessment();
     renderCharts();
+    renderThresholdComparison();
     renderBasinAndStatusCharts();
     renderTopAlerts();
     renderStationMap();
@@ -251,12 +254,143 @@ function renderEnhancedStats() {
     const maxWaterStation = allData.find(s => s.water_level === maxWater);
     const maxRainfallStation = allData.find(s => s.rain_fall === maxRain);
 
+    // Calculate percentages and safety margins
+    let alertCount = 0, minorCount = 0, majorCount = 0;
+    let safetyMarginSum = 0;
+
+    allData.forEach(station => {
+        const level = parseFloat(station.water_level) || 0;
+        const alertThreshold = parseFloat(station.alertpull) || 0;
+        const minorThreshold = parseFloat(station.minorpull) || 0;
+        const majorThreshold = parseFloat(station.majorpull) || 0;
+
+        if (level >= majorThreshold) majorCount++;
+        else if (level >= minorThreshold) minorCount++;
+        else if (level >= alertThreshold) alertCount++;
+
+        safetyMarginSum += Math.max(0, alertThreshold - level);
+    });
+
+    const alertPct = ((alertCount / allData.length) * 100).toFixed(1);
+    const minorPct = ((minorCount / allData.length) * 100).toFixed(1);
+    const majorPct = ((majorCount / allData.length) * 100).toFixed(1);
+    const avgSafetyMargin = (safetyMarginSum / allData.length).toFixed(2);
+
     document.getElementById('maxWaterLevel').textContent = maxWater.toFixed(2) + ' m';
     document.getElementById('maxWaterStation').textContent = maxWaterStation?.gauge || '--';
     document.getElementById('maxRainfall').textContent = maxRain.toFixed(1) + ' mm';
     document.getElementById('maxRainfallStation').textContent = maxRainfallStation?.gauge || '--';
     document.getElementById('avgWaterLevel').textContent = avgWater + ' m';
     document.getElementById('totalRainfall').textContent = totalRain + ' mm';
+    document.getElementById('alertPercentage').textContent = alertPct + '%';
+    document.getElementById('minorPercentage').textContent = minorPct + '%';
+    document.getElementById('majorPercentage').textContent = majorPct + '%';
+    document.getElementById('safetyMargin').textContent = avgSafetyMargin + ' m';
+}
+
+function renderRiskAssessment() {
+    if (allData.length === 0) return;
+    let critical = 0, highRisk = 0, mediumRisk = 0, lowRisk = 0;
+    allData.forEach(station => {
+        const level = parseFloat(station.water_level) || 0;
+        const majorThreshold = parseFloat(station.majorpull) || 0;
+        const minorThreshold = parseFloat(station.minorpull) || 0;
+        const alertThreshold = parseFloat(station.alertpull) || 0;
+
+        if (level >= majorThreshold) critical++;
+        else if (level >= minorThreshold) highRisk++;
+        else if (level >= alertThreshold) mediumRisk++;
+        else lowRisk++;
+    });
+    document.getElementById('criticalCount').textContent = critical;
+    document.getElementById('highRiskCount').textContent = highRisk;
+    document.getElementById('mediumRiskCount').textContent = mediumRisk;
+    document.getElementById('lowRiskCount').textContent = lowRisk;
+}
+
+function renderThresholdComparison() {
+    if (allData.length === 0) return;
+
+    // Get top 8 stations by water level
+    const topStations = [...allData].sort((a, b) => b.water_level - a.water_level).slice(0, 8);
+
+    const labels = topStations.map(s => s.station_name);
+    const waterLevels = topStations.map(s => parseFloat(s.water_level) || 0);
+    const alertThresholds = topStations.map(s => parseFloat(s.alertpull) || 0);
+    const minorThresholds = topStations.map(s => parseFloat(s.minorpull) || 0);
+    const majorThresholds = topStations.map(s => parseFloat(s.majorpull) || 0);
+
+    if (chartsInstance.threshold) chartsInstance.threshold.destroy();
+
+    const ctx = document.getElementById('thresholdChart').getContext('2d');
+    chartsInstance.threshold = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [
+                {
+                    label: 'Current Water Level',
+                    data: waterLevels,
+                    backgroundColor: '#3b82f6',
+                    borderColor: '#1e40af',
+                    borderWidth: 1
+                },
+                {
+                    label: 'Alert Threshold',
+                    data: alertThresholds,
+                    backgroundColor: '#fbbf24',
+                    borderColor: '#d97706',
+                    borderWidth: 1
+                },
+                {
+                    label: 'Minor Flood',
+                    data: minorThresholds,
+                    backgroundColor: '#f97316',
+                    borderColor: '#c2410c',
+                    borderWidth: 1
+                },
+                {
+                    label: 'Major Flood',
+                    data: majorThresholds,
+                    backgroundColor: '#ef4444',
+                    borderColor: '#7f1d1d',
+                    borderWidth: 1
+                }
+            ]
+        },
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    position: 'top',
+                    labels: {
+                        font: { size: 12 },
+                        padding: 15,
+                        usePointStyle: true
+                    }
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function (context) {
+                            return context.dataset.label + ': ' + context.parsed.x.toFixed(2) + ' m';
+                        }
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    beginAtZero: true,
+                    ticks: { font: { size: 11 } },
+                    title: { display: true, text: 'Water Level (meters)' }
+                },
+                y: {
+                    ticks: { font: { size: 11 } }
+                }
+            }
+        }
+    });
 }
 
 // ========================== STATUS LOGIC ========================== 
