@@ -496,13 +496,7 @@ body {
     color: var(--dark-color);
 }
 
-/* ========================== CHARTS SECTION ========================== */
-.charts-section {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 25px;
-}
-
+/* ========================== BASIN SECTION ========================== */
 .basin-section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -524,6 +518,28 @@ body {
 
 .chart-container canvas {
     max-height: 300px;
+}
+
+/* ========================== THRESHOLD CHART ========================== */
+.threshold-section {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: var(--shadow);
+    margin-bottom: 20px;
+}
+
+.threshold-section h2 {
+    font-size: 18px;
+    color: var(--dark-color);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.threshold-section canvas {
+    max-height: 350px;
 }
 
 /* ========================== ALERTS SECTION ========================== */
