@@ -5,7 +5,9 @@ const REFRESH_INTERVAL = 5 * 60 * 1000; // 5 minutes
 let allData = [];
 let chartsInstance = {
     waterLevel: null,
-    rainfall: null
+    rainfall: null,
+    basin: null,
+    status: null
 };
 
 // ========================== INIT ========================== 
@@ -107,7 +109,9 @@ async function fetchAndRenderData() {
 // ========================== RENDER ALL VIEWS ========================== 
 function renderAllViews() {
     renderMetrics();
+    renderEnhancedStats();
     renderCharts();
+    renderBasinAndStatusCharts();
     renderTopAlerts();
     renderStationMap();
     renderAlerts();
@@ -136,6 +140,30 @@ function renderMetrics() {
     document.getElementById('minorCount').textContent = minorCount;
     document.getElementById('majorCount').textContent = majorCount;
     document.getElementById('alertCount').textContent = alertCount + minorCount + majorCount;
+}
+
+// ========================== ENHANCED STATS ========================== 
+function renderEnhancedStats() {
+    if (allData.length === 0) return;
+
+    // Calculate statistics
+    const waterLevels = allData.map(s => s.water_level);
+    const rainfalls = allData.map(s => s.rain_fall);
+
+    const maxWater = Math.max(...waterLevels);
+    const maxRain = Math.max(...rainfalls);
+    const avgWater = (waterLevels.reduce((a, b) => a + b, 0) / waterLevels.length).toFixed(2);
+    const totalRain = rainfalls.reduce((a, b) => a + b, 0).toFixed(1);
+
+    const maxWaterStation = allData.find(s => s.water_level === maxWater);
+    const maxRainfallStation = allData.find(s => s.rain_fall === maxRain);
+
+    document.getElementById('maxWaterLevel').textContent = maxWater.toFixed(2) + ' m';
+    document.getElementById('maxWaterStation').textContent = maxWaterStation?.gauge || '--';
+    document.getElementById('maxRainfall').textContent = maxRain.toFixed(1) + ' mm';
+    document.getElementById('maxRainfallStation').textContent = maxRainfallStation?.gauge || '--';
+    document.getElementById('avgWaterLevel').textContent = avgWater + ' m';
+    document.getElementById('totalRainfall').textContent = totalRain + ' mm';
 }
 
 // ========================== STATUS LOGIC ========================== 
