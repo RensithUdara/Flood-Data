@@ -1,9 +1,9 @@
 {
-  "last_updated_utc": "2025-12-10T14:59:57.439455+00:00",
+  "last_updated_utc": "2025-12-10T15:01:25.197554+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
-  "where": "",
-  "record_count": 6055,
+  "where": "1=1",
+  "record_count": 6054,
   "records": [
     {
       "objectid": 1249800,
@@ -45006,6 +45006,21 @@
       "majorpull": 2.8
     },
     {
+      "objectid": 1246795,
+      "globalid": "fe85945c-8aaa-4ca0-ad32-b98e0c188379",
+      "basin": "Nilwala Ganga",
+      "gauge": "Pitabeddara",
+      "water_level": 0.88,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-07T04:36:20.916000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-07T04:36:20.916000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 5,
+      "majorpull": 6.5
+    },
+    {
       "objectid": 1246794,
       "globalid": "682f8697-7144-4999-89ff-692110f7a5c3",
       "basin": "Kelani Ganga",
@@ -59989,21 +60004,6 @@
       "alertpull": 3.5,
       "minorpull": 5,
       "majorpull": 6
-    },
-    {
-      "objectid": 1245795,
-      "globalid": "30b74913-0016-4bc3-8ea8-1658ea43cb27",
-      "basin": "Kalu Ganga",
-      "gauge": "Ellagawa",
-      "water_level": 6.4,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-06T01:31:21.415000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-06T01:31:21.415000+00:00",
-      "Editor": "",
-      "alertpull": 10,
-      "minorpull": 10.7,
-      "majorpull": 12.2
     },
     {
       "objectid": 1245795,
@@ -90810,21 +90810,6 @@
       "CreationDate": "2025-12-03T15:01:51.517000+00:00",
       "Creator": "",
       "EditDate": "2025-12-03T15:01:51.517000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6.8,
-      "majorpull": 7.8
-    },
-    {
-      "objectid": 1243735,
-      "globalid": "adb7f312-ad10-4990-a708-84bdaf4e1640",
-      "basin": "Malwathu Oya",
-      "gauge": "Thanthirimale",
-      "water_level": 6.88,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-03T15:01:32.578000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-03T15:01:32.578000+00:00",
       "Editor": "",
       "alertpull": 5,
       "minorpull": 6.8,
