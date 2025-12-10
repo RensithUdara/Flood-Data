@@ -1,36 +1,153 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Flood Data Dashboard
+
+A real-time water level and rainfall monitoring dashboard for Sri Lanka's river basins, built with Next.js, TypeScript, Tailwind CSS, and Recharts.
+
+## Features
+
+- **Real-time Data Visualization** — Live water level and rainfall charts
+- **Interactive Station Selection** — View detailed metrics for specific gauge stations
+- **Alert Monitoring** — Highlight stations exceeding safe water levels
+- **River Basin Filtering** — Filter stations by river basin (Kelani Ganga, Kalu Ganga, etc.)
+- **Responsive Design** — Works on desktop, tablet, and mobile devices
+- **Auto-refresh** — Updates every 5 minutes automatically
+
+## Tech Stack
+
+- **Framework**: Next.js 15 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Charts**: Recharts
+- **Icons**: Lucide React
+- **HTTP Client**: Axios
+- **Runtime**: Node.js 18+
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18 or higher
+- npm or yarn
+
+### Installation
+
+1. Navigate to the project directory:
+
+```bash
+cd flood-data-dashboard
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Development
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Available Scripts
 
-## Learn More
+```bash
+# Run development server
+npm run dev
 
-To learn more about Next.js, take a look at the following resources:
+# Build for production
+npm run build
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Start production server
+npm start
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Run linting
+npm run lint
+```
 
-## Deploy on Vercel
+## Data Source
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The dashboard fetches real-time data from the Flood-Data repository:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **URL**: `https://raw.githubusercontent.com/RensithUdara/Flood-Data/main/data/gauges_2_view.json`
+- **Update Frequency**: Every 5 minutes
+- **Data Format**: JSON with metadata and gauge records
+
+## Project Structure
+
+```
+flood-data-dashboard/
+├── app/
+│   ├── page.tsx                 # Main dashboard page
+│   ├── layout.tsx               # Root layout
+│   └── globals.css              # Global styles
+├── components/
+│   ├── DashboardHeader.tsx       # Header with title
+│   ├── MapView.tsx              # Station map visualization
+│   ├── WaterLevelChart.tsx       # Bar chart for water levels
+│   ├── RainfallChart.tsx         # Line chart for rainfall
+│   ├── AlertStations.tsx         # Alert-level stations list
+│   └── GaugesList.tsx            # Full stations table
+├── lib/
+│   ├── api.ts                   # API calls to GitHub
+│   └── types.ts                 # TypeScript type definitions
+└── public/                      # Static assets
+```
+
+## Components
+
+### DashboardHeader
+Top navigation bar with title and description.
+
+### MapView
+Displays gauge stations in a grid layout. Click to select a station for detailed view.
+
+### WaterLevelChart
+Bar chart showing current water levels for selected gauge or top 10 stations.
+
+### RainfallChart
+Line chart displaying rainfall measurements across stations.
+
+### AlertStations
+Sidebar showing stations with elevated water levels, ranked by severity.
+
+### GaugesList
+Complete table of all stations with filtering, sorting, and quick select buttons.
+
+## Usage Guide
+
+1. **Main View**: See all gauge stations with current water levels
+2. **Filter by Basin**: Click on a river basin button to filter stations
+3. **Select Station**: Click on a gauge to view detailed information
+4. **Sort Options**: Sort stations by name or water level
+5. **View Charts**: Automatically generated charts for selected station
+
+## Deployment
+
+Deploy to Vercel, Netlify, or any Node.js hosting:
+
+```bash
+npm run build
+npm start
+```
+
+## Future Enhancements
+
+- Interactive map with geographic coordinates
+- Historical data trends (24h, 7d, 30d)
+- Email/SMS alerts for critical levels
+- Export data to CSV/PDF
+- Dark/Light theme toggle
+- Multi-language support
+
+## License
+
+Data sourced from Sri Lanka's Disaster Management Centre public services.
+
+---
+
+**Version**: 1.0.0  
+**Last Updated**: December 10, 2025
