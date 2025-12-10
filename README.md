@@ -25,7 +25,7 @@ This project fetches live gauge readings from the DMC's public ArcGIS Feature Se
 ```bash
 # Clone and navigate to the project
 git clone <repository-url>
-cd rise-lk-flood-data
+cd flood-data
 
 # Create and activate virtual environment
 python -m venv .venv
