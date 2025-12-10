@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Lanka Flood Monitoring Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <i class="fas fa-droplet"></i>
+                    <div>
+                        <h1>Flood Monitoring Dashboard</h1>
+                        <p>Real-time Water Level & Rainfall Monitoring for Sri Lanka</p>
+                    </div>
+                </div>
+                <div class="header-stats">
+                    <div class="stat">
+                        <span class="stat-label">Last Updated</span>
+                        <span class="stat-value" id="lastUpdated">--:--:-- UTC</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-label">Total Stations</span>
+                        <span class="stat-value" id="totalStations">0</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-label">Alert Stations</span>
+                        <span class="stat-value alert" id="alertCount">0</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation Tabs -->
+        <nav class="nav-tabs">
+            <button class="tab-btn active" data-tab="overview">
+                <i class="fas fa-chart-line"></i> Overview
+            </button>
+            <button class="tab-btn" data-tab="map">
+                <i class="fas fa-map"></i> Station Map
+            </button>
+            <button class="tab-btn" data-tab="alerts">
+                <i class="fas fa-exclamation-triangle"></i> Alerts
+            </button>
+            <button class="tab-btn" data-tab="table">
+                <i class="fas fa-table"></i> All Stations
+            </button>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <!-- Overview Tab -->
+            <div id="overview" class="tab-content active">
+                <div class="grid-layout">
+                    <!-- Key Metrics -->
+                    <div class="metrics-section">
+                        <div class="metric-card">
+                            <div class="metric-icon normal">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="metric-info">
+                                <h3>Normal</h3>
+                                <p class="metric-value" id="normalCount">0</p>
+                            </div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-icon alert">
+                                <i class="fas fa-exclamation-circle"></i>
+                            </div>
+                            <div class="metric-info">
+                                <h3>Alert</h3>
+                                <p class="metric-value" id="alertCountMetric">0</p>
+                            </div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-icon warning">
+                                <i class="fas fa-triangle-exclamation"></i>
+                            </div>
+                            <div class="metric-info">
+                                <h3>Minor Flood</h3>
+                                <p class="metric-value" id="minorCount">0</p>
+                            </div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-icon danger">
+                                <i class="fas fa-radiation-alt"></i>
+                            </div>
+                            <div class="metric-info">
+                                <h3>Major Flood</h3>
+                                <p class="metric-value" id="majorCount">0</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Charts -->
+                    <div class="charts-section">
+                        <div class="chart-container">
+                            <h2>Top 10 Water Levels</h2>
+                            <canvas id="waterLevelChart"></canvas>
+                        </div>
+                        <div class="chart-container">
+                            <h2>Top 10 Rainfall Measurements</h2>
+                            <canvas id="rainfallChart"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Top Alert Stations -->
+                    <div class="alerts-section">
+                        <h2>
+                            <i class="fas fa-exclamation-triangle"></i> 
+                            Top Alert Stations
+                        </h2>
+                        <div id="topAlerts" class="alert-list">
+                            <p class="loading">Loading data...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Map Tab -->
+            <div id="map" class="tab-content">
+                <div class="map-section">
+                    <h2>Station Locations & Status</h2>
+                    <div id="stationMap" class="station-grid">
+                        <p class="loading">Loading station data...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Alerts Tab -->
+            <div id="alerts" class="tab-content">
+                <div class="alerts-full">
+                    <h2>Critical & Alert Stations</h2>
+                    <div class="filter-controls">
+                        <label>
+                            <input type="checkbox" id="filterAlert" checked> Show Alert Level
+                        </label>
+                        <label>
+                            <input type="checkbox" id="filterMinor" checked> Show Minor Flood
+                        </label>
+                        <label>
+                            <input type="checkbox" id="filterMajor" checked> Show Major Flood
+                        </label>
+                    </div>
+                    <div id="alertsList" class="alerts-table">
+                        <p class="loading">Loading alert data...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Table Tab -->
+            <div id="table" class="tab-content">
+                <div class="table-section">
+                    <h2>All Monitoring Stations</h2>
+                    <div class="table-controls">
+                        <input type="text" id="searchInput" placeholder="Search by station name or basin..." class="search-box">
+                        <select id="basinFilter" class="filter-select">
+                            <option value="">All Basins</option>
+                        </select>
+                    </div>
+                    <div id="stationsTable" class="table-container">
+                        <p class="loading">Loading station data...</p>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2025 Sri Lanka Flood Monitoring System | Data Source: Disaster Management Centre</p>
+                <div class="footer-links">
+                    <a href="https://github.com/RensithUdara/Flood-Data" target="_blank">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="#" id="refreshBtn">
+                        <i class="fas fa-sync-alt"></i> Refresh Data
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Loading Spinner -->
+    <div id="loadingSpinner" class="spinner" style="display: none;">
+        <div class="spinner-content">
+            <div class="spinner-circle"></div>
+            <p>Fetching real-time flood data...</p>
+        </div>
+    </div>
+
+    <!-- Modal for Station Details -->
+    <div id="stationModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalBody">
+                <!-- Station details will be populated here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
