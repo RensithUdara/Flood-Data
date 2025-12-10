@@ -196,7 +196,9 @@ function switchTab(tabName) {
 function renderAllViews() {
     renderMetrics();
     renderEnhancedStats();
+    renderRiskAssessment();
     renderCharts();
+    renderThresholdComparison();
     renderBasinAndStatusCharts();
     renderTopAlerts();
     renderStationMap();
