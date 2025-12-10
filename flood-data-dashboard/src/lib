@@ -1,0 +1,54 @@
+import axios from 'axios';
+import { GaugeRecord, DashboardData } from './types';
+
+const GITHUB_RAW_URL =
+  'https://raw.githubusercontent.com/RensithUdara/Flood-Data/main/data/gauges_2_view.json';
+
+export async function fetchGaugeRecords(): Promise<GaugeRecord[]> {
+  try {
+    const response = await axios.get<DashboardData>(GITHUB_RAW_URL);
+    return response.data.records || [];
+  } catch (error) {
+    console.error('Error fetching gauge records:', error);
+    throw new Error('Failed to fetch gauge data from GitHub');
+  }
+}
+
+export function formatDate(dateString?: string): string {
+  if (!dateString) return 'N/A';
+  try {
+    return new Date(dateString).toLocaleString();
+  } catch {
+    return dateString;
+  }
+}
+
+export function getAlertLevel(
+  waterLevel: number | null | undefined,
+  alertpull?: number | null,
+  minorpull?: number | null,
+  majorpull?: number | null
+): 'safe' | 'alert' | 'minor' | 'major' {
+  if (!waterLevel) return 'safe';
+
+  if (majorpull && waterLevel >= majorpull) return 'major';
+  if (minorpull && waterLevel >= minorpull) return 'minor';
+  if (alertpull && waterLevel >= alertpull) return 'alert';
+
+  return 'safe';
+}
+
+export function getAlertColor(
+  level: 'safe' | 'alert' | 'minor' | 'major'
+): string {
+  switch (level) {
+    case 'major':
+      return 'bg-red-600';
+    case 'minor':
+      return 'bg-orange-600';
+    case 'alert':
+      return 'bg-yellow-600';
+    default:
+      return 'bg-green-600';
+  }
+}
