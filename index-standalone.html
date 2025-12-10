@@ -404,10 +404,16 @@
             <!-- Table Tab -->
             <div id="table" class="tab-content">
                 <div class="table-section">
-                    <h2>All Monitoring Stations</h2>
+                    <div class="section-header">
+                        <h2><i class="fas fa-list"></i> All Monitoring Stations</h2>
+                        <p class="section-desc">Complete list of all active monitoring stations</p>
+                    </div>
                     <div class="table-controls">
-                        <input type="text" id="searchInput" placeholder="Search by station name or basin..."
-                            class="search-box">
+                        <div class="search-wrapper">
+                            <i class="fas fa-search"></i>
+                            <input type="text" id="searchInput" placeholder="Search by station name or basin..."
+                                class="search-box">
+                        </div>
                         <select id="basinFilter" class="filter-select">
                             <option value="">All Basins</option>
                         </select>
