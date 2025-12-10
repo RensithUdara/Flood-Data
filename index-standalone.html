@@ -15,23 +15,34 @@
         <header class="header">
             <div class="header-content">
                 <div class="logo-section">
-                    <i class="fas fa-droplet"></i>
-                    <div>
-                        <h1>Flood Monitoring Dashboard</h1>
-                        <p>Real-time Water Level & Rainfall Monitoring for Sri Lanka</p>
+                    <div class="logo-icon-wrapper">
+                        <i class="fas fa-droplet"></i>
+                    </div>
+                    <div class="logo-text">
+                        <h1>Flood Monitor</h1>
+                        <p>Real-time Water Level & Rainfall Intelligence for Sri Lanka</p>
                     </div>
                 </div>
                 <div class="header-stats">
                     <div class="stat">
+                        <div class="stat-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
                         <span class="stat-label">Last Updated</span>
                         <span class="stat-value" id="lastUpdated">--:--:-- UTC</span>
                     </div>
                     <div class="stat">
+                        <div class="stat-icon">
+                            <i class="fas fa-location-dot"></i>
+                        </div>
                         <span class="stat-label">Total Stations</span>
                         <span class="stat-value" id="totalStations">0</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-label">Alert Stations</span>
+                        <div class="stat-icon alert">
+                            <i class="fas fa-bell"></i>
+                        </div>
+                        <span class="stat-label">Active Alerts</span>
                         <span class="stat-value alert" id="alertCount">0</span>
                     </div>
                 </div>
