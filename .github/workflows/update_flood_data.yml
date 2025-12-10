@@ -5,6 +5,9 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'scripts/update_flood_data.py'
+      - '.github/workflows/update_flood_data.yml'
   schedule:
     # Every 5 minutes — tune this if needed
     - cron: "*/5 * * * *"
@@ -12,13 +15,20 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-flood-data
+  cancel-in-progress: false
+
 jobs:
   update-flood-data:
     runs-on: ubuntu-latest
+    name: Fetch and Update Gauge Data
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -29,7 +39,7 @@ jobs:
       - name: Install dependencies
         run: |
           set -euo pipefail
-          python -m pip install --upgrade pip
+          python -m pip install --upgrade pip setuptools
           pip install requests
 
       - name: Run update_flood_data.py
@@ -39,7 +49,9 @@ jobs:
           GAUGE_WHERE: ${{ vars.GAUGE_WHERE }}
         run: |
           set -euo pipefail
+          echo "⏳ Starting flood data collection..."
           python scripts/update_flood_data.py
+          
           RECORD_COUNT=$(python - <<'PY'
           import json
           from pathlib import Path
@@ -47,23 +59,74 @@ jobs:
           print(data.get("record_count", 0))
           PY
           )
+          
           echo "record_count=${RECORD_COUNT}" >> "$GITHUB_OUTPUT"
+          echo "📊 Successfully retrieved ${RECORD_COUNT} gauge records"
+          
           if [ "$RECORD_COUNT" -eq 0 ]; then
-            echo "Record count is 0; failing run to avoid committing empty data."
+            echo "❌ Record count is 0; failing run to avoid committing empty data."
             exit 1
           fi
 
-      - name: Commit and push if gauge data changed
-        if: steps.scrape.outputs.record_count != '0'
+      - name: Check for data changes
+        id: check-changes
         run: |
           set -euo pipefail
-          if [[ -n "$(git status --porcelain data/gauges_2_view.json data/gauges_2_view.csv)" ]]; then
-            echo "Changes detected in gauge data, committing..."
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add data/gauges_2_view.json data/gauges_2_view.csv
-            git commit -m "chore: update gauges_2_view data"
-            git push
+          CHANGES=$(git status --porcelain data/gauges_2_view.json data/gauges_2_view.csv | wc -l)
+          echo "changes_count=${CHANGES}" >> "$GITHUB_OUTPUT"
+          
+          if [ "$CHANGES" -gt 0 ]; then
+            echo "✅ Changes detected in gauge data"
+            echo "changes_detected=true" >> "$GITHUB_OUTPUT"
           else
-            echo "No changes in gauge data"
+            echo "⏭️  No changes in gauge data, skipping commit"
+            echo "changes_detected=false" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Commit and push if gauge data changed
+        if: steps.check-changes.outputs.changes_detected == 'true'
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          RECORD_COUNT=${{ steps.scrape.outputs.record_count }}
+          TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          
+          git add data/gauges_2_view.json data/gauges_2_view.csv
+          git commit -m "chore: update gauges_2_view data (${RECORD_COUNT} records, ${TIMESTAMP})"
+          git push origin main
+          echo "🚀 Successfully pushed data update to main branch"
+
+      - name: Upload data as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: flood-data-${{ github.run_id }}
+          path: data/gauges_2_view.json
+          retention-days: 30
+          compression-level: 9
+
+      - name: Workflow summary
+        if: always()
+        run: |
+          cat >> $GITHUB_STEP_SUMMARY <<EOF
+          ## Flood Data Update Summary
+          
+          - **Records Retrieved:** ${{ steps.scrape.outputs.record_count }}
+          - **Data Changed:** ${{ steps.check-changes.outputs.changes_detected }}
+          - **Changes Count:** ${{ steps.check-changes.outputs.changes_count }}
+          - **Timestamp:** $(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          - **Workflow Run:** [#${{ github.run_number }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
+          
+          ### Files Updated
+          - \`data/gauges_2_view.json\` - JSON format with metadata
+          - \`data/gauges_2_view.csv\` - CSV format for spreadsheet applications
+          
+          EOF
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "❌ Workflow failed!"
+          echo "Check logs at: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
