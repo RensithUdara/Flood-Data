@@ -224,10 +224,10 @@ function renderRiskAssessment() {
 
 function renderThresholdComparison() {
     if (allData.length === 0) return;
-    
+
     // Get top 8 stations by water level
     const topStations = [...allData].sort((a, b) => b.water_level - a.water_level).slice(0, 8);
-    
+
     const labels = topStations.map(s => s.station_name);
     const waterLevels = topStations.map(s => parseFloat(s.water_level) || 0);
     const alertThresholds = topStations.map(s => parseFloat(s.alertpull) || 0);
@@ -287,7 +287,7 @@ function renderThresholdComparison() {
                 },
                 tooltip: {
                     callbacks: {
-                        label: function(context) {
+                        label: function (context) {
                             return context.dataset.label + ': ' + context.parsed.x.toFixed(2) + ' m';
                         }
                     }
