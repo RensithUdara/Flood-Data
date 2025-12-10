@@ -100,198 +100,220 @@
                         </div>
                     </div>
 
-                    <!-- Stats Cards -->
-                    <div class="stats-cards">
-                        <div class="stat-card-enhanced">
-                            <div class="stat-card-header">
+                    <!-- Enhanced Statistics -->
+                    <div class="extended-stats">
+                        <div class="stat-summary">
+                            <div class="summary-box">
+                                <i class="fas fa-chart-pie"></i>
+                                <span class="summary-label">% At Alert Level</span>
+                                <span class="summary-value" id="alertPercentage">0%</span>
+                            </div>
+                            <div class="summary-box">
+                                <i class="fas fa-chart-bar"></i>
+                                <span class="summary-label">% Minor Flood</span>
+                                <span class="summary-value" id="minorPercentage">0%</span>
+                            </div>
+                            <div class="summary-box">
+                                <i class="fas fa-fire"></i>
+                                <span class="summary-label">% Major Flood</span>
+                                <span class="summary-value" id="majorPercentage">0%</span>
+                            </div>
+                            <div class="summary-box">
                                 <i class="fas fa-water"></i>
-                                <span>Highest Water Level</span>
-                            </div>
-                            <div class="stat-card-value" id="maxWaterLevel">0 m</div>
-                            <div class="stat-card-info" id="maxWaterStation">--</div>
-                        </div>
-                        <div class="stat-card-enhanced">
-                            <div class="stat-card-header">
-                                <i class="fas fa-cloud-rain"></i>
-                                <span>Highest Rainfall</span>
-                            </div>
-                            <div class="stat-card-value" id="maxRainfall">0 mm</div>
-                            <div class="stat-card-info" id="maxRainfallStation">--</div>
-                        </div>
-                        <div class="stat-card-enhanced">
-                            <div class="stat-card-header">
-                                <i class="fas fa-average"></i>
-                                <span>Avg Water Level</span>
-                            </div>
-                            <div class="stat-card-value" id="avgWaterLevel">0 m</div>
-                            <div class="stat-card-info">Across all stations</div>
-                        </div>
-                        <div class="stat-card-enhanced">
-                            <div class="stat-card-header">
-                                <i class="fas fa-droplets"></i>
-                                <span>Total Rainfall</span>
-                            </div>
-                            <div class="stat-card-value" id="totalRainfall">0 mm</div>
-                            <div class="stat-card-info">All stations combined</div>
-                        </div>
-                    </div>
-
-                    <!-- Charts -->
-                    <div class="charts-section">
-                        <div class="chart-container">
-                            <h2>Top 15 Water Levels</h2>
-                            <canvas id="waterLevelChart"></canvas>
-                        </div>
-                        <div class="chart-container">
-                            <h2>Top 15 Rainfall Measurements</h2>
-                            <canvas id="rainfallChart"></canvas>
-                        </div>
-                    </div>
-
-                    <!-- Risk Matrix -->
-                    <div class="risk-section">
-                        <h2>
-                            <i class="fas fa-thermometer-half"></i>
-                            Risk Assessment Matrix
-                        </h2>
-                        <div class="risk-matrix">
-                            <div class="risk-item critical">
-                                <div class="risk-icon">
-                                    <i class="fas fa-skull-crossbones"></i>
-                                </div>
-                                <div class="risk-info">
-                                    <span class="risk-label">Critical Risk</span>
-                                    <span class="risk-count" id="criticalCount">0</span>
-                                </div>
-                            </div>
-                            <div class="risk-item high">
-                                <div class="risk-icon">
-                                    <i class="fas fa-exclamation"></i>
-                                </div>
-                                <div class="risk-info">
-                                    <span class="risk-label">High Risk</span>
-                                    <span class="risk-count" id="highRiskCount">0</span>
-                                </div>
-                            </div>
-                            <div class="risk-item medium">
-                                <div class="risk-icon">
-                                    <i class="fas fa-triangle-exclamation"></i>
-                                </div>
-                                <div class="risk-info">
-                                    <span class="risk-label">Medium Risk</span>
-                                    <span class="risk-count" id="mediumRiskCount">0</span>
-                                </div>
-                            </div>
-                            <div class="risk-item low">
-                                <div class="risk-icon">
-                                    <i class="fas fa-check"></i>
-                                </div>
-                                <div class="risk-info">
-                                    <span class="risk-label">Low Risk</span>
-                                    <span class="risk-count" id="lowRiskCount">0</span>
-                                </div>
+                                <span class="summary-label">Avg Safety Margin</span>
+                                <span class="summary-value" id="safetyMargin">0 m</span>
                             </div>
                         </div>
                     </div>
-
-                    <!-- Basin Distribution -->
-                    <div class="basin-section">
-                        <div class="chart-container">
-                            <h2>Station Distribution by Basin</h2>
-                            <canvas id="basinChart"></canvas>
+                    <div class="stat-card-enhanced">
+                        <div class="stat-card-header">
+                            <i class="fas fa-water"></i>
+                            <span>Highest Water Level</span>
                         </div>
-                        <div class="chart-container">
-                            <h2>Alert Distribution by Status</h2>
-                            <canvas id="statusChart"></canvas>
+                        <div class="stat-card-value" id="maxWaterLevel">0 m</div>
+                        <div class="stat-card-info" id="maxWaterStation">--</div>
+                    </div>
+                    <div class="stat-card-enhanced">
+                        <div class="stat-card-header">
+                            <i class="fas fa-cloud-rain"></i>
+                            <span>Highest Rainfall</span>
                         </div>
+                        <div class="stat-card-value" id="maxRainfall">0 mm</div>
+                        <div class="stat-card-info" id="maxRainfallStation">--</div>
                     </div>
-
-                    <!-- Water Level Threshold Comparison -->
-                    <div class="threshold-section">
-                        <h2>
-                            <i class="fas fa-chart-line"></i>
-                            Water Level vs Thresholds (Top 8)
-                        </h2>
-                        <canvas id="thresholdChart"></canvas>
+                    <div class="stat-card-enhanced">
+                        <div class="stat-card-header">
+                            <i class="fas fa-average"></i>
+                            <span>Avg Water Level</span>
+                        </div>
+                        <div class="stat-card-value" id="avgWaterLevel">0 m</div>
+                        <div class="stat-card-info">Across all stations</div>
                     </div>
+                    <div class="stat-card-enhanced">
+                        <div class="stat-card-header">
+                            <i class="fas fa-droplets"></i>
+                            <span>Total Rainfall</span>
+                        </div>
+                        <div class="stat-card-value" id="totalRainfall">0 mm</div>
+                        <div class="stat-card-info">All stations combined</div>
+                    </div>
+                </div>
 
-                    <!-- Top Alert Stations -->
-                    <div class="alerts-section">
-                        <h2>
-                            <i class="fas fa-exclamation-triangle"></i>
-                            Top Alert Stations
-                        </h2>
-                        <div id="topAlerts" class="alert-list">
-                            <p class="loading">Loading data...</p>
+                <!-- Charts -->
+                <div class="charts-section">
+                    <div class="chart-container">
+                        <h2>Top 15 Water Levels</h2>
+                        <canvas id="waterLevelChart"></canvas>
+                    </div>
+                    <div class="chart-container">
+                        <h2>Top 15 Rainfall Measurements</h2>
+                        <canvas id="rainfallChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Risk Matrix -->
+                <div class="risk-section">
+                    <h2>
+                        <i class="fas fa-thermometer-half"></i>
+                        Risk Assessment Matrix
+                    </h2>
+                    <div class="risk-matrix">
+                        <div class="risk-item critical">
+                            <div class="risk-icon">
+                                <i class="fas fa-skull-crossbones"></i>
+                            </div>
+                            <div class="risk-info">
+                                <span class="risk-label">Critical Risk</span>
+                                <span class="risk-count" id="criticalCount">0</span>
+                            </div>
+                        </div>
+                        <div class="risk-item high">
+                            <div class="risk-icon">
+                                <i class="fas fa-exclamation"></i>
+                            </div>
+                            <div class="risk-info">
+                                <span class="risk-label">High Risk</span>
+                                <span class="risk-count" id="highRiskCount">0</span>
+                            </div>
+                        </div>
+                        <div class="risk-item medium">
+                            <div class="risk-icon">
+                                <i class="fas fa-triangle-exclamation"></i>
+                            </div>
+                            <div class="risk-info">
+                                <span class="risk-label">Medium Risk</span>
+                                <span class="risk-count" id="mediumRiskCount">0</span>
+                            </div>
+                        </div>
+                        <div class="risk-item low">
+                            <div class="risk-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="risk-info">
+                                <span class="risk-label">Low Risk</span>
+                                <span class="risk-count" id="lowRiskCount">0</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Map Tab -->
-            <div id="map" class="tab-content">
-                <div class="map-section">
-                    <h2>Station Locations & Status</h2>
-                    <div id="stationMap" class="station-grid">
-                        <p class="loading">Loading station data...</p>
+                <!-- Basin Distribution -->
+                <div class="basin-section">
+                    <div class="chart-container">
+                        <h2>Station Distribution by Basin</h2>
+                        <canvas id="basinChart"></canvas>
+                    </div>
+                    <div class="chart-container">
+                        <h2>Alert Distribution by Status</h2>
+                        <canvas id="statusChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Water Level Threshold Comparison -->
+                <div class="threshold-section">
+                    <h2>
+                        <i class="fas fa-chart-line"></i>
+                        Water Level vs Thresholds (Top 8)
+                    </h2>
+                    <canvas id="thresholdChart"></canvas>
+                </div>
+
+                <!-- Top Alert Stations -->
+                <div class="alerts-section">
+                    <h2>
+                        <i class="fas fa-exclamation-triangle"></i>
+                        Top Alert Stations
+                    </h2>
+                    <div id="topAlerts" class="alert-list">
+                        <p class="loading">Loading data...</p>
                     </div>
                 </div>
             </div>
+    </div>
 
-            <!-- Alerts Tab -->
-            <div id="alerts" class="tab-content">
-                <div class="alerts-full">
-                    <h2>Critical & Alert Stations</h2>
-                    <div class="filter-controls">
-                        <label>
-                            <input type="checkbox" id="filterAlert" checked> Show Alert Level
-                        </label>
-                        <label>
-                            <input type="checkbox" id="filterMinor" checked> Show Minor Flood
-                        </label>
-                        <label>
-                            <input type="checkbox" id="filterMajor" checked> Show Major Flood
-                        </label>
-                    </div>
-                    <div id="alertsList" class="alerts-table">
-                        <p class="loading">Loading alert data...</p>
-                    </div>
-                </div>
+    <!-- Map Tab -->
+    <div id="map" class="tab-content">
+        <div class="map-section">
+            <h2>Station Locations & Status</h2>
+            <div id="stationMap" class="station-grid">
+                <p class="loading">Loading station data...</p>
             </div>
+        </div>
+    </div>
 
-            <!-- Table Tab -->
-            <div id="table" class="tab-content">
-                <div class="table-section">
-                    <h2>All Monitoring Stations</h2>
-                    <div class="table-controls">
-                        <input type="text" id="searchInput" placeholder="Search by station name or basin..."
-                            class="search-box">
-                        <select id="basinFilter" class="filter-select">
-                            <option value="">All Basins</option>
-                        </select>
-                    </div>
-                    <div id="stationsTable" class="table-container">
-                        <p class="loading">Loading station data...</p>
-                    </div>
-                </div>
+    <!-- Alerts Tab -->
+    <div id="alerts" class="tab-content">
+        <div class="alerts-full">
+            <h2>Critical & Alert Stations</h2>
+            <div class="filter-controls">
+                <label>
+                    <input type="checkbox" id="filterAlert" checked> Show Alert Level
+                </label>
+                <label>
+                    <input type="checkbox" id="filterMinor" checked> Show Minor Flood
+                </label>
+                <label>
+                    <input type="checkbox" id="filterMajor" checked> Show Major Flood
+                </label>
             </div>
-
-        </main>
-
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="footer-content">
-                <p>&copy; 2025 Sri Lanka Flood Monitoring System | Data Source: Disaster Management Centre</p>
-                <div class="footer-links">
-                    <a href="https://github.com/RensithUdara/Flood-Data" target="_blank">
-                        <i class="fab fa-github"></i> GitHub
-                    </a>
-                    <a href="#" id="refreshBtn">
-                        <i class="fas fa-sync-alt"></i> Refresh Data
-                    </a>
-                </div>
+            <div id="alertsList" class="alerts-table">
+                <p class="loading">Loading alert data...</p>
             </div>
-        </footer>
+        </div>
+    </div>
+
+    <!-- Table Tab -->
+    <div id="table" class="tab-content">
+        <div class="table-section">
+            <h2>All Monitoring Stations</h2>
+            <div class="table-controls">
+                <input type="text" id="searchInput" placeholder="Search by station name or basin..." class="search-box">
+                <select id="basinFilter" class="filter-select">
+                    <option value="">All Basins</option>
+                </select>
+            </div>
+            <div id="stationsTable" class="table-container">
+                <p class="loading">Loading station data...</p>
+            </div>
+        </div>
+    </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Sri Lanka Flood Monitoring System | Data Source: Disaster Management Centre</p>
+            <div class="footer-links">
+                <a href="https://github.com/RensithUdara/Flood-Data" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="#" id="refreshBtn">
+                    <i class="fas fa-sync-alt"></i> Refresh Data
+                </a>
+            </div>
+        </div>
+    </footer>
     </div>
 
     <!-- Loading Spinner -->
