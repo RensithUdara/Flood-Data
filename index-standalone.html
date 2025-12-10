@@ -135,6 +135,72 @@
                             <div class="stat-card-info">All stations combined</div>
                         </div>
                     </div>
+                    
+                    <!-- Extended Statistics -->
+                    <div class="extended-stats">
+                        <div class="summary-box">
+                            <div class="summary-label"><i class="fas fa-exclamation-circle"></i> Alert Level</div>
+                            <div class="summary-value" id="alertPercentage">0%</div>
+                            <div class="summary-info">Stations at alert level</div>
+                        </div>
+                        <div class="summary-box">
+                            <div class="summary-label"><i class="fas fa-water"></i> Minor Flood</div>
+                            <div class="summary-value" id="minorPercentage">0%</div>
+                            <div class="summary-info">Stations with minor flooding</div>
+                        </div>
+                        <div class="summary-box">
+                            <div class="summary-label"><i class="fas fa-wave"></i> Major Flood</div>
+                            <div class="summary-value" id="majorPercentage">0%</div>
+                            <div class="summary-info">Stations with major flooding</div>
+                        </div>
+                        <div class="summary-box">
+                            <div class="summary-label"><i class="fas fa-shield"></i> Safety Margin</div>
+                            <div class="summary-value" id="safetyMargin">0 m</div>
+                            <div class="summary-info">Avg distance to alert level</div>
+                        </div>
+                    </div>
+
+                    <!-- Risk Assessment Matrix -->
+                    <div class="risk-section">
+                        <h2><i class="fas fa-chart-bar"></i> Risk Assessment by Severity</h2>
+                        <div class="risk-matrix">
+                            <div class="risk-item critical">
+                                <div class="risk-icon"><i class="fas fa-exclamation"></i></div>
+                                <div class="risk-info">
+                                    <div class="risk-label">Critical</div>
+                                    <div class="risk-count" id="criticalCount">0</div>
+                                </div>
+                            </div>
+                            <div class="risk-item high">
+                                <div class="risk-icon"><i class="fas fa-triangle-exclamation"></i></div>
+                                <div class="risk-info">
+                                    <div class="risk-label">High Risk</div>
+                                    <div class="risk-count" id="highRiskCount">0</div>
+                                </div>
+                            </div>
+                            <div class="risk-item medium">
+                                <div class="risk-icon"><i class="fas fa-circle-exclamation"></i></div>
+                                <div class="risk-info">
+                                    <div class="risk-label">Medium Risk</div>
+                                    <div class="risk-count" id="mediumRiskCount">0</div>
+                                </div>
+                            </div>
+                            <div class="risk-item low">
+                                <div class="risk-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="risk-info">
+                                    <div class="risk-label">Low Risk</div>
+                                    <div class="risk-count" id="lowRiskCount">0</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Threshold Comparison Chart -->
+                    <div class="threshold-section">
+                        <h2><i class="fas fa-arrows-up-down"></i> Water Level vs Thresholds</h2>
+                        <canvas id="thresholdChart" height="300"></canvas>
+                    </div>
+                    
                     <div class="charts-section">
                         <div class="chart-container">
                             <h2>Top 15 Water Levels</h2>
