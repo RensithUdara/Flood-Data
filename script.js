@@ -1,0 +1,605 @@
+// ========================== DATA FETCHING ========================== 
+const DATA_URL = 'https://raw.githubusercontent.com/RensithUdara/Flood-Data/main/data/gauges_2_view.json';
+const REFRESH_INTERVAL = 5 * 60 * 1000; // 5 minutes
+
+let allData = [];
+let chartsInstance = {
+    waterLevel: null,
+    rainfall: null
+};
+
+// ========================== INIT ========================== 
+document.addEventListener('DOMContentLoaded', () => {
+    setupEventListeners();
+    fetchAndRenderData();
+    setInterval(fetchAndRenderData, REFRESH_INTERVAL);
+});
+
+// ========================== EVENT LISTENERS ========================== 
+function setupEventListeners() {
+    // Tab navigation
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            const tabName = e.currentTarget.dataset.tab;
+            switchTab(tabName);
+        });
+    });
+
+    // Refresh button
+    document.getElementById('refreshBtn').addEventListener('click', (e) => {
+        e.preventDefault();
+        fetchAndRenderData();
+    });
+
+    // Search and filter
+    document.getElementById('searchInput').addEventListener('input', filterTable);
+    document.getElementById('basinFilter').addEventListener('change', filterTable);
+
+    // Alert filters
+    document.getElementById('filterAlert').addEventListener('change', renderAlerts);
+    document.getElementById('filterMinor').addEventListener('change', renderAlerts);
+    document.getElementById('filterMajor').addEventListener('change', renderAlerts);
+
+    // Modal close
+    document.querySelector('.close').addEventListener('click', closeModal);
+    window.addEventListener('click', (e) => {
+        const modal = document.getElementById('stationModal');
+        if (e.target === modal) closeModal();
+    });
+}
+
+// ========================== TAB SWITCHING ========================== 
+function switchTab(tabName) {
+    // Hide all tabs
+    document.querySelectorAll('.tab-content').forEach(tab => {
+        tab.classList.remove('active');
+    });
+
+    // Remove active class from all buttons
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.classList.remove('active');
+    });
+
+    // Show selected tab
+    document.getElementById(tabName).classList.add('active');
+    event.target.classList.add('active');
+
+    // Re-render charts on overview tab
+    if (tabName === 'overview') {
+        setTimeout(() => {
+            if (chartsInstance.waterLevel) chartsInstance.waterLevel.resize();
+            if (chartsInstance.rainfall) chartsInstance.rainfall.resize();
+        }, 100);
+    }
+}
+
+// ========================== DATA FETCHING ========================== 
+async function fetchAndRenderData() {
+    const spinner = document.getElementById('loadingSpinner');
+    spinner.style.display = 'flex';
+
+    try {
+        const response = await fetch(DATA_URL);
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+        const data = await response.json();
+        allData = data.records || [];
+
+        // Update last updated time
+        const lastUpdated = new Date(data.last_updated_utc);
+        document.getElementById('lastUpdated').textContent = 
+            lastUpdated.toLocaleString('en-US', { 
+                hour: '2-digit', 
+                minute: '2-digit', 
+                second: '2-digit',
+                timeZone: 'UTC'
+            }) + ' UTC';
+
+        renderAllViews();
+        spinner.style.display = 'none';
+    } catch (error) {
+        console.error('Error fetching data:', error);
+        spinner.style.display = 'none';
+        showError('Failed to fetch flood data. Please try again.');
+    }
+}
+
+// ========================== RENDER ALL VIEWS ========================== 
+function renderAllViews() {
+    renderMetrics();
+    renderCharts();
+    renderTopAlerts();
+    renderStationMap();
+    renderAlerts();
+    renderStationsTable();
+    populateBasinFilter();
+}
+
+// ========================== METRICS ========================== 
+function renderMetrics() {
+    document.getElementById('totalStations').textContent = allData.length;
+
+    let normalCount = 0, alertCount = 0, minorCount = 0, majorCount = 0;
+
+    allData.forEach(station => {
+        const status = getStationStatus(station);
+        switch(status) {
+            case 'normal': normalCount++; break;
+            case 'alert': alertCount++; break;
+            case 'minor': minorCount++; break;
+            case 'major': majorCount++; break;
+        }
+    });
+
+    document.getElementById('normalCount').textContent = normalCount;
+    document.getElementById('alertCountMetric').textContent = alertCount;
+    document.getElementById('minorCount').textContent = minorCount;
+    document.getElementById('majorCount').textContent = majorCount;
+    document.getElementById('alertCount').textContent = alertCount + minorCount + majorCount;
+}
+
+// ========================== STATUS LOGIC ========================== 
+function getStationStatus(station) {
+    const level = station.water_level;
+    const majorThreshold = station.majorpull;
+    const minorThreshold = station.minorpull;
+    const alertThreshold = station.alertpull;
+
+    if (level >= majorThreshold) return 'major';
+    if (level >= minorThreshold) return 'minor';
+    if (level >= alertThreshold) return 'alert';
+    return 'normal';
+}
+
+// ========================== CHARTS ========================== 
+function renderCharts() {
+    // Sort by water level and rainfall
+    const topByWater = [...allData].sort((a, b) => b.water_level - a.water_level).slice(0, 10);
+    const topByRain = [...allData].sort((a, b) => b.rain_fall - a.rain_fall).slice(0, 10);
+
+    renderWaterLevelChart(topByWater);
+    renderRainfallChart(topByRain);
+}
+
+function renderWaterLevelChart(data) {
+    const ctx = document.getElementById('waterLevelChart').getContext('2d');
+
+    if (chartsInstance.waterLevel) {
+        chartsInstance.waterLevel.destroy();
+    }
+
+    const chartData = {
+        labels: data.map(d => d.gauge),
+        datasets: [{
+            label: 'Water Level (m)',
+            data: data.map(d => d.water_level),
+            backgroundColor: data.map(d => {
+                const status = getStationStatus(d);
+                switch(status) {
+                    case 'normal': return '#10b981';
+                    case 'alert': return '#f59e0b';
+                    case 'minor': return '#f97316';
+                    case 'major': return '#ef4444';
+                }
+            }),
+            borderRadius: 4,
+            borderSkipped: false
+        }]
+    };
+
+    chartsInstance.waterLevel = new Chart(ctx, {
+        type: 'bar',
+        data: chartData,
+        options: {
+            responsive: true,
+            maintainAspectRatio: true,
+            plugins: {
+                legend: {
+                    display: false
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        color: '#6b7280'
+                    },
+                    grid: {
+                        color: '#e5e7eb'
+                    }
+                },
+                x: {
+                    ticks: {
+                        color: '#6b7280',
+                        font: {
+                            size: 11
+                        }
+                    },
+                    grid: {
+                        display: false
+                    }
+                }
+            }
+        }
+    });
+}
+
+function renderRainfallChart(data) {
+    const ctx = document.getElementById('rainfallChart').getContext('2d');
+
+    if (chartsInstance.rainfall) {
+        chartsInstance.rainfall.destroy();
+    }
+
+    const chartData = {
+        labels: data.map(d => d.gauge),
+        datasets: [{
+            label: 'Rainfall (mm)',
+            data: data.map(d => d.rain_fall),
+            borderColor: '#06b6d4',
+            backgroundColor: 'rgba(6, 182, 212, 0.1)',
+            borderWidth: 2,
+            tension: 0.3,
+            fill: true,
+            pointBackgroundColor: '#06b6d4',
+            pointBorderColor: '#fff',
+            pointBorderWidth: 2,
+            pointRadius: 5,
+            pointHoverRadius: 7
+        }]
+    };
+
+    chartsInstance.rainfall = new Chart(ctx, {
+        type: 'line',
+        data: chartData,
+        options: {
+            responsive: true,
+            maintainAspectRatio: true,
+            plugins: {
+                legend: {
+                    display: false
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        color: '#6b7280'
+                    },
+                    grid: {
+                        color: '#e5e7eb'
+                    }
+                },
+                x: {
+                    ticks: {
+                        color: '#6b7280',
+                        font: {
+                            size: 11
+                        }
+                    },
+                    grid: {
+                        display: false
+                    }
+                }
+            }
+        }
+    });
+}
+
+// ========================== TOP ALERTS ========================== 
+function renderTopAlerts() {
+    const alertStations = allData
+        .filter(s => getStationStatus(s) !== 'normal')
+        .sort((a, b) => b.water_level - a.water_level)
+        .slice(0, 6);
+
+    const container = document.getElementById('topAlerts');
+
+    if (alertStations.length === 0) {
+        container.innerHTML = '<p class="loading">No alerts at this time</p>';
+        return;
+    }
+
+    container.innerHTML = alertStations.map(station => {
+        const status = getStationStatus(station);
+        const threshold = getThreshold(station, status);
+        const exceedance = (station.water_level - threshold).toFixed(2);
+
+        return `
+            <div class="alert-item ${status}">
+                <div class="alert-item-header">
+                    <span class="alert-item-name">${station.gauge}</span>
+                    <span class="alert-badge ${status}">${status}</span>
+                </div>
+                <div class="alert-item-info">${station.basin}</div>
+                <div class="alert-item-stats">
+                    <div class="stat-box">
+                        <span class="stat-box-label">Water Level</span>
+                        <span class="stat-box-value">${station.water_level.toFixed(2)} m</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-box-label">Exceeds by</span>
+                        <span class="stat-box-value">+${exceedance} m</span>
+                    </div>
+                </div>
+            </div>
+        `;
+    }).join('');
+}
+
+function getThreshold(station, status) {
+    switch(status) {
+        case 'major': return station.majorpull;
+        case 'minor': return station.minorpull;
+        case 'alert': return station.alertpull;
+        default: return 0;
+    }
+}
+
+// ========================== STATION MAP ========================== 
+function renderStationMap() {
+    const topStations = [...allData]
+        .sort((a, b) => b.water_level - a.water_level)
+        .slice(0, 12);
+
+    const container = document.getElementById('stationMap');
+
+    container.innerHTML = topStations.map(station => {
+        const status = getStationStatus(station);
+        return `
+            <div class="station-card ${status}" onclick="showStationModal('${station.gauge}')">
+                <div class="station-card-header">
+                    <div class="station-name">${station.gauge}</div>
+                    <div class="station-basin">${station.basin}</div>
+                </div>
+                <div class="station-card-stats">
+                    <div class="station-stat">
+                        <span class="station-stat-label">Water Level</span>
+                        <span class="station-stat-value">${station.water_level.toFixed(2)}m</span>
+                    </div>
+                    <div class="station-stat">
+                        <span class="station-stat-label">Rainfall</span>
+                        <span class="station-stat-value">${station.rain_fall.toFixed(1)}mm</span>
+                    </div>
+                </div>
+            </div>
+        `;
+    }).join('');
+}
+
+// ========================== ALERTS SECTION ========================== 
+function renderAlerts() {
+    const showAlert = document.getElementById('filterAlert').checked;
+    const showMinor = document.getElementById('filterMinor').checked;
+    const showMajor = document.getElementById('filterMajor').checked;
+
+    const alertStations = allData.filter(station => {
+        const status = getStationStatus(station);
+        if (status === 'normal') return false;
+        if (status === 'alert' && !showAlert) return false;
+        if (status === 'minor' && !showMinor) return false;
+        if (status === 'major' && !showMajor) return false;
+        return true;
+    }).sort((a, b) => b.water_level - a.water_level);
+
+    const container = document.getElementById('alertsList');
+
+    if (alertStations.length === 0) {
+        container.innerHTML = '<p class="loading">No matching alerts</p>';
+        return;
+    }
+
+    container.innerHTML = alertStations.map(station => {
+        const status = getStationStatus(station);
+        return `
+            <div class="alert-item ${status}">
+                <div class="alert-item-header">
+                    <span class="alert-item-name">${station.gauge}</span>
+                    <span class="alert-badge ${status}">${status.toUpperCase()}</span>
+                </div>
+                <div class="alert-item-info">
+                    <strong>Basin:</strong> ${station.basin}
+                </div>
+                <div class="alert-item-stats">
+                    <div class="stat-box">
+                        <span class="stat-box-label">Water Level</span>
+                        <span class="stat-box-value">${station.water_level.toFixed(2)} m</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-box-label">Rainfall</span>
+                        <span class="stat-box-value">${station.rain_fall.toFixed(1)} mm</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-box-label">Alert Level</span>
+                        <span class="stat-box-value">${station.alertpull} m</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-box-label">Major Level</span>
+                        <span class="stat-box-value">${station.majorpull} m</span>
+                    </div>
+                </div>
+            </div>
+        `;
+    }).join('');
+}
+
+// ========================== STATIONS TABLE ========================== 
+function renderStationsTable() {
+    const container = document.getElementById('stationsTable');
+
+    if (allData.length === 0) {
+        container.innerHTML = '<p class="loading">No data available</p>';
+        return;
+    }
+
+    container.innerHTML = `
+        <table>
+            <thead>
+                <tr>
+                    <th>Station</th>
+                    <th>Basin</th>
+                    <th>Water Level (m)</th>
+                    <th>Alert Level (m)</th>
+                    <th>Rainfall (mm)</th>
+                    <th>Status</th>
+                    <th>Updated</th>
+                </tr>
+            </thead>
+            <tbody>
+                ${allData.map(station => {
+                    const status = getStationStatus(station);
+                    const updated = new Date(station.EditDate).toLocaleTimeString();
+                    return `
+                        <tr>
+                            <td><strong>${station.gauge}</strong></td>
+                            <td>${station.basin}</td>
+                            <td>${station.water_level.toFixed(2)}</td>
+                            <td>${station.alertpull}</td>
+                            <td>${station.rain_fall.toFixed(1)}</td>
+                            <td><span class="status-badge ${status}">${status}</span></td>
+                            <td>${updated}</td>
+                        </tr>
+                    `;
+                }).join('')}
+            </tbody>
+        </table>
+    `;
+}
+
+function filterTable() {
+    const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+    const basinFilter = document.getElementById('basinFilter').value;
+
+    let filtered = allData.filter(station => {
+        const matchesSearch = station.gauge.toLowerCase().includes(searchTerm) || 
+                            station.basin.toLowerCase().includes(searchTerm);
+        const matchesBasin = !basinFilter || station.basin === basinFilter;
+        return matchesSearch && matchesBasin;
+    });
+
+    const container = document.getElementById('stationsTable');
+
+    if (filtered.length === 0) {
+        container.innerHTML = '<p class="loading">No stations match your filters</p>';
+        return;
+    }
+
+    container.innerHTML = `
+        <table>
+            <thead>
+                <tr>
+                    <th>Station</th>
+                    <th>Basin</th>
+                    <th>Water Level (m)</th>
+                    <th>Alert Level (m)</th>
+                    <th>Rainfall (mm)</th>
+                    <th>Status</th>
+                    <th>Updated</th>
+                </tr>
+            </thead>
+            <tbody>
+                ${filtered.map(station => {
+                    const status = getStationStatus(station);
+                    const updated = new Date(station.EditDate).toLocaleTimeString();
+                    return `
+                        <tr>
+                            <td><strong>${station.gauge}</strong></td>
+                            <td>${station.basin}</td>
+                            <td>${station.water_level.toFixed(2)}</td>
+                            <td>${station.alertpull}</td>
+                            <td>${station.rain_fall.toFixed(1)}</td>
+                            <td><span class="status-badge ${status}">${status}</span></td>
+                            <td>${updated}</td>
+                        </tr>
+                    `;
+                }).join('')}
+            </tbody>
+        </table>
+    `;
+}
+
+function populateBasinFilter() {
+    const basins = [...new Set(allData.map(s => s.basin))].sort();
+    const select = document.getElementById('basinFilter');
+    
+    select.innerHTML = '<option value="">All Basins</option>';
+    basins.forEach(basin => {
+        const option = document.createElement('option');
+        option.value = basin;
+        option.textContent = basin;
+        select.appendChild(option);
+    });
+}
+
+// ========================== MODAL ========================== 
+function showStationModal(gaugeName) {
+    const station = allData.find(s => s.gauge === gaugeName);
+    if (!station) return;
+
+    const status = getStationStatus(station);
+    const modalBody = document.getElementById('modalBody');
+
+    modalBody.innerHTML = `
+        <h2>${station.gauge}</h2>
+        <div class="modal-item">
+            <span class="modal-label">Basin</span>
+            <span class="modal-value">${station.basin}</span>
+        </div>
+        <div class="modal-item">
+            <span class="modal-label">Status</span>
+            <span class="modal-value">
+                <span class="status-badge ${status}">${status}</span>
+            </span>
+        </div>
+        <div class="modal-item">
+            <span class="modal-label">Water Level</span>
+            <span class="modal-value">${station.water_level.toFixed(2)} m</span>
+        </div>
+        <div class="modal-item">
+            <span class="modal-label">Alert Threshold</span>
+            <span class="modal-value">${station.alertpull} m</span>
+        </div>
+        <div class="modal-item">
+            <span class="modal-label">Minor Flood Threshold</span>
+            <span class="modal-value">${station.minorpull} m</span>
+        </div>
+        <div class="modal-item">
+            <span class="modal-label">Major Flood Threshold</span>
+            <span class="modal-value">${station.majorpull} m</span>
+        </div>
+        <div class="modal-item">
+            <span class="modal-label">Rainfall</span>
+            <span class="modal-value">${station.rain_fall.toFixed(1)} mm</span>
+        </div>
+        <div class="modal-item">
+            <span class="modal-label">Last Updated</span>
+            <span class="modal-value">${new Date(station.EditDate).toLocaleString()}</span>
+        </div>
+    `;
+
+    document.getElementById('stationModal').classList.add('show');
+}
+
+function closeModal() {
+    document.getElementById('stationModal').classList.remove('show');
+}
+
+// ========================== UTILITIES ========================== 
+function showError(message) {
+    const spinner = document.getElementById('loadingSpinner');
+    const spinnerContent = spinner.querySelector('.spinner-content');
+    spinnerContent.innerHTML = `
+        <i class="fas fa-exclamation-circle" style="font-size: 48px; color: var(--danger-color); margin-bottom: 15px;"></i>
+        <p>${message}</p>
+        <button onclick="location.reload()" style="
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        ">Retry</button>
+    `;
+    spinner.style.display = 'flex';
+}
