@@ -182,8 +182,8 @@ function getStationStatus(station) {
 // ========================== CHARTS ========================== 
 function renderCharts() {
     // Sort by water level and rainfall
-    const topByWater = [...allData].sort((a, b) => b.water_level - a.water_level).slice(0, 10);
-    const topByRain = [...allData].sort((a, b) => b.rain_fall - a.rain_fall).slice(0, 10);
+    const topByWater = [...allData].sort((a, b) => b.water_level - a.water_level).slice(0, 15);
+    const topByRain = [...allData].sort((a, b) => b.rain_fall - a.rain_fall).slice(0, 15);
 
     renderWaterLevelChart(topByWater);
     renderRainfallChart(topByRain);
