@@ -44,8 +44,8 @@ export default function Home() {
         : records;
 
     const basins = Array.from(
-    new Set(records.map((r) => r.basin).filter(Boolean))
-  ) as string[];
+        new Set(records.map((r) => r.basin).filter(Boolean))
+    ) as string[];
 
     const alertRecords = records.filter(
         (r) => r.water_level && r.water_level > 4.5
