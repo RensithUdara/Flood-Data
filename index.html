@@ -123,119 +123,194 @@
                         </div>
                     </div>
 
+                    <!-- Stats Cards -->
+                    <div class="stats-cards">
+                        <div class="stat-card-enhanced">
+                            <div class="stat-card-icon water">
+                                <i class="fas fa-water"></i>
+                            </div>
+                            <div class="stat-card-content">
+                                <div class="stat-card-title">Highest Water Level</div>
+                                <div class="stat-card-value" id="maxWaterLevel">0 m</div>
+                                <div class="stat-card-info" id="maxWaterStation">--</div>
+                            </div>
+                            <div class="stat-card-badge">Peak</div>
+                        </div>
+                        <div class="stat-card-enhanced">
+                            <div class="stat-card-icon rain">
+                                <i class="fas fa-cloud-rain"></i>
+                            </div>
+                            <div class="stat-card-content">
+                                <div class="stat-card-title">Highest Rainfall</div>
+                                <div class="stat-card-value" id="maxRainfall">0 mm</div>
+                                <div class="stat-card-info" id="maxRainfallStation">--</div>
+                            </div>
+                            <div class="stat-card-badge">Peak</div>
+                        </div>
+                        <div class="stat-card-enhanced">
+                            <div class="stat-card-icon avg">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="stat-card-content">
+                                <div class="stat-card-title">Avg Water Level</div>
+                                <div class="stat-card-value" id="avgWaterLevel">0 m</div>
+                                <div class="stat-card-info">All stations</div>
+                            </div>
+                            <div class="stat-card-badge">Average</div>
+                        </div>
+                        <div class="stat-card-enhanced">
+                            <div class="stat-card-icon total">
+                                <i class="fas fa-droplets"></i>
+                            </div>
+                            <div class="stat-card-content">
+                                <div class="stat-card-title">Total Rainfall</div>
+                                <div class="stat-card-value" id="totalRainfall">0 mm</div>
+                                <div class="stat-card-info">Combined total</div>
+                            </div>
+                            <div class="stat-card-badge">Total</div>
+                        </div>
+                    </div>
+
                     <!-- Enhanced Statistics -->
                     <div class="extended-stats">
-                        <div class="stat-summary">
-                            <div class="summary-box">
-                                <i class="fas fa-chart-pie"></i>
-                                <span class="summary-label">% At Alert Level</span>
-                                <span class="summary-value" id="alertPercentage">0%</span>
+                        <div class="stat-summary alert-level">
+                            <div class="stat-header">
+                                <div class="stat-icon-circle alert">
+                                    <i class="fas fa-exclamation-circle"></i>
+                                </div>
+                                <div class="stat-info">
+                                    <span class="stat-title">Alert Level</span>
+                                    <span class="stat-desc">Stations at alert level</span>
+                                </div>
                             </div>
-                            <div class="summary-box">
-                                <i class="fas fa-chart-bar"></i>
-                                <span class="summary-label">% Minor Flood</span>
-                                <span class="summary-value" id="minorPercentage">0%</span>
+                            <div class="stat-value-box">
+                                <span class="stat-value-large" id="alertPercentage">0%</span>
                             </div>
-                            <div class="summary-box">
-                                <i class="fas fa-fire"></i>
-                                <span class="summary-label">% Major Flood</span>
-                                <span class="summary-value" id="majorPercentage">0%</span>
-                            </div>
-                            <div class="summary-box">
-                                <i class="fas fa-water"></i>
-                                <span class="summary-label">Avg Safety Margin</span>
-                                <span class="summary-value" id="safetyMargin">0 m</span>
+                            <div class="progress-bar">
+                                <div class="progress-fill alert" id="alertProgressBar"></div>
                             </div>
                         </div>
-                    </div>
-                    <div class="stat-card-enhanced">
-                        <div class="stat-card-header">
-                            <i class="fas fa-water"></i>
-                            <span>Highest Water Level</span>
+                        <div class="stat-summary warning-level">
+                            <div class="stat-header">
+                                <div class="stat-icon-circle warning">
+                                    <i class="fas fa-water"></i>
+                                </div>
+                                <div class="stat-info">
+                                    <span class="stat-title">Minor Flood</span>
+                                    <span class="stat-desc">Stations with minor flooding</span>
+                                </div>
+                            </div>
+                            <div class="stat-value-box">
+                                <span class="stat-value-large" id="minorPercentage">0%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill warning" id="minorProgressBar"></div>
+                            </div>
                         </div>
-                        <div class="stat-card-value" id="maxWaterLevel">0 m</div>
-                        <div class="stat-card-info" id="maxWaterStation">--</div>
-                    </div>
-                    <div class="stat-card-enhanced">
-                        <div class="stat-card-header">
-                            <i class="fas fa-cloud-rain"></i>
-                            <span>Highest Rainfall</span>
+                        <div class="stat-summary danger-level">
+                            <div class="stat-header">
+                                <div class="stat-icon-circle danger">
+                                    <i class="fas fa-wave"></i>
+                                </div>
+                                <div class="stat-info">
+                                    <span class="stat-title">Major Flood</span>
+                                    <span class="stat-desc">Stations with major flooding</span>
+                                </div>
+                            </div>
+                            <div class="stat-value-box">
+                                <span class="stat-value-large" id="majorPercentage">0%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill danger" id="majorProgressBar"></div>
+                            </div>
                         </div>
-                        <div class="stat-card-value" id="maxRainfall">0 mm</div>
-                        <div class="stat-card-info" id="maxRainfallStation">--</div>
-                    </div>
-                    <div class="stat-card-enhanced">
-                        <div class="stat-card-header">
-                            <i class="fas fa-average"></i>
-                            <span>Avg Water Level</span>
+                        <div class="stat-summary safe-level">
+                            <div class="stat-header">
+                                <div class="stat-icon-circle success">
+                                    <i class="fas fa-shield"></i>
+                                </div>
+                                <div class="stat-info">
+                                    <span class="stat-title">Safety Margin</span>
+                                    <span class="stat-desc">Avg distance to alert level</span>
+                                </div>
+                            </div>
+                            <div class="stat-value-box">
+                                <span class="stat-value-large" id="safetyMargin">0 m</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill success" id="safetyProgressBar" style="width: 75%;"></div>
+                            </div>
                         </div>
-                        <div class="stat-card-value" id="avgWaterLevel">0 m</div>
-                        <div class="stat-card-info">Across all stations</div>
-                    </div>
-                    <div class="stat-card-enhanced">
-                        <div class="stat-card-header">
-                            <i class="fas fa-droplets"></i>
-                            <span>Total Rainfall</span>
-                        </div>
-                        <div class="stat-card-value" id="totalRainfall">0 mm</div>
-                        <div class="stat-card-info">All stations combined</div>
                     </div>
                 </div>
 
-                <!-- Charts -->
                 <div class="charts-section">
                     <div class="chart-container">
-                        <h2>Top 15 Water Levels</h2>
+                        <div class="chart-header">
+                            <h2><i class="fas fa-water"></i> Top 15 Water Levels</h2>
+                            <span class="chart-badge">By Station</span>
+                        </div>
                         <canvas id="waterLevelChart"></canvas>
                     </div>
                     <div class="chart-container">
-                        <h2>Top 15 Rainfall Measurements</h2>
+                        <div class="chart-header">
+                            <h2><i class="fas fa-cloud-rain"></i> Top 15 Rainfall Measurements</h2>
+                            <span class="chart-badge">By Intensity</span>
+                        </div>
                         <canvas id="rainfallChart"></canvas>
                     </div>
                 </div>
 
-                <!-- Risk Matrix -->
+                <!-- Risk Assessment Matrix -->
                 <div class="risk-section">
-                    <h2>
-                        <i class="fas fa-thermometer-half"></i>
-                        Risk Assessment Matrix
-                    </h2>
+                    <div class="risk-header">
+                        <h2><i class="fas fa-chart-bar"></i> Risk Assessment by Severity</h2>
+                        <p class="risk-subtitle">Station distribution across risk categories</p>
+                    </div>
                     <div class="risk-matrix">
                         <div class="risk-item critical">
-                            <div class="risk-icon">
-                                <i class="fas fa-skull-crossbones"></i>
-                            </div>
-                            <div class="risk-info">
-                                <span class="risk-label">Critical Risk</span>
-                                <span class="risk-count" id="criticalCount">0</span>
-                            </div>
-                        </div>
-                        <div class="risk-item high">
-                            <div class="risk-icon">
+                            <div class="risk-icon-box">
                                 <i class="fas fa-exclamation"></i>
                             </div>
-                            <div class="risk-info">
-                                <span class="risk-label">High Risk</span>
-                                <span class="risk-count" id="highRiskCount">0</span>
+                            <div class="risk-details">
+                                <div class="risk-label">Critical</div>
+                                <div class="risk-count" id="criticalCount">0</div>
+                                <div class="risk-description">Major flood threshold exceeded</div>
                             </div>
+                            <div class="risk-badge critical">Critical</div>
                         </div>
-                        <div class="risk-item medium">
-                            <div class="risk-icon">
+                        <div class="risk-item high">
+                            <div class="risk-icon-box">
                                 <i class="fas fa-triangle-exclamation"></i>
                             </div>
-                            <div class="risk-info">
-                                <span class="risk-label">Medium Risk</span>
-                                <span class="risk-count" id="mediumRiskCount">0</span>
+                            <div class="risk-details">
+                                <div class="risk-label">High Risk</div>
+                                <div class="risk-count" id="highRiskCount">0</div>
+                                <div class="risk-description">Minor flood threshold exceeded</div>
                             </div>
+                            <div class="risk-badge high">High</div>
+                        </div>
+                        <div class="risk-item medium">
+                            <div class="risk-icon-box">
+                                <i class="fas fa-circle-exclamation"></i>
+                            </div>
+                            <div class="risk-details">
+                                <div class="risk-label">Medium Risk</div>
+                                <div class="risk-count" id="mediumRiskCount">0</div>
+                                <div class="risk-description">Alert threshold reached</div>
+                            </div>
+                            <div class="risk-badge medium">Medium</div>
                         </div>
                         <div class="risk-item low">
-                            <div class="risk-icon">
-                                <i class="fas fa-check"></i>
+                            <div class="risk-icon-box">
+                                <i class="fas fa-check-circle"></i>
                             </div>
-                            <div class="risk-info">
-                                <span class="risk-label">Low Risk</span>
-                                <span class="risk-count" id="lowRiskCount">0</span>
+                            <div class="risk-details">
+                                <div class="risk-label">Low Risk</div>
+                                <div class="risk-count" id="lowRiskCount">0</div>
+                                <div class="risk-description">Below alert threshold</div>
                             </div>
+                            <div class="risk-badge low">Low</div>
                         </div>
                     </div>
                 </div>
@@ -243,30 +318,42 @@
                 <!-- Basin Distribution -->
                 <div class="basin-section">
                     <div class="chart-container">
-                        <h2>Station Distribution by Basin</h2>
+                        <div class="chart-header">
+                            <h2><i class="fas fa-map"></i> Station Distribution by Basin</h2>
+                            <span class="chart-badge">Geographic</span>
+                        </div>
                         <canvas id="basinChart"></canvas>
                     </div>
                     <div class="chart-container">
-                        <h2>Alert Distribution by Status</h2>
+                        <div class="chart-header">
+                            <h2><i class="fas fa-pie-chart"></i> Alert Distribution by Status</h2>
+                            <span class="chart-badge">Status</span>
+                        </div>
                         <canvas id="statusChart"></canvas>
                     </div>
                 </div>
 
-                <!-- Water Level Threshold Comparison -->
+                <!-- Threshold Comparison Chart -->
                 <div class="threshold-section">
-                    <h2>
-                        <i class="fas fa-chart-line"></i>
-                        Water Level vs Thresholds (Top 8)
-                    </h2>
-                    <canvas id="thresholdChart"></canvas>
+                    <div class="chart-header">
+                        <h2><i class="fas fa-arrows-up-down"></i> Water Level vs Thresholds</h2>
+                        <p class="chart-subtitle">Top 8 stations comparing current levels with alert & flood thresholds
+                        </p>
+                    </div>
+                    <div class="chart-wrapper">
+                        <canvas id="thresholdChart" height="300"></canvas>
+                    </div>
                 </div>
 
                 <!-- Top Alert Stations -->
                 <div class="alerts-section">
-                    <h2>
-                        <i class="fas fa-exclamation-triangle"></i>
-                        Top Alert Stations
-                    </h2>
+                    <div class="section-header">
+                        <h2>
+                            <i class="fas fa-exclamation-triangle"></i>
+                            Top Alert Stations
+                        </h2>
+                        <span class="section-badge">High Priority</span>
+                    </div>
                     <div id="topAlerts" class="alert-list">
                         <p class="loading">Loading data...</p>
                     </div>
