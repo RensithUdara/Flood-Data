@@ -2,6 +2,9 @@ name: Update Flood Data
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
   schedule:
     # Every 5 minutes — tune this if needed
     - cron: "*/5 * * * *"
