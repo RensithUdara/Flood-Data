@@ -7,7 +7,8 @@ let chartsInstance = {
     waterLevel: null,
     rainfall: null,
     basin: null,
-    status: null
+    status: null,
+    threshold: null
 };
 
 // ========================== INIT ========================== 
