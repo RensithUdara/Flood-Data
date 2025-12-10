@@ -73,40 +73,52 @@
                 <div class="grid-layout">
                     <!-- Key Metrics -->
                     <div class="metrics-section">
-                        <div class="metric-card">
-                            <div class="metric-icon normal">
-                                <i class="fas fa-check-circle"></i>
+                        <div class="metric-card normal">
+                            <div class="metric-card-header">
+                                <div class="metric-icon normal">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <span class="metric-title">Normal</span>
                             </div>
-                            <div class="metric-info">
-                                <h3>Normal</h3>
-                                <p class="metric-value" id="normalCount">0</p>
-                            </div>
-                        </div>
-                        <div class="metric-card">
-                            <div class="metric-icon alert">
-                                <i class="fas fa-exclamation-circle"></i>
-                            </div>
-                            <div class="metric-info">
-                                <h3>Alert</h3>
-                                <p class="metric-value" id="alertCountMetric">0</p>
+                            <div class="metric-value-large" id="normalCount">0</div>
+                            <div class="metric-bar">
+                                <div class="metric-bar-fill normal"></div>
                             </div>
                         </div>
-                        <div class="metric-card">
-                            <div class="metric-icon warning">
-                                <i class="fas fa-triangle-exclamation"></i>
+                        <div class="metric-card alert">
+                            <div class="metric-card-header">
+                                <div class="metric-icon alert">
+                                    <i class="fas fa-exclamation-circle"></i>
+                                </div>
+                                <span class="metric-title">Alert</span>
                             </div>
-                            <div class="metric-info">
-                                <h3>Minor Flood</h3>
-                                <p class="metric-value" id="minorCount">0</p>
+                            <div class="metric-value-large" id="alertCountMetric">0</div>
+                            <div class="metric-bar">
+                                <div class="metric-bar-fill alert"></div>
                             </div>
                         </div>
-                        <div class="metric-card">
-                            <div class="metric-icon danger">
-                                <i class="fas fa-radiation-alt"></i>
+                        <div class="metric-card warning">
+                            <div class="metric-card-header">
+                                <div class="metric-icon warning">
+                                    <i class="fas fa-triangle-exclamation"></i>
+                                </div>
+                                <span class="metric-title">Minor Flood</span>
                             </div>
-                            <div class="metric-info">
-                                <h3>Major Flood</h3>
-                                <p class="metric-value" id="majorCount">0</p>
+                            <div class="metric-value-large" id="minorCount">0</div>
+                            <div class="metric-bar">
+                                <div class="metric-bar-fill warning"></div>
+                            </div>
+                        </div>
+                        <div class="metric-card danger">
+                            <div class="metric-card-header">
+                                <div class="metric-icon danger">
+                                    <i class="fas fa-radiation-alt"></i>
+                                </div>
+                                <span class="metric-title">Major Flood</span>
+                            </div>
+                            <div class="metric-value-large" id="majorCount">0</div>
+                            <div class="metric-bar">
+                                <div class="metric-bar-fill danger"></div>
                             </div>
                         </div>
                     </div>
