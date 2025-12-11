@@ -1,10 +1,40 @@
 {
-  "last_updated_utc": "2025-12-11T12:39:07.536797+00:00",
+  "last_updated_utc": "2025-12-11T13:05:47.550985+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6066,
+  "record_count": 6067,
   "records": [
+    {
+      "objectid": 1250597,
+      "globalid": "24196819-6e6a-4914-aa84-4def5fd913a2",
+      "basin": "Nilwala Ganga",
+      "gauge": "Thalgahagoda",
+      "water_level": 0.61,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-11T12:56:44.803000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-11T12:56:44.803000+00:00",
+      "Editor": "",
+      "alertpull": 1.4,
+      "minorpull": 1.7,
+      "majorpull": 2.8
+    },
+    {
+      "objectid": 1250596,
+      "globalid": "8868623f-efc5-40e0-962d-03c3fda493c4",
+      "basin": "Kalu Ganga",
+      "gauge": "Magura",
+      "water_level": 1.67,
+      "rain_fall": 5.9,
+      "CreationDate": "2025-12-11T12:40:07.273000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-11T12:40:07.273000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 6,
+      "majorpull": 7.5
+    },
     {
       "objectid": 1250595,
       "globalid": "96ebec23-ac96-4f36-8d68-ad46269eded6",
@@ -90979,21 +91009,6 @@
       "alertpull": 6,
       "minorpull": 7.5,
       "majorpull": 10.5
-    },
-    {
-      "objectid": 1244519,
-      "globalid": "61bb12f0-4c8f-4a3e-973a-16b06709f7d1",
-      "basin": "Maduru Oya",
-      "gauge": "Padiyathalawa",
-      "water_level": 0.82,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-04T12:49:13.718000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-04T12:49:13.718000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 4.5,
-      "majorpull": 6
     }
   ]
 }
