@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2025-12-11T20:12:20.746234+00:00",
+  "last_updated_utc": "2025-12-11T20:29:29.817599+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
   "record_count": 6065,
   "records": [
+    {
+      "objectid": 1250837,
+      "globalid": "29b090a1-f922-4e98-a302-b732b9b79876",
+      "basin": "Kelani Ganga",
+      "gauge": "Kithulgala",
+      "water_level": 1.68,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-11T20:28:47.900000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-11T20:28:47.900000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 4,
+      "majorpull": 6
+    },
     {
       "objectid": 1250836,
       "globalid": "f33de583-b363-4216-9b7c-14423c8a9877",
@@ -90964,21 +90979,6 @@
       "alertpull": 4.4,
       "minorpull": 5.4,
       "majorpull": 5.9
-    },
-    {
-      "objectid": 1244761,
-      "globalid": "f959b095-e8a6-4619-b697-30e9f13d310f",
-      "basin": "Gin Ganga",
-      "gauge": "Baddegama",
-      "water_level": 1.75,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-04T20:27:24.171000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-04T20:27:24.171000+00:00",
-      "Editor": "",
-      "alertpull": 3.5,
-      "minorpull": 4,
-      "majorpull": 5
     }
   ]
 }
