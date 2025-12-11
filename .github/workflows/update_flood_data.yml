@@ -82,8 +82,7 @@ jobs:
             echo "changes_detected=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Commit and push if gauge data changed
-        if: steps.check-changes.outputs.changes_detected == 'true'
+      - name: Commit and push gauge data
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
@@ -93,7 +92,13 @@ jobs:
           TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
 
           git add data/gauges_2_view.json data/gauges_2_view.csv
-          git commit -m "chore: update gauges_2_view data (${RECORD_COUNT} records, ${TIMESTAMP})"
+          
+          if [ "${{ steps.check-changes.outputs.changes_detected }}" == "true" ]; then
+            git commit -m "chore: update gauges_2_view data (${RECORD_COUNT} records, ${TIMESTAMP})"
+          else
+            git commit -m "chore: verify gauges_2_view data (${RECORD_COUNT} records, ${TIMESTAMP})" --allow-empty
+          fi
+          
           git push origin main
           echo "Successfully pushed data update to main branch"
 
