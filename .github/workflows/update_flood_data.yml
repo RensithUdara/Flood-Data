@@ -85,8 +85,8 @@ jobs:
       - name: Commit and push gauge data
         run: |
           set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "RensithUdara"
+          git config user.email "noreply@github.com"
 
           RECORD_COUNT=${{ steps.scrape.outputs.record_count }}
           TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
