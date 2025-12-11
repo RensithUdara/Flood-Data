@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2025-12-10T23:51:56.173382+00:00",
+  "last_updated_utc": "2025-12-11T00:06:37.270987+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6047,
+  "record_count": 6045,
   "records": [
+    {
+      "objectid": 1250088,
+      "globalid": "6da22913-55e1-457e-aa03-263c3faf609b",
+      "basin": "Kalu Ganga",
+      "gauge": "Magura",
+      "water_level": 2.22,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-11T00:00:09.309000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-11T00:00:09.309000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 6,
+      "majorpull": 7.5
+    },
     {
       "objectid": 1250087,
       "globalid": "c6a964b0-7218-412b-a804-4a2756566d0e",
@@ -90664,51 +90679,6 @@
       "alertpull": 3.5,
       "minorpull": 5,
       "majorpull": 6
-    },
-    {
-      "objectid": 1244032,
-      "globalid": "ff057055-6253-4bb6-b920-6c1e0b92ea0c",
-      "basin": "Nilwala Ganga",
-      "gauge": "Pitabeddara",
-      "water_level": 0.89,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-04T00:01:23.468000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-04T00:01:23.468000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 5,
-      "majorpull": 6.5
-    },
-    {
-      "objectid": 1244031,
-      "globalid": "39f5c5bb-6510-4c8b-a2db-7a91f3d44b46",
-      "basin": "Maduru Oya",
-      "gauge": "Padiyathalawa",
-      "water_level": 0.79,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-03T23:56:27.256000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-03T23:56:27.256000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 4.5,
-      "majorpull": 6
-    },
-    {
-      "objectid": 1244030,
-      "globalid": "9fa48bd9-b349-402a-9541-dd2e426ea240",
-      "basin": "Menik Ganga",
-      "gauge": "Katharagama",
-      "water_level": 0.73,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-03T23:52:31.240000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-03T23:52:31.240000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 4.6,
-      "majorpull": 6.5
     }
   ]
 }
