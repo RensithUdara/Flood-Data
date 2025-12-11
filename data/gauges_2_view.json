@@ -1,10 +1,55 @@
 {
-  "last_updated_utc": "2025-12-11T02:39:08.996166+00:00",
+  "last_updated_utc": "2025-12-11T02:43:30.439509+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
   "record_count": 6054,
   "records": [
+    {
+      "objectid": 1250203,
+      "globalid": "54c80a63-5738-46eb-bac0-ab26c3956574",
+      "basin": "Nilwala Ganga",
+      "gauge": "Urawa",
+      "water_level": 0.54,
+      "rain_fall": null,
+      "CreationDate": "2025-12-11T02:41:29.219000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-11T02:41:29.219000+00:00",
+      "Editor": "",
+      "alertpull": 2.5,
+      "minorpull": 4,
+      "majorpull": 6
+    },
+    {
+      "objectid": 1250202,
+      "globalid": "9519122c-e9fa-4b55-872b-e3d2911b70ce",
+      "basin": "Nilwala Ganga",
+      "gauge": "Panadugama",
+      "water_level": 3.01,
+      "rain_fall": null,
+      "CreationDate": "2025-12-11T02:40:55.968000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-11T02:40:55.968000+00:00",
+      "Editor": "",
+      "alertpull": 5,
+      "minorpull": 6,
+      "majorpull": 7.5
+    },
+    {
+      "objectid": 1250201,
+      "globalid": "7d646cf2-7046-4f06-a274-faf960e6ac91",
+      "basin": "Kelani Ganga",
+      "gauge": "Holombuwa",
+      "water_level": 0.72,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-11T02:39:54.333000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-11T02:39:54.333000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 3.4,
+      "majorpull": 5
+    },
     {
       "objectid": 1250200,
       "globalid": "dbce72d4-2b38-4551-beeb-825852d049ec",
@@ -90769,51 +90814,6 @@
       "alertpull": 4.84,
       "minorpull": 5.94,
       "majorpull": 8
-    },
-    {
-      "objectid": 1244138,
-      "globalid": "5d068173-65ab-4054-a017-64333318a10f",
-      "basin": "Yan Oya",
-      "gauge": "Horowpothana",
-      "water_level": 2.49,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-04T02:42:42.208000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-04T02:42:42.208000+00:00",
-      "Editor": "",
-      "alertpull": 6,
-      "minorpull": 7.5,
-      "majorpull": 10.5
-    },
-    {
-      "objectid": 1244137,
-      "globalid": "17faa6c8-9b47-474d-af2c-da4d368203a4",
-      "basin": "Malwathu Oya",
-      "gauge": "Thanthirimale",
-      "water_level": 6.28,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-04T02:41:07.674000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-04T02:41:07.674000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6.8,
-      "majorpull": 7.8
-    },
-    {
-      "objectid": 1244136,
-      "globalid": "53768cf8-4559-473e-a454-03f64eed59b3",
-      "basin": "Ma Oya",
-      "gauge": "Yaka Wewa",
-      "water_level": 1.1,
-      "rain_fall": null,
-      "CreationDate": "2025-12-04T02:40:24.777000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-04T02:40:24.777000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 5,
-      "majorpull": 6
     }
   ]
 }
