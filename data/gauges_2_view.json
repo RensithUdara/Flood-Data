@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2025-12-11T02:46:25.947527+00:00",
+  "last_updated_utc": "2025-12-11T02:48:38.239742+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
   "record_count": 6054,
   "records": [
+    {
+      "objectid": 1250204,
+      "globalid": "77a2c89a-0bda-4ef1-bbca-7e8c819dd76d",
+      "basin": "Nilwala Ganga",
+      "gauge": "Pitabeddara",
+      "water_level": 0.91,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-11T02:44:39.935000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-11T02:44:39.935000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 5,
+      "majorpull": 6.5
+    },
     {
       "objectid": 1250203,
       "globalid": "54c80a63-5738-46eb-bac0-ab26c3956574",
@@ -90799,21 +90814,6 @@
       "alertpull": 1.4,
       "minorpull": 1.7,
       "majorpull": 2.8
-    },
-    {
-      "objectid": 1244139,
-      "globalid": "f20fa72b-ced3-402f-b849-9ecff4840ad1",
-      "basin": "Mee Oya",
-      "gauge": "Galgamuwa",
-      "water_level": 0.59,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-04T02:48:05.063000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-04T02:48:05.063000+00:00",
-      "Editor": "",
-      "alertpull": 4.84,
-      "minorpull": 5.94,
-      "majorpull": 8
     }
   ]
 }
