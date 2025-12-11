@@ -1,10 +1,55 @@
 {
-  "last_updated_utc": "2025-12-11T08:12:40.388457+00:00",
+  "last_updated_utc": "2025-12-11T08:30:40.452942+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6059,
+  "record_count": 6061,
   "records": [
+    {
+      "objectid": 1250404,
+      "globalid": "d8782fa2-2041-4796-b5f8-849e17c492fe",
+      "basin": "Kumbukkan Oya",
+      "gauge": "Nakkala",
+      "water_level": 1.17,
+      "rain_fall": 5.8,
+      "CreationDate": "2025-12-11T08:30:27.175000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-11T08:30:27.175000+00:00",
+      "Editor": "",
+      "alertpull": 5,
+      "minorpull": 6,
+      "majorpull": 7.5
+    },
+    {
+      "objectid": 1250403,
+      "globalid": "6742a826-26d7-46e9-9a2e-29014d171198",
+      "basin": "Deduru Oya",
+      "gauge": "Moragaswewa",
+      "water_level": 1.92,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-11T08:22:32.206000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-11T08:22:32.206000+00:00",
+      "Editor": "",
+      "alertpull": 4.75,
+      "minorpull": 6,
+      "majorpull": 7
+    },
+    {
+      "objectid": 1250402,
+      "globalid": "a58112ec-de69-46f7-a5b2-ef73d6fe925a",
+      "basin": "Deduru Oya",
+      "gauge": "Moragaswewa",
+      "water_level": 8.4,
+      "rain_fall": 5.6,
+      "CreationDate": "2025-12-11T08:22:30.297000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-11T08:22:30.297000+00:00",
+      "Editor": "",
+      "alertpull": 4.75,
+      "minorpull": 6,
+      "majorpull": 7
+    },
     {
       "objectid": 1250401,
       "globalid": "ff3119ad-52b7-4c2c-8dca-11578a7ce35a",
@@ -90874,21 +90919,6 @@
       "alertpull": 3,
       "minorpull": 4.3,
       "majorpull": 6
-    },
-    {
-      "objectid": 1244332,
-      "globalid": "aad8e657-3491-43b1-8cef-fe63df0eaa8a",
-      "basin": "Yan Oya",
-      "gauge": "Horowpothana",
-      "water_level": 2.36,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-04T08:30:14.440000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-04T08:30:14.440000+00:00",
-      "Editor": "",
-      "alertpull": 6,
-      "minorpull": 7.5,
-      "majorpull": 10.5
     }
   ]
 }
