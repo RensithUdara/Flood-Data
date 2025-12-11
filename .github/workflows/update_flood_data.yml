@@ -86,7 +86,7 @@ jobs:
         run: |
           set -euo pipefail
           git config user.name "RensithUdara"
-          git config user.email "noreply@github.com"
+          git config user.email "rensithudaragonalagoda@gmail.com"
 
           RECORD_COUNT=${{ steps.scrape.outputs.record_count }}
           TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
