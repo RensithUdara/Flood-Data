@@ -1,9 +1,9 @@
 {
-  "last_updated_utc": "2025-12-12T23:47:20.532701+00:00",
+  "last_updated_utc": "2025-12-12T23:56:59.640647+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6140,
+  "record_count": 6137,
   "records": [
     {
       "objectid": 1251899,
@@ -92059,51 +92059,6 @@
       "alertpull": 4,
       "minorpull": 6,
       "majorpull": 7.5
-    },
-    {
-      "objectid": 1245753,
-      "globalid": "b0f587f7-3941-4c6e-a8b8-b449b18ad267",
-      "basin": "Mahaweli Ganga",
-      "gauge": "Nawalapitiya",
-      "water_level": 1.37,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-05T23:49:44.190000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-05T23:49:44.190000+00:00",
-      "Editor": "",
-      "alertpull": 3.5,
-      "minorpull": 5,
-      "majorpull": 6
-    },
-    {
-      "objectid": 1245752,
-      "globalid": "8d18227a-3556-4c06-b31d-19b84bb85e90",
-      "basin": "Mahaweli Ganga",
-      "gauge": "Nawalapitiya",
-      "water_level": 1.37,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-05T23:49:01.093000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-05T23:49:01.093000+00:00",
-      "Editor": "",
-      "alertpull": 3.5,
-      "minorpull": 5,
-      "majorpull": 6
-    },
-    {
-      "objectid": 1245751,
-      "globalid": "c4127deb-bb77-4802-8239-991bb94e4d14",
-      "basin": "Aththanagalu Oya",
-      "gauge": "Dunamale",
-      "water_level": 2.18,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-05T23:47:53.869000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-05T23:47:53.869000+00:00",
-      "Editor": "",
-      "alertpull": 3.3,
-      "minorpull": 4.4,
-      "majorpull": 5.5
     }
   ]
 }
