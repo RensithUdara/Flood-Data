@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2025-12-12T09:13:13.494031+00:00",
+  "last_updated_utc": "2025-12-12T09:30:30.783939+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6085,
+  "record_count": 6082,
   "records": [
+    {
+      "objectid": 1251339,
+      "globalid": "22ff79da-9134-4369-8454-be0de00279d9",
+      "basin": "Kirindi Oya",
+      "gauge": "Wellawaya",
+      "water_level": 1.17,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-12T09:30:21.183000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-12T09:30:21.183000+00:00",
+      "Editor": "",
+      "alertpull": 4.4,
+      "minorpull": 5.4,
+      "majorpull": 5.9
+    },
     {
       "objectid": 1251338,
       "globalid": "d796e25a-3e8d-4922-b819-010fd5951ef4",
@@ -91219,66 +91234,6 @@
       "alertpull": 4.5,
       "minorpull": 6,
       "majorpull": 7
-    },
-    {
-      "objectid": 1245245,
-      "globalid": "d3904333-486e-4fad-8882-83640608cf30",
-      "basin": "Kalu Ganga",
-      "gauge": "Putupaula",
-      "water_level": 1.15,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-05T09:30:29.383000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-05T09:30:29.383000+00:00",
-      "Editor": "",
-      "alertpull": 3,
-      "minorpull": 4,
-      "majorpull": 5
-    },
-    {
-      "objectid": 1245244,
-      "globalid": "63f82d6d-eebf-4df1-8f7a-24d4df473e30",
-      "basin": "Walawe Ganga",
-      "gauge": "Moraketiya",
-      "water_level": 1.23,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-05T09:30:25.019000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-05T09:30:25.019000+00:00",
-      "Editor": "",
-      "alertpull": 3,
-      "minorpull": 5,
-      "majorpull": 7
-    },
-    {
-      "objectid": 1245243,
-      "globalid": "7e1e2a9e-6186-49bb-982d-f8c68f5e0886",
-      "basin": "Ma Oya",
-      "gauge": "Yaka Wewa",
-      "water_level": 0.9,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-05T09:30:18.903000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-05T09:30:18.903000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 5,
-      "majorpull": 6
-    },
-    {
-      "objectid": 1245242,
-      "globalid": "9c54598d-7a43-4a3d-a29f-a9089f4f64e6",
-      "basin": "Mahaweli Ganga",
-      "gauge": "Nawalapitiya",
-      "water_level": 1.4,
-      "rain_fall": 0.2,
-      "CreationDate": "2025-12-05T09:30:13.129000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-05T09:30:13.129000+00:00",
-      "Editor": "",
-      "alertpull": 3.5,
-      "minorpull": 5,
-      "majorpull": 6
     }
   ]
 }
