@@ -1,10 +1,55 @@
 {
-  "last_updated_utc": "2025-12-13T20:10:40.851691+00:00",
+  "last_updated_utc": "2025-12-13T20:26:42.439853+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6197,
+  "record_count": 6198,
   "records": [
+    {
+      "objectid": 1252694,
+      "globalid": "06a521f4-2e03-4761-ba92-3fc6bff28511",
+      "basin": "Mahaweli Ganga",
+      "gauge": "Manampitiya",
+      "water_level": 2.47,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-13T20:22:22.692000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-13T20:22:22.692000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 4.3,
+      "majorpull": 6
+    },
+    {
+      "objectid": 1252693,
+      "globalid": "0443025d-f646-4f3e-9d79-b50adf508a70",
+      "basin": "Ma Oya",
+      "gauge": "Yaka Wewa",
+      "water_level": 1.05,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-13T20:19:26.321000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-13T20:19:26.321000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 5,
+      "majorpull": 6
+    },
+    {
+      "objectid": 1252692,
+      "globalid": "b2b3f174-da22-4b01-9587-a2096a22cc47",
+      "basin": "Nilwala Ganga",
+      "gauge": "Thalgahagoda",
+      "water_level": 0.7,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-13T20:17:13.942000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-13T20:17:13.942000+00:00",
+      "Editor": "",
+      "alertpull": 1.4,
+      "minorpull": 1.7,
+      "majorpull": 2.8
+    },
     {
       "objectid": 1252691,
       "globalid": "d48816a8-ac49-4d16-b9f8-d3ac32126589",
@@ -92929,36 +92974,6 @@
       "alertpull": 4.4,
       "minorpull": 5.4,
       "majorpull": 5.9
-    },
-    {
-      "objectid": 1246481,
-      "globalid": "e5258ade-bdbb-47d4-a4b3-c78f12313285",
-      "basin": "Kelani Ganga",
-      "gauge": "Deraniyagala",
-      "water_level": 0.71,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-06T20:24:11.511000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-06T20:24:11.511000+00:00",
-      "Editor": "",
-      "alertpull": 4.8,
-      "minorpull": 5.8,
-      "majorpull": 6.4
-    },
-    {
-      "objectid": 1246480,
-      "globalid": "0d671c0c-3a0e-4575-a56b-14ca006f2b68",
-      "basin": "Nilwala Ganga",
-      "gauge": "Urawa",
-      "water_level": 0.62,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-06T20:13:36.062000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-06T20:13:36.062000+00:00",
-      "Editor": "",
-      "alertpull": 2.5,
-      "minorpull": 4,
-      "majorpull": 6
     }
   ]
 }
