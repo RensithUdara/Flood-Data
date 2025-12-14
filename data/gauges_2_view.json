@@ -1,9 +1,9 @@
 {
-  "last_updated_utc": "2025-12-14T17:47:51.038056+00:00",
+  "last_updated_utc": "2025-12-14T17:57:15.946300+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6260,
+  "record_count": 6257,
   "records": [
     {
       "objectid": 1253551,
@@ -93859,51 +93859,6 @@
       "alertpull": 3.5,
       "minorpull": 5,
       "majorpull": 6
-    },
-    {
-      "objectid": 1247278,
-      "globalid": "266d66c1-6ddb-4be1-a9a5-b129d8279c4b",
-      "basin": "Kelani Ganga",
-      "gauge": "Holombuwa",
-      "water_level": 0.84,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-07T17:55:48.484000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-07T17:55:48.484000+00:00",
-      "Editor": "",
-      "alertpull": 3,
-      "minorpull": 3.4,
-      "majorpull": 5
-    },
-    {
-      "objectid": 1247277,
-      "globalid": "bb9c222d-288c-446c-bc8d-f5b8ed82f66f",
-      "basin": "Kalu Ganga",
-      "gauge": "Putupaula",
-      "water_level": 0.8,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-07T17:50:21.512000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-07T17:50:21.512000+00:00",
-      "Editor": "",
-      "alertpull": 3,
-      "minorpull": 4,
-      "majorpull": 5
-    },
-    {
-      "objectid": 1247276,
-      "globalid": "66dce1b6-a42c-463a-8db9-36f09503219c",
-      "basin": "Menik Ganga",
-      "gauge": "Katharagama",
-      "water_level": 0.33,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-07T17:48:09.563000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-07T17:48:09.563000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 4.6,
-      "majorpull": 6.5
     }
   ]
 }
