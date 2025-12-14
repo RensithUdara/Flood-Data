@@ -1,10 +1,55 @@
 {
-  "last_updated_utc": "2025-12-14T09:39:09.675820+00:00",
+  "last_updated_utc": "2025-12-14T09:48:56.139296+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6237,
+  "record_count": 6239,
   "records": [
+    {
+      "objectid": 1253248,
+      "globalid": "641f9ce5-4be2-4f59-b8a6-e6eea8b6fc80",
+      "basin": "Walawe Ganga",
+      "gauge": "Moraketiya",
+      "water_level": 1,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-14T09:40:18.437000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-14T09:40:18.437000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 5,
+      "majorpull": 7
+    },
+    {
+      "objectid": 1253247,
+      "globalid": "91332d6d-e3be-48b4-9f37-f8e4040c61f4",
+      "basin": "Aththanagalu Oya",
+      "gauge": "Dunamale",
+      "water_level": 1.1,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-14T09:39:54.489000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-14T09:39:54.489000+00:00",
+      "Editor": "",
+      "alertpull": 3.3,
+      "minorpull": 4.4,
+      "majorpull": 5.5
+    },
+    {
+      "objectid": 1253246,
+      "globalid": "9009513f-26cc-47ef-9768-300e9ace9fe4",
+      "basin": "Kelani Ganga",
+      "gauge": "Nagalagam Street",
+      "water_level": 1.4,
+      "rain_fall": null,
+      "CreationDate": "2025-12-14T09:39:24.393000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-14T09:39:24.393000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 5,
+      "majorpull": 7
+    },
     {
       "objectid": 1253245,
       "globalid": "5f0a55d7-61bc-4c0f-9db2-2c5fb294a2a5",
@@ -93544,21 +93589,6 @@
       "alertpull": 15,
       "minorpull": 16.5,
       "majorpull": 19
-    },
-    {
-      "objectid": 1246994,
-      "globalid": "473c3e5b-7635-4e5e-8052-18d7f1550353",
-      "basin": "Yan Oya",
-      "gauge": "Horowpothana",
-      "water_level": 1.76,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-07T09:40:25.727000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-07T09:40:25.727000+00:00",
-      "Editor": "",
-      "alertpull": 6,
-      "minorpull": 7.5,
-      "majorpull": 10.5
     }
   ]
 }
