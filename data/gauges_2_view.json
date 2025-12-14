@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2025-12-14T06:40:47.110872+00:00",
+  "last_updated_utc": "2025-12-14T06:54:10.558407+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6234,
+  "record_count": 6232,
   "records": [
+    {
+      "objectid": 1253127,
+      "globalid": "e464c999-4d7a-4bb7-a442-ca254d938783",
+      "basin": "Kirindi Oya",
+      "gauge": "Kuda Oya",
+      "water_level": 1.52,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-14T06:42:08.136000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-14T06:42:08.136000+00:00",
+      "Editor": "",
+      "alertpull": 6.9,
+      "minorpull": 8.4,
+      "majorpull": 8.8
+    },
     {
       "objectid": 1253126,
       "globalid": "df80b56d-14c3-4c56-9ca2-8f69370580c0",
@@ -93469,51 +93484,6 @@
       "alertpull": 5,
       "minorpull": 6.8,
       "majorpull": 7.8
-    },
-    {
-      "objectid": 1246880,
-      "globalid": "8e3589cc-5976-409b-b87a-1df145a31fc9",
-      "basin": "Kirindi Oya",
-      "gauge": "Kuda Oya",
-      "water_level": 1.54,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-07T06:43:12.448000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-07T06:43:12.448000+00:00",
-      "Editor": "",
-      "alertpull": 6.9,
-      "minorpull": 8.4,
-      "majorpull": 8.8
-    },
-    {
-      "objectid": 1246879,
-      "globalid": "0ab9d08b-0559-48f5-a241-617b24eed9f1",
-      "basin": "Kelani Ganga",
-      "gauge": "Glencourse",
-      "water_level": 10.17,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-07T06:42:16.173000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-07T06:42:16.173000+00:00",
-      "Editor": "",
-      "alertpull": 15,
-      "minorpull": 16.5,
-      "majorpull": 19
-    },
-    {
-      "objectid": 1246878,
-      "globalid": "9d5e1de1-e2bb-430b-8b2a-42c68a9d45bf",
-      "basin": "Mee Oya",
-      "gauge": "Galgamuwa",
-      "water_level": 1.45,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-07T06:41:25.028000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-07T06:41:25.028000+00:00",
-      "Editor": "",
-      "alertpull": 4.84,
-      "minorpull": 5.94,
-      "majorpull": 8
     }
   ]
 }
