@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2025-12-17T07:13:31.186159+00:00",
+  "last_updated_utc": "2025-12-17T07:30:11.276907+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6374,
+  "record_count": 6375,
   "records": [
+    {
+      "objectid": 1255899,
+      "globalid": "9f262233-2543-4348-9ee3-c5a0520e9a16",
+      "basin": "Mahaweli Ganga",
+      "gauge": "Nawalapitiya",
+      "water_level": 0.96,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-17T07:26:01.479000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-17T07:26:01.479000+00:00",
+      "Editor": "",
+      "alertpull": 3.5,
+      "minorpull": 5,
+      "majorpull": 6
+    },
     {
       "objectid": 1255898,
       "globalid": "60bac756-21af-4188-a8c6-7e3c87966ae2",
