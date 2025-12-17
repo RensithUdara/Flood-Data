@@ -1,10 +1,40 @@
 {
-  "last_updated_utc": "2025-12-17T23:50:05.718882+00:00",
+  "last_updated_utc": "2025-12-17T23:59:06.363431+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6427,
+  "record_count": 6429,
   "records": [
+    {
+      "objectid": 1256544,
+      "globalid": "0a7368fc-92d1-4e6c-be93-553391dd055e",
+      "basin": "Maduru Oya",
+      "gauge": "Padiyathalawa",
+      "water_level": 2.72,
+      "rain_fall": 11.5,
+      "CreationDate": "2025-12-17T23:57:38.320000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-17T23:57:38.320000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 4.5,
+      "majorpull": 6
+    },
+    {
+      "objectid": 1256543,
+      "globalid": "8b998d88-1d4d-4d1a-ab9c-acfcd035c13a",
+      "basin": "Walawe Ganga",
+      "gauge": "Moraketiya",
+      "water_level": 0.99,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-17T23:57:03.762000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-17T23:57:03.762000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 5,
+      "majorpull": 7
+    },
     {
       "objectid": 1256542,
       "globalid": "a65f2cbf-787e-4f5c-92fe-6ea8a331973e",
