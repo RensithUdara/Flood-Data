@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2025-12-18T22:50:15.029299+00:00",
+  "last_updated_utc": "2025-12-18T22:59:12.095953+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6452,
+  "record_count": 6451,
   "records": [
+    {
+      "objectid": 1257431,
+      "globalid": "c060ca19-8f8e-45f1-8ab3-4e469f041665",
+      "basin": "Kalu Ganga",
+      "gauge": "Putupaula",
+      "water_level": 0.9,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-18T22:56:30.539000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-18T22:56:30.539000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 4,
+      "majorpull": 5
+    },
     {
       "objectid": 1257430,
       "globalid": "00455c17-84c6-4b32-ad04-454f6fb6b12c",
@@ -96754,36 +96769,6 @@
       "alertpull": 1.4,
       "minorpull": 1.7,
       "majorpull": 2.8
-    },
-    {
-      "objectid": 1250945,
-      "globalid": "2ebd38a6-ff16-4a51-82e0-368127d601ee",
-      "basin": "Kalu Ganga",
-      "gauge": "Putupaula",
-      "water_level": 0.96,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-11T22:56:32.677000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-11T22:56:32.677000+00:00",
-      "Editor": "",
-      "alertpull": 3,
-      "minorpull": 4,
-      "majorpull": 5
-    },
-    {
-      "objectid": 1250944,
-      "globalid": "d0ee3464-8c83-45c4-8082-63c63658a5fd",
-      "basin": "Nilwala Ganga",
-      "gauge": "Panadugama",
-      "water_level": 4.21,
-      "rain_fall": null,
-      "CreationDate": "2025-12-11T22:55:39.038000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-11T22:55:39.038000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6,
-      "majorpull": 7.5
     }
   ]
 }
