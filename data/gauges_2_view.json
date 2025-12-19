@@ -1,10 +1,40 @@
 {
-  "last_updated_utc": "2025-12-19T02:44:39.194812+00:00",
+  "last_updated_utc": "2025-12-19T03:19:44.831015+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6457,
+  "record_count": 6458,
   "records": [
+    {
+      "objectid": 1257590,
+      "globalid": "abb0de78-9085-46a8-a82c-53fba7317d4a",
+      "basin": "Nilwala Ganga",
+      "gauge": "Pitabeddara",
+      "water_level": 0.72,
+      "rain_fall": null,
+      "CreationDate": "2025-12-19T02:47:54.921000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-19T02:47:54.921000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 5,
+      "majorpull": 6.5
+    },
+    {
+      "objectid": 1257589,
+      "globalid": "2e6b3ec6-336e-4f29-91a6-3770cbb0215e",
+      "basin": "Ma Oya",
+      "gauge": "Yaka Wewa",
+      "water_level": 1.06,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-19T02:45:51.730000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-19T02:45:51.730000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 5,
+      "majorpull": 6
+    },
     {
       "objectid": 1257588,
       "globalid": "ff47db25-86af-4834-94bb-5b83d8655a50",
@@ -96844,21 +96874,6 @@
       "alertpull": 4.4,
       "minorpull": 5.4,
       "majorpull": 5.9
-    },
-    {
-      "objectid": 1251097,
-      "globalid": "1d95d7a9-a20b-4d95-b357-e4632ef4dd02",
-      "basin": "Nilwala Ganga",
-      "gauge": "Urawa",
-      "water_level": 1,
-      "rain_fall": null,
-      "CreationDate": "2025-12-12T02:57:15.401000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-12T02:57:15.401000+00:00",
-      "Editor": "",
-      "alertpull": 2.5,
-      "minorpull": 4,
-      "majorpull": 6
     }
   ]
 }
