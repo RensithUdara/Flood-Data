@@ -1,10 +1,40 @@
 {
-  "last_updated_utc": "2025-12-19T18:12:26.284118+00:00",
+  "last_updated_utc": "2025-12-19T18:30:29.714866+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6456,
+  "record_count": 6460,
   "records": [
+    {
+      "objectid": 1258173,
+      "globalid": "9f86778d-386d-4ee1-9b84-0f3760976e3e",
+      "basin": "Heda Oya",
+      "gauge": "Siyambalanduwa",
+      "water_level": 1.07,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-19T18:30:08.652000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-19T18:30:08.652000+00:00",
+      "Editor": "",
+      "alertpull": 4.5,
+      "minorpull": 6,
+      "majorpull": 7
+    },
+    {
+      "objectid": 1258172,
+      "globalid": "6e74ff07-23d4-4679-a148-4f6cc19ac99e",
+      "basin": "Aththanagalu Oya",
+      "gauge": "Dunamale",
+      "water_level": 1.28,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-19T18:13:27.189000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-19T18:13:27.189000+00:00",
+      "Editor": "",
+      "alertpull": 3.3,
+      "minorpull": 4.4,
+      "majorpull": 5.5
+    },
     {
       "objectid": 1258171,
       "globalid": "0f543988-7955-4d06-bec9-a395a3ece9d1",
@@ -74976,6 +75006,21 @@
       "majorpull": 10
     },
     {
+      "objectid": 1253151,
+      "globalid": "83f1fa76-7144-44a8-afec-3ce865fa67d0",
+      "basin": "Kelani Ganga",
+      "gauge": "Hanwella",
+      "water_level": 1.36,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-14T07:33:17.157000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-14T07:33:17.157000+00:00",
+      "Editor": "",
+      "alertpull": 7,
+      "minorpull": 8,
+      "majorpull": 10
+    },
+    {
       "objectid": 1253150,
       "globalid": "d458b865-cdf2-4974-af8a-0c1b970debc5",
       "basin": "Mahaweli Ganga",
@@ -89944,6 +89989,21 @@
       "alertpull": 3,
       "minorpull": 5,
       "majorpull": 7
+    },
+    {
+      "objectid": 1252149,
+      "globalid": "9733af3a-c487-4cf2-9b90-478bade0d8cf",
+      "basin": "Gal Oya",
+      "gauge": "Ampara",
+      "water_level": 0,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-13T06:30:28.208000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-13T06:30:28.208000+00:00",
+      "Editor": "",
+      "alertpull": null,
+      "minorpull": null,
+      "majorpull": null
     },
     {
       "objectid": 1252149,
