@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2025-12-19T21:00:49.241558+00:00",
+  "last_updated_utc": "2025-12-19T21:13:58.195515+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
   "record_count": 6459,
   "records": [
+    {
+      "objectid": 1258278,
+      "globalid": "ae2d2a75-cc82-4589-84e7-6de2d568ac11",
+      "basin": "Aththanagalu Oya",
+      "gauge": "Dunamale",
+      "water_level": 1.28,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-19T21:03:54.450000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-19T21:03:54.450000+00:00",
+      "Editor": "",
+      "alertpull": 3.3,
+      "minorpull": 4.4,
+      "majorpull": 5.5
+    },
     {
       "objectid": 1258277,
       "globalid": "10a1cf8b-f46f-4e5e-acb2-a686218f01b2",
@@ -96874,21 +96889,6 @@
       "alertpull": 3.5,
       "minorpull": 5,
       "majorpull": 6
-    },
-    {
-      "objectid": 1251790,
-      "globalid": "7f9172ae-152e-46f3-baac-0a4e5accb71e",
-      "basin": "Kelani Ganga",
-      "gauge": "Glencourse",
-      "water_level": 9.6,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-12T21:02:59.392000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-12T21:02:59.392000+00:00",
-      "Editor": "",
-      "alertpull": 15,
-      "minorpull": 16.5,
-      "majorpull": 19
     }
   ]
 }
