@@ -1,10 +1,40 @@
 {
-  "last_updated_utc": "2025-12-20T04:13:56.867154+00:00",
+  "last_updated_utc": "2025-12-20T04:31:20.595694+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6461,
+  "record_count": 6460,
   "records": [
+    {
+      "objectid": 1258553,
+      "globalid": "de467dfa-78d4-47ee-8124-5732a5da57c7",
+      "basin": "Walawe Ganga",
+      "gauge": "Moraketiya",
+      "water_level": 0.97,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-20T04:30:45.795000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-20T04:30:45.795000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 5,
+      "majorpull": 7
+    },
+    {
+      "objectid": 1258552,
+      "globalid": "1608cbab-bb23-474e-9ed9-a7001dd0ad78",
+      "basin": "Nilwala Ganga",
+      "gauge": "Thalgahagoda",
+      "water_level": 0.41,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-20T04:29:57.175000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-20T04:29:57.175000+00:00",
+      "Editor": "",
+      "alertpull": 1.4,
+      "minorpull": 1.7,
+      "majorpull": 2.8
+    },
     {
       "objectid": 1258551,
       "globalid": "bb586cb4-a0b3-43dd-9ae9-a64301c6325a",
@@ -96874,51 +96904,6 @@
       "alertpull": 5.5,
       "minorpull": 6.5,
       "majorpull": 7.5
-    },
-    {
-      "objectid": 1252067,
-      "globalid": "17e1f812-88ac-4c92-b220-1d7a37bf96d9",
-      "basin": "Walawe Ganga",
-      "gauge": "Moraketiya",
-      "water_level": 1.03,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-13T04:30:49.475000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-13T04:30:49.475000+00:00",
-      "Editor": "",
-      "alertpull": 3,
-      "minorpull": 5,
-      "majorpull": 7
-    },
-    {
-      "objectid": 1252066,
-      "globalid": "54272b9e-74b7-4f4e-a070-2f9bd5393b2d",
-      "basin": "Yan Oya",
-      "gauge": "Horowpothana",
-      "water_level": 5.92,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-13T04:30:49.296000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-13T04:30:49.296000+00:00",
-      "Editor": "",
-      "alertpull": 6,
-      "minorpull": 7.5,
-      "majorpull": 10.5
-    },
-    {
-      "objectid": 1252065,
-      "globalid": "489547d1-5f43-47e7-ba78-2aabe7574f93",
-      "basin": "Gal Oya",
-      "gauge": "Ampara",
-      "water_level": 0,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-13T04:30:39.783000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-13T04:30:39.783000+00:00",
-      "Editor": "",
-      "alertpull": null,
-      "minorpull": null,
-      "majorpull": null
     }
   ]
 }
