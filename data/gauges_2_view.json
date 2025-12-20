@@ -1,10 +1,40 @@
 {
-  "last_updated_utc": "2025-12-20T22:50:14.331293+00:00",
+  "last_updated_utc": "2025-12-20T22:59:26.511787+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6437,
+  "record_count": 6438,
   "records": [
+    {
+      "objectid": 1259265,
+      "globalid": "bc48ff0f-744f-4795-8015-83abf7d3ce0a",
+      "basin": "Kirindi Oya",
+      "gauge": "Thanamalwila",
+      "water_level": 1.03,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-20T22:55:56.544000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-20T22:55:56.544000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 5,
+      "majorpull": 5.5
+    },
+    {
+      "objectid": 1259264,
+      "globalid": "ccbe4b11-3adf-4605-a95c-0b2accad392f",
+      "basin": "Kalu Ganga",
+      "gauge": "Magura",
+      "water_level": 1.82,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-20T22:55:38.602000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-20T22:55:38.602000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 6,
+      "majorpull": 7.5
+    },
     {
       "objectid": 1259263,
       "globalid": "cf2ada21-ca49-49ba-af89-f28add32bf9a",
@@ -96544,21 +96574,6 @@
       "alertpull": 6.9,
       "minorpull": 8.4,
       "majorpull": 8.8
-    },
-    {
-      "objectid": 1252799,
-      "globalid": "d99e1bdd-01ab-42d0-aac4-28b2f3cd1b37",
-      "basin": "Nilwala Ganga",
-      "gauge": "Pitabeddara",
-      "water_level": 1.25,
-      "rain_fall": null,
-      "CreationDate": "2025-12-13T22:50:33.739000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-13T22:50:33.739000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 5,
-      "majorpull": 6.5
     }
   ]
 }
