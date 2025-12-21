@@ -1,9 +1,9 @@
 {
-  "last_updated_utc": "2025-12-21T22:09:15.215777+00:00",
+  "last_updated_utc": "2025-12-21T22:24:29.481277+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6422,
+  "record_count": 6421,
   "records": [
     {
       "objectid": 1260139,
@@ -96319,21 +96319,6 @@
       "alertpull": 6.9,
       "minorpull": 8.4,
       "majorpull": 8.8
-    },
-    {
-      "objectid": 1253694,
-      "globalid": "bbccd0b1-2112-4e38-aef3-b8b74f520f67",
-      "basin": "Mahaweli Ganga",
-      "gauge": "Peradeniya",
-      "water_level": 2.57,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-14T22:17:12.968000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-14T22:17:12.968000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 7,
-      "majorpull": 9
     }
   ]
 }
