@@ -1,10 +1,70 @@
 {
-  "last_updated_utc": "2025-12-22T15:40:30.093397+00:00",
+  "last_updated_utc": "2025-12-22T15:51:34.169512+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6418,
+  "record_count": 6421,
   "records": [
+    {
+      "objectid": 1260852,
+      "globalid": "66b01e75-adf5-4577-ae07-3ce84eac8a3a",
+      "basin": "Kalu Ganga",
+      "gauge": "Putupaula",
+      "water_level": 0.5,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-22T15:48:43.725000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-22T15:48:43.725000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 4,
+      "majorpull": 5
+    },
+    {
+      "objectid": 1260851,
+      "globalid": "a881f204-6403-4b9e-9957-e1662e1eed63",
+      "basin": "Kelani Ganga",
+      "gauge": "Norwood",
+      "water_level": 0.64,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-22T15:46:13.692000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-22T15:46:13.692000+00:00",
+      "Editor": "",
+      "alertpull": 1.5,
+      "minorpull": 3,
+      "majorpull": 4.5
+    },
+    {
+      "objectid": 1260850,
+      "globalid": "7ab24777-ddf9-42dc-8656-16a3458616c4",
+      "basin": "Kelani Ganga",
+      "gauge": "Norwood",
+      "water_level": 0.64,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-22T15:46:12.304000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-22T15:46:12.304000+00:00",
+      "Editor": "",
+      "alertpull": 1.5,
+      "minorpull": 3,
+      "majorpull": 4.5
+    },
+    {
+      "objectid": 1260849,
+      "globalid": "768cead5-c0f3-459c-9f73-eba6e1b82d36",
+      "basin": "Gin Ganga",
+      "gauge": "Baddegama",
+      "water_level": 1.15,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-22T15:42:43.879000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-22T15:42:43.879000+00:00",
+      "Editor": "",
+      "alertpull": 3.5,
+      "minorpull": 4,
+      "majorpull": 5
+    },
     {
       "objectid": 1260848,
       "globalid": "8454e90c-f417-4556-b72e-3dfd1425047d",
@@ -96259,21 +96319,6 @@
       "alertpull": 4,
       "minorpull": 5,
       "majorpull": 6.5
-    },
-    {
-      "objectid": 1254408,
-      "globalid": "c7ef6d8b-87c4-4ee7-89b7-f9f52c250c47",
-      "basin": "Kalu Ganga",
-      "gauge": "Kalawellawa (Millakanda)",
-      "water_level": 2.66,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-15T15:46:56.707000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-15T15:46:56.707000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6.5,
-      "majorpull": 8
     }
   ]
 }
