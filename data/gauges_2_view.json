@@ -1,10 +1,40 @@
 {
-  "last_updated_utc": "2025-12-22T23:16:43.255474+00:00",
+  "last_updated_utc": "2025-12-22T23:30:33.573743+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6432,
+  "record_count": 6434,
   "records": [
+    {
+      "objectid": 1261105,
+      "globalid": "acc0fec4-c109-450b-b689-e7c46743885d",
+      "basin": "Mahaweli Ganga",
+      "gauge": "Thaldena",
+      "water_level": 0.77,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-22T23:30:30.133000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-22T23:30:30.133000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 4,
+      "majorpull": 5
+    },
+    {
+      "objectid": 1261104,
+      "globalid": "47b7f196-bc00-4b2b-b4b8-5397c6b4e08d",
+      "basin": "Kelani Ganga",
+      "gauge": "Kithulgala",
+      "water_level": 1.52,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-22T23:30:11.226000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-22T23:30:11.226000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 4,
+      "majorpull": 6
+    },
     {
       "objectid": 1261103,
       "globalid": "04ad6673-206b-4439-8b7d-710e95819be3",
