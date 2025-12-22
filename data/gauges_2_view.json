@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2025-12-22T19:56:51.662522+00:00",
+  "last_updated_utc": "2025-12-22T20:10:01.218415+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6426,
+  "record_count": 6427,
   "records": [
+    {
+      "objectid": 1260990,
+      "globalid": "edecbe93-dfa4-4658-9ba6-9491ed4599ff",
+      "basin": "Kelani Ganga",
+      "gauge": "Glencourse",
+      "water_level": 9,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-22T19:59:10.366000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-22T19:59:10.366000+00:00",
+      "Editor": "",
+      "alertpull": 15,
+      "minorpull": 16.5,
+      "majorpull": 19
+    },
     {
       "objectid": 1260989,
       "globalid": "9835e992-fd11-4a03-a01a-acfc91ee8ab6",
