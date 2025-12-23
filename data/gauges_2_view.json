@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2025-12-23T05:49:01.144154+00:00",
+  "last_updated_utc": "2025-12-23T05:58:03.720994+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6418,
+  "record_count": 6417,
   "records": [
+    {
+      "objectid": 1261374,
+      "globalid": "e1fea29a-f015-498a-b7e4-63a1be41c837",
+      "basin": "Mee Oya",
+      "gauge": "Galgamuwa",
+      "water_level": 0.51,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-23T05:45:46.672000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-23T05:45:46.672000+00:00",
+      "Editor": "",
+      "alertpull": 4.84,
+      "minorpull": 5.94,
+      "majorpull": 8
+    },
     {
       "objectid": 1261373,
       "globalid": "e22be5e2-3f5f-4b5b-a54d-338e11c86206",
@@ -30006,21 +30021,6 @@
       "majorpull": 7.5
     },
     {
-      "objectid": 1259372,
-      "globalid": "8c02d763-9289-4062-9f04-c87f39c3bdc0",
-      "basin": "Gin Ganga",
-      "gauge": "Thawalama",
-      "water_level": 1.78,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-21T01:35:58.492000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-21T01:35:58.492000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 6,
-      "majorpull": 7.5
-    },
-    {
       "objectid": 1259370,
       "globalid": "3611b8af-76de-433d-ae9c-43d1b18fa046",
       "basin": "Deduru Oya",
@@ -45006,6 +45006,21 @@
       "majorpull": 9.6
     },
     {
+      "objectid": 1258367,
+      "globalid": "62ffe050-3e84-4305-a6f8-43bf55f0658d",
+      "basin": "Kumbukkan Oya",
+      "gauge": "Nakkala",
+      "water_level": 1.51,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-19T23:33:22.085000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-19T23:33:22.085000+00:00",
+      "Editor": "",
+      "alertpull": 5,
+      "minorpull": 6,
+      "majorpull": 7.5
+    },
+    {
       "objectid": 1258366,
       "globalid": "9d3af687-6b1d-402b-8861-d3537dca8a6b",
       "basin": "Aththanagalu Oya",
@@ -59989,21 +60004,6 @@
       "alertpull": 4,
       "minorpull": 5,
       "majorpull": 5.5
-    },
-    {
-      "objectid": 1257366,
-      "globalid": "2ffbdd4c-b4c3-4435-9fa5-7842a1131ae6",
-      "basin": "Kalu Ganga",
-      "gauge": "Kalawellawa (Millakanda)",
-      "water_level": 2.34,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-18T21:32:15.047000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-18T21:32:15.047000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6.5,
-      "majorpull": 8
     },
     {
       "objectid": 1257366,
@@ -90006,6 +90006,21 @@
       "majorpull": 9
     },
     {
+      "objectid": 1255358,
+      "globalid": "66b822c0-acfd-48a7-aebd-443e438fea39",
+      "basin": "Ma Oya",
+      "gauge": "Yaka Wewa",
+      "water_level": 1.41,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-16T16:34:02.229000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-16T16:34:02.229000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 5,
+      "majorpull": 6
+    },
+    {
       "objectid": 1255357,
       "globalid": "def1a382-774e-4a32-930c-94e48c7fb005",
       "basin": "Gin Ganga",
@@ -96244,36 +96259,6 @@
       "alertpull": 4,
       "minorpull": 5,
       "majorpull": 6
-    },
-    {
-      "objectid": 1254938,
-      "globalid": "8daaa488-0f73-4ecb-a11b-a016ff573a6a",
-      "basin": "Nilwala Ganga",
-      "gauge": "Urawa",
-      "water_level": 0.53,
-      "rain_fall": null,
-      "CreationDate": "2025-12-16T05:49:45.574000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-16T05:49:45.574000+00:00",
-      "Editor": "",
-      "alertpull": 2.5,
-      "minorpull": 4,
-      "majorpull": 6
-    },
-    {
-      "objectid": 1254937,
-      "globalid": "df840058-638b-4a3e-9d81-df197857297a",
-      "basin": "Mee Oya",
-      "gauge": "Galgamuwa",
-      "water_level": 0.61,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-16T05:47:53.268000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-16T05:47:53.268000+00:00",
-      "Editor": "",
-      "alertpull": 4.84,
-      "minorpull": 5.94,
-      "majorpull": 8
     }
   ]
 }
