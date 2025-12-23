@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2025-12-23T05:03:46.208955+00:00",
+  "last_updated_utc": "2025-12-23T05:18:39.307410+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
@@ -75006,6 +75006,21 @@
       "majorpull": 7.5
     },
     {
+      "objectid": 1256321,
+      "globalid": "f1dcaf13-c7f7-49e0-b11a-8710cc908007",
+      "basin": "Kalu Ganga",
+      "gauge": "Putupaula",
+      "water_level": 0.74,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-17T17:41:26.158000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-17T17:41:26.158000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 4,
+      "majorpull": 5
+    },
+    {
       "objectid": 1256320,
       "globalid": "3793eca2-371d-4596-a405-ba0fa77aac89",
       "basin": "Mahaweli Ganga",
@@ -89989,21 +90004,6 @@
       "alertpull": 3,
       "minorpull": 4,
       "majorpull": 5
-    },
-    {
-      "objectid": 1255320,
-      "globalid": "d52a0c97-01f0-4d8b-b607-52fc8bc472d0",
-      "basin": "Kumbukkan Oya",
-      "gauge": "Nakkala",
-      "water_level": 1.05,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-16T15:34:11.120000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-16T15:34:11.120000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6,
-      "majorpull": 7.5
     },
     {
       "objectid": 1255320,
