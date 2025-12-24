@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2025-12-24T18:12:47.335947+00:00",
+  "last_updated_utc": "2025-12-24T18:30:57.404549+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6416,
+  "record_count": 6417,
   "records": [
+    {
+      "objectid": 1262757,
+      "globalid": "b083e469-2558-462f-93ef-4e35e65b3099",
+      "basin": "Yan Oya",
+      "gauge": "Horowpothana",
+      "water_level": 2.32,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-24T18:30:06.124000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-24T18:30:06.124000+00:00",
+      "Editor": "",
+      "alertpull": 6,
+      "minorpull": 7.5,
+      "majorpull": 10.5
+    },
     {
       "objectid": 1262756,
       "globalid": "164fb418-3553-4485-bf4e-4fea570aed95",
@@ -59991,6 +60006,21 @@
       "majorpull": 6
     },
     {
+      "objectid": 1258748,
+      "globalid": "caf5e7d5-3218-45ca-9996-5e0002154bf6",
+      "basin": "Nilwala Ganga",
+      "gauge": "Urawa",
+      "water_level": 0.42,
+      "rain_fall": null,
+      "CreationDate": "2025-12-20T08:51:43.854000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-20T08:51:43.854000+00:00",
+      "Editor": "",
+      "alertpull": 2.5,
+      "minorpull": 4,
+      "majorpull": 6
+    },
+    {
       "objectid": 1258747,
       "globalid": "f9b390cb-545e-4bf9-89e9-91b6ec311630",
       "basin": "Aththanagalu Oya",
@@ -96229,21 +96259,6 @@
       "alertpull": 6.9,
       "minorpull": 8.4,
       "majorpull": 8.8
-    },
-    {
-      "objectid": 1256323,
-      "globalid": "cf20e5fb-ecb5-4bda-a9c5-31aac5541176",
-      "basin": "Nilwala Ganga",
-      "gauge": "Urawa",
-      "water_level": 0.47,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-17T18:22:24.881000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-17T18:22:24.881000+00:00",
-      "Editor": "",
-      "alertpull": 2.5,
-      "minorpull": 4,
-      "majorpull": 6
     }
   ]
 }
