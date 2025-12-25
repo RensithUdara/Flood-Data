@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2025-12-25T03:51:30.183593+00:00",
+  "last_updated_utc": "2025-12-25T04:13:17.777503+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
   "record_count": 6416,
   "records": [
+    {
+      "objectid": 1263136,
+      "globalid": "8ee113ed-deab-4574-9f76-4e065b140d2a",
+      "basin": "Nilwala Ganga",
+      "gauge": "Panadugama",
+      "water_level": 2.97,
+      "rain_fall": null,
+      "CreationDate": "2025-12-25T04:09:39.838000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-25T04:09:39.838000+00:00",
+      "Editor": "",
+      "alertpull": 5,
+      "minorpull": 6,
+      "majorpull": 7.5
+    },
     {
       "objectid": 1263135,
       "globalid": "ba23cd0c-6c9e-4e1f-b22d-9a97a182deaf",
@@ -96229,21 +96244,6 @@
       "alertpull": 4.4,
       "minorpull": 5.4,
       "majorpull": 5.9
-    },
-    {
-      "objectid": 1256707,
-      "globalid": "88986543-858d-4140-9880-725c827cf7b8",
-      "basin": "Mahaweli Ganga",
-      "gauge": "Nawalapitiya",
-      "water_level": 0.99,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-18T03:56:43.491000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-18T03:56:43.491000+00:00",
-      "Editor": "",
-      "alertpull": 3.5,
-      "minorpull": 5,
-      "majorpull": 6
     }
   ]
 }
