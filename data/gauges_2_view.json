@@ -1,10 +1,40 @@
 {
-  "last_updated_utc": "2025-12-25T21:55:40.329845+00:00",
+  "last_updated_utc": "2025-12-25T22:08:35.503962+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6406,
+  "record_count": 6408,
   "records": [
+    {
+      "objectid": 1263820,
+      "globalid": "ff8f00fe-ebb9-4796-bc1e-feaad5ce6977",
+      "basin": "Kalu Ganga",
+      "gauge": "Magura",
+      "water_level": 1.31,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-25T22:05:42.102000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-25T22:05:42.102000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 6,
+      "majorpull": 7.5
+    },
+    {
+      "objectid": 1263819,
+      "globalid": "92dae586-f1fd-4fe9-9444-3f4c719b71c2",
+      "basin": "Menik Ganga",
+      "gauge": "Katharagama",
+      "water_level": -0.07,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-25T22:03:01.596000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-25T22:03:01.596000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 4.6,
+      "majorpull": 6.5
+    },
     {
       "objectid": 1263818,
       "globalid": "58cd211c-91c3-46f6-b42f-180d68af5267",
