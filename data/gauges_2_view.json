@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2025-12-25T16:44:27.915931+00:00",
+  "last_updated_utc": "2025-12-25T16:56:33.173559+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
@@ -45006,6 +45006,21 @@
       "majorpull": 7
     },
     {
+      "objectid": 1260633,
+      "globalid": "0726710a-052a-49b9-8129-79f3622b0562",
+      "basin": "Kalu Ganga",
+      "gauge": "Putupaula",
+      "water_level": 0.82,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-22T10:32:27.285000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-22T10:32:27.285000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 4,
+      "majorpull": 5
+    },
+    {
       "objectid": 1260632,
       "globalid": "7a5d7e15-51b4-4d79-9928-6499304772d2",
       "basin": "Yan Oya",
@@ -75006,21 +75021,6 @@
       "majorpull": 2.8
     },
     {
-      "objectid": 1258628,
-      "globalid": "34f7b8d5-f1ee-452b-82d3-1dead066f94c",
-      "basin": "Nilwala Ganga",
-      "gauge": "Thalgahagoda",
-      "water_level": 0.38,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-20T05:42:46.434000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-20T05:42:46.434000+00:00",
-      "Editor": "",
-      "alertpull": 1.4,
-      "minorpull": 1.7,
-      "majorpull": 2.8
-    },
-    {
       "objectid": 1258627,
       "globalid": "af48a548-b88d-40b0-97f5-5fadfecd21d5",
       "basin": "Kelani Ganga",
@@ -90006,6 +90006,21 @@
       "majorpull": 10.5
     },
     {
+      "objectid": 1257627,
+      "globalid": "d6aa3914-45f3-46c7-a2a4-04270a777708",
+      "basin": "Mahaweli Ganga",
+      "gauge": "Weraganthota",
+      "water_level": -0.05,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-19T03:43:51.611000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-19T06:41:08.879000+00:00",
+      "Editor": "IEHydrology",
+      "alertpull": 5,
+      "minorpull": 6,
+      "majorpull": 8
+    },
+    {
       "objectid": 1257626,
       "globalid": "37351537-f798-4fe2-8ba2-4cfefd3f3b13",
       "basin": "Kelani Ganga",
@@ -96139,21 +96154,6 @@
       "alertpull": 5,
       "minorpull": 7,
       "majorpull": 9
-    },
-    {
-      "objectid": 1257217,
-      "globalid": "8ba9424d-3c14-4046-a5c0-53ab3ea41f6d",
-      "basin": "Nilwala Ganga",
-      "gauge": "Panadugama",
-      "water_level": 2.74,
-      "rain_fall": null,
-      "CreationDate": "2025-12-18T16:45:05.249000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-18T16:45:05.249000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6,
-      "majorpull": 7.5
     }
   ]
 }
