@@ -1,10 +1,40 @@
 {
-  "last_updated_utc": "2025-12-26T15:38:21.863882+00:00",
+  "last_updated_utc": "2025-12-26T15:49:01.468765+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6413,
+  "record_count": 6412,
   "records": [
+    {
+      "objectid": 1264525,
+      "globalid": "0e7c7b51-bf9b-4d88-93a1-f33d463e6563",
+      "basin": "Kelani Ganga",
+      "gauge": "Holombuwa",
+      "water_level": 0.5,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-26T15:41:20.391000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-26T15:41:20.391000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 3.4,
+      "majorpull": 5
+    },
+    {
+      "objectid": 1264524,
+      "globalid": "c1ab08a2-d836-4330-9e18-071358d36130",
+      "basin": "Nilwala Ganga",
+      "gauge": "Panadugama",
+      "water_level": 2.71,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-26T15:39:06.004000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-26T15:39:06.004000+00:00",
+      "Editor": "",
+      "alertpull": 5,
+      "minorpull": 6,
+      "majorpull": 7.5
+    },
     {
       "objectid": 1264523,
       "globalid": "64241a34-284b-4811-8da5-d6d6e77d2260",
@@ -96154,51 +96184,6 @@
       "alertpull": 4,
       "minorpull": 5,
       "majorpull": 6.5
-    },
-    {
-      "objectid": 1258102,
-      "globalid": "dc1c2541-61be-41fc-a249-2959ee8590be",
-      "basin": "Walawe Ganga",
-      "gauge": "Moraketiya",
-      "water_level": 0.92,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-19T15:44:02.950000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-19T15:44:02.950000+00:00",
-      "Editor": "",
-      "alertpull": 3,
-      "minorpull": 5,
-      "majorpull": 7
-    },
-    {
-      "objectid": 1258101,
-      "globalid": "75654cd8-faa8-44db-93e1-1f8c09a92a5b",
-      "basin": "Nilwala Ganga",
-      "gauge": "Panadugama",
-      "water_level": 2.66,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-19T15:43:06.768000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-19T15:43:06.768000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6,
-      "majorpull": 7.5
-    },
-    {
-      "objectid": 1258100,
-      "globalid": "ea1cb1e5-c7cb-443f-bf3c-0ddab8cd6481",
-      "basin": "Kelani Ganga",
-      "gauge": "Nagalagam Street",
-      "water_level": 1.6,
-      "rain_fall": null,
-      "CreationDate": "2025-12-19T15:40:15.092000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-19T15:40:15.092000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 5,
-      "majorpull": 7
     }
   ]
 }
