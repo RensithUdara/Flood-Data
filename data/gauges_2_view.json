@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2025-12-27T12:50:44.756862+00:00",
+  "last_updated_utc": "2025-12-27T13:08:52.266159+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6404,
+  "record_count": 6405,
   "records": [
+    {
+      "objectid": 1265328,
+      "globalid": "7f63adde-984d-4591-90af-621fab6cf5a7",
+      "basin": "Kalu Ganga",
+      "gauge": "Magura",
+      "water_level": 1.2,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-27T12:53:06.294000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-27T12:53:06.294000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 6,
+      "majorpull": 7.5
+    },
     {
       "objectid": 1265327,
       "globalid": "ed062712-1ca8-4716-ac42-837f6803e199",
