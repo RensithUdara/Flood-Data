@@ -1,10 +1,40 @@
 {
-  "last_updated_utc": "2025-12-28T00:44:31.132265+00:00",
+  "last_updated_utc": "2025-12-28T01:19:50.624045+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
   "record_count": 6402,
   "records": [
+    {
+      "objectid": 1265759,
+      "globalid": "e076047e-63dc-44f4-89cd-820167c3a471",
+      "basin": "Mee Oya",
+      "gauge": "Galgamuwa",
+      "water_level": 0.42,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-28T01:05:49.213000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-28T01:05:49.213000+00:00",
+      "Editor": "",
+      "alertpull": 4.84,
+      "minorpull": 5.94,
+      "majorpull": 8
+    },
+    {
+      "objectid": 1265758,
+      "globalid": "fd878721-4977-4ad6-8968-ddbead85735a",
+      "basin": "Walawe Ganga",
+      "gauge": "Moraketiya",
+      "water_level": 0.99,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-28T00:50:10.265000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-28T00:50:10.265000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 5,
+      "majorpull": 7
+    },
     {
       "objectid": 1265757,
       "globalid": "a241204a-0c51-4e1c-a900-511c590d013e",
@@ -4480,12 +4510,12 @@
       "globalid": "ea04d8d9-b881-475d-9c34-791d5cfbc786",
       "basin": "Kelani Ganga",
       "gauge": "Norwood",
-      "water_level": 0.99,
+      "water_level": 0.59,
       "rain_fall": 0,
       "CreationDate": "2025-12-27T16:33:27.638000+00:00",
       "Creator": "",
-      "EditDate": "2025-12-27T16:33:27.638000+00:00",
-      "Editor": "",
+      "EditDate": "2025-12-28T01:09:55.989000+00:00",
+      "Editor": "IEHydrology",
       "alertpull": 1.5,
       "minorpull": 3,
       "majorpull": 4.5
@@ -96004,36 +96034,6 @@
       "alertpull": 3,
       "minorpull": 4.3,
       "majorpull": 6
-    },
-    {
-      "objectid": 1259347,
-      "globalid": "6adaab59-2d04-4c18-a9c8-c31f8aa7b7e1",
-      "basin": "Mee Oya",
-      "gauge": "Galgamuwa",
-      "water_level": 1.74,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-21T00:57:26.655000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-21T00:57:26.655000+00:00",
-      "Editor": "",
-      "alertpull": 4.84,
-      "minorpull": 5.94,
-      "majorpull": 8
-    },
-    {
-      "objectid": 1259346,
-      "globalid": "3fb5615b-8ca0-45c5-a22b-5db79cd27ad8",
-      "basin": "Aththanagalu Oya",
-      "gauge": "Dunamale",
-      "water_level": 0.93,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-21T00:57:16.971000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-21T00:57:16.971000+00:00",
-      "Editor": "",
-      "alertpull": 3.3,
-      "minorpull": 4.4,
-      "majorpull": 5.5
     }
   ]
 }
