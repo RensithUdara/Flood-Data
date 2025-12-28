@@ -1,10 +1,70 @@
 {
-  "last_updated_utc": "2025-12-28T15:40:14.401054+00:00",
+  "last_updated_utc": "2025-12-28T15:50:19.241186+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6405,
+  "record_count": 6408,
   "records": [
+    {
+      "objectid": 1266357,
+      "globalid": "9f4bca37-7912-456f-832d-d0821205bd71",
+      "basin": "Kalu Ganga",
+      "gauge": "Kalawellawa (Millakanda)",
+      "water_level": 1.66,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-28T15:43:16.713000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-28T15:43:16.713000+00:00",
+      "Editor": "",
+      "alertpull": 5,
+      "minorpull": 6.5,
+      "majorpull": 8
+    },
+    {
+      "objectid": 1266356,
+      "globalid": "1ca6ae7a-dd81-4832-bea1-3f30a4975886",
+      "basin": "Deduru Oya",
+      "gauge": "Moragaswewa",
+      "water_level": 0.59,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-28T15:42:23.687000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-28T15:42:23.687000+00:00",
+      "Editor": "",
+      "alertpull": 4.75,
+      "minorpull": 6,
+      "majorpull": 7
+    },
+    {
+      "objectid": 1266355,
+      "globalid": "1a31f33b-6c4b-42f8-a827-ed54bc76e145",
+      "basin": "Kalu Ganga",
+      "gauge": "Putupaula",
+      "water_level": 0.6,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-28T15:42:17.963000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-28T15:42:17.963000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 4,
+      "majorpull": 5
+    },
+    {
+      "objectid": 1266354,
+      "globalid": "413f1052-70f2-463c-8abd-fff46a1f87c5",
+      "basin": "Maha Oya",
+      "gauge": "Giriulla",
+      "water_level": 0.98,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-28T15:41:02.120000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-28T15:41:02.120000+00:00",
+      "Editor": "",
+      "alertpull": 5.5,
+      "minorpull": 6.5,
+      "majorpull": 7.5
+    },
     {
       "objectid": 1266353,
       "globalid": "8c9174a0-91bd-4391-99ae-72a08ec71fce",
@@ -96064,21 +96124,6 @@
       "alertpull": 15,
       "minorpull": 16.5,
       "majorpull": 19
-    },
-    {
-      "objectid": 1259936,
-      "globalid": "72a9cccd-ef33-4643-ba42-7a0ba1d1f338",
-      "basin": "Gin Ganga",
-      "gauge": "Baddegama",
-      "water_level": 1.49,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-21T15:46:03.881000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-21T15:46:03.881000+00:00",
-      "Editor": "",
-      "alertpull": 3.5,
-      "minorpull": 4,
-      "majorpull": 5
     }
   ]
 }
