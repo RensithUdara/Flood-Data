@@ -1,9 +1,9 @@
 {
-  "last_updated_utc": "2025-12-28T10:40:46.790359+00:00",
+  "last_updated_utc": "2025-12-28T10:51:32.515413+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6402,
+  "record_count": 6397,
   "records": [
     {
       "objectid": 1266156,
@@ -95959,81 +95959,6 @@
       "alertpull": 3,
       "minorpull": 5,
       "majorpull": 7
-    },
-    {
-      "objectid": 1259748,
-      "globalid": "bcc01e40-5a8b-48ed-9019-939cd4ba42d3",
-      "basin": "Mahaweli Ganga",
-      "gauge": "Peradeniya",
-      "water_level": 2.6,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-21T10:43:51.557000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-21T10:43:51.557000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 7,
-      "majorpull": 9
-    },
-    {
-      "objectid": 1259747,
-      "globalid": "481229d9-2e11-4cd8-a886-48f42dac663b",
-      "basin": "Kelani Ganga",
-      "gauge": "Nagalagam Street",
-      "water_level": 2.3,
-      "rain_fall": null,
-      "CreationDate": "2025-12-21T10:42:58.839000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-21T10:42:58.839000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 5,
-      "majorpull": 7
-    },
-    {
-      "objectid": 1259746,
-      "globalid": "81eeeb7d-3588-4824-b258-80dd1d08a789",
-      "basin": "Kelani Ganga",
-      "gauge": "Holombuwa",
-      "water_level": 0.55,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-21T10:42:45.252000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-21T10:42:45.252000+00:00",
-      "Editor": "",
-      "alertpull": 3,
-      "minorpull": 3.4,
-      "majorpull": 5
-    },
-    {
-      "objectid": 1259745,
-      "globalid": "7144932f-0842-4894-844c-86c535c224dd",
-      "basin": "Kalu Ganga",
-      "gauge": "Kalawellawa (Millakanda)",
-      "water_level": 2.35,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-21T10:41:28.369000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-21T10:41:28.369000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6.5,
-      "majorpull": 8
-    },
-    {
-      "objectid": 1259744,
-      "globalid": "03b7bb25-e0ee-482e-934d-320a89b4e8cd",
-      "basin": "Nilwala Ganga",
-      "gauge": "Urawa",
-      "water_level": 0.44,
-      "rain_fall": null,
-      "CreationDate": "2025-12-21T10:40:54.337000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-21T10:40:54.337000+00:00",
-      "Editor": "",
-      "alertpull": 2.5,
-      "minorpull": 4,
-      "majorpull": 6
     }
   ]
 }
