@@ -1,10 +1,55 @@
 {
-  "last_updated_utc": "2025-12-29T17:50:12.065470+00:00",
+  "last_updated_utc": "2025-12-29T17:59:59.075817+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6399,
+  "record_count": 6401,
   "records": [
+    {
+      "objectid": 1267336,
+      "globalid": "0f5bc375-4c56-4d10-855d-9d6808b58f37",
+      "basin": "Kelani Ganga",
+      "gauge": "Norwood",
+      "water_level": 0.58,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-29T17:52:35.301000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-29T17:52:35.301000+00:00",
+      "Editor": "",
+      "alertpull": 1.5,
+      "minorpull": 3,
+      "majorpull": 4.5
+    },
+    {
+      "objectid": 1267335,
+      "globalid": "aac0314a-92ed-4751-836f-dc65101c6420",
+      "basin": "Menik Ganga",
+      "gauge": "Katharagama",
+      "water_level": -0.06,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-29T17:49:44.298000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-29T17:49:44.298000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 4.6,
+      "majorpull": 6.5
+    },
+    {
+      "objectid": 1267334,
+      "globalid": "e6ff49f5-da88-4061-87f4-2cefb3e753a7",
+      "basin": "Nilwala Ganga",
+      "gauge": "Panadugama",
+      "water_level": 2.45,
+      "rain_fall": null,
+      "CreationDate": "2025-12-29T17:47:36.562000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-29T17:47:36.562000+00:00",
+      "Editor": "",
+      "alertpull": 5,
+      "minorpull": 6,
+      "majorpull": 7.5
+    },
     {
       "objectid": 1267333,
       "globalid": "ffd337ac-b605-4455-bedf-080c4e5fce40",
@@ -95974,21 +96019,6 @@
       "alertpull": 3,
       "minorpull": 4,
       "majorpull": 5
-    },
-    {
-      "objectid": 1260920,
-      "globalid": "e72451a5-184b-4eab-ab45-f27d2821c037",
-      "basin": "Kirindi Oya",
-      "gauge": "Kuda Oya",
-      "water_level": 1.36,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-22T17:54:46.968000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-22T17:54:46.968000+00:00",
-      "Editor": "",
-      "alertpull": 6.9,
-      "minorpull": 8.4,
-      "majorpull": 8.8
     }
   ]
 }
