@@ -1,9 +1,9 @@
 {
-  "last_updated_utc": "2025-12-29T23:52:36.774166+00:00",
+  "last_updated_utc": "2025-12-30T00:14:03.570083+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6390,
+  "record_count": 6388,
   "records": [
     {
       "objectid": 1267542,
@@ -95824,36 +95824,6 @@
       "alertpull": 6.9,
       "minorpull": 8.4,
       "majorpull": 8.8
-    },
-    {
-      "objectid": 1261140,
-      "globalid": "3346d9b4-c324-4694-a7a7-985e0f472b63",
-      "basin": "Maduru Oya",
-      "gauge": "Padiyathalawa",
-      "water_level": 1.07,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-23T00:02:50.268000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-23T00:02:50.268000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 4.5,
-      "majorpull": 6
-    },
-    {
-      "objectid": 1261139,
-      "globalid": "d048ed72-1dc5-4518-bf14-0951e2135fae",
-      "basin": "Kirindi Oya",
-      "gauge": "Thanamalwila",
-      "water_level": 1.02,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-23T00:01:12.386000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-23T00:01:12.386000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 5,
-      "majorpull": 5.5
     }
   ]
 }
