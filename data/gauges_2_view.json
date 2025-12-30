@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2025-12-30T23:49:07.240500+00:00",
+  "last_updated_utc": "2025-12-30T23:58:45.713330+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6398,
+  "record_count": 6396,
   "records": [
+    {
+      "objectid": 1268456,
+      "globalid": "8325d198-7025-4116-a195-fba95255add0",
+      "basin": "Kalu Ganga",
+      "gauge": "Kalawellawa (Millakanda)",
+      "water_level": 2.02,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-30T23:56:40.121000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-30T23:56:40.121000+00:00",
+      "Editor": "",
+      "alertpull": 5,
+      "minorpull": 6.5,
+      "majorpull": 8
+    },
     {
       "objectid": 1268455,
       "globalid": "e46207d3-dcb7-4a47-bdaa-6d92dc4f451b",
@@ -95929,51 +95944,6 @@
       "alertpull": 3.3,
       "minorpull": 4.4,
       "majorpull": 5.5
-    },
-    {
-      "objectid": 1262047,
-      "globalid": "1583b15d-2fff-4c62-8185-dc0dcc17760a",
-      "basin": "Kelani Ganga",
-      "gauge": "Deraniyagala",
-      "water_level": 0.43,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-23T23:54:42.751000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-23T23:54:42.751000+00:00",
-      "Editor": "",
-      "alertpull": 4.8,
-      "minorpull": 5.8,
-      "majorpull": 6.4
-    },
-    {
-      "objectid": 1262046,
-      "globalid": "7b40c7e5-e354-4244-9089-142b8f73866c",
-      "basin": "Nilwala Ganga",
-      "gauge": "Pitabeddara",
-      "water_level": 1,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-23T23:53:04.371000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-23T23:53:04.371000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 5,
-      "majorpull": 6.5
-    },
-    {
-      "objectid": 1262045,
-      "globalid": "f363d136-b5ad-4a38-85fc-0698203d2e22",
-      "basin": "Maha Oya",
-      "gauge": "Giriulla",
-      "water_level": 1.05,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-23T23:49:24.079000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-23T23:49:24.079000+00:00",
-      "Editor": "",
-      "alertpull": 5.5,
-      "minorpull": 6.5,
-      "majorpull": 7.5
     }
   ]
 }
