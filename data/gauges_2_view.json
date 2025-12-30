@@ -1,10 +1,40 @@
 {
-  "last_updated_utc": "2025-12-30T22:09:47.719758+00:00",
+  "last_updated_utc": "2025-12-30T22:25:27.383207+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6389,
+  "record_count": 6390,
   "records": [
+    {
+      "objectid": 1268381,
+      "globalid": "944907d4-1612-4e8e-badf-437879826e0a",
+      "basin": "Nilwala Ganga",
+      "gauge": "Urawa",
+      "water_level": 0.34,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-30T22:22:09.514000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-30T22:22:09.514000+00:00",
+      "Editor": "",
+      "alertpull": 2.5,
+      "minorpull": 4,
+      "majorpull": 6
+    },
+    {
+      "objectid": 1268380,
+      "globalid": "fd11d00f-335d-4c00-8335-722b8b06ec77",
+      "basin": "Aththanagalu Oya",
+      "gauge": "Dunamale",
+      "water_level": 0.72,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-30T22:17:49.996000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-30T22:17:49.996000+00:00",
+      "Editor": "",
+      "alertpull": 3.3,
+      "minorpull": 4.4,
+      "majorpull": 5.5
+    },
     {
       "objectid": 1268379,
       "globalid": "9edb4ead-7e94-4ffd-8082-b4efb3b31f26",
@@ -95824,21 +95854,6 @@
       "alertpull": null,
       "minorpull": null,
       "majorpull": null
-    },
-    {
-      "objectid": 1261978,
-      "globalid": "c6eb9e5d-0469-4943-aeef-d6f5a2b45520",
-      "basin": "Kirindi Oya",
-      "gauge": "Thanamalwila",
-      "water_level": 1.06,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-23T22:09:52.726000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-23T22:09:52.726000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 5,
-      "majorpull": 5.5
     }
   ]
 }
