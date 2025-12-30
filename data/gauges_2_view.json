@@ -1,10 +1,40 @@
 {
-  "last_updated_utc": "2025-12-30T18:04:36.632176+00:00",
+  "last_updated_utc": "2025-12-30T18:20:05.638469+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
   "record_count": 6394,
   "records": [
+    {
+      "objectid": 1268240,
+      "globalid": "8b58ead0-2617-435b-906e-753b4112f498",
+      "basin": "Aththanagalu Oya",
+      "gauge": "Dunamale",
+      "water_level": 0.72,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-30T18:13:29.238000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-30T18:13:29.238000+00:00",
+      "Editor": "",
+      "alertpull": 3.3,
+      "minorpull": 4.4,
+      "majorpull": 5.5
+    },
+    {
+      "objectid": 1268239,
+      "globalid": "d221df16-5d5e-4872-b5df-6ff2630b17b6",
+      "basin": "Kalu Ganga",
+      "gauge": "Magura",
+      "water_level": 1,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-30T18:11:25.827000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-30T18:11:25.827000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 6,
+      "majorpull": 7.5
+    },
     {
       "objectid": 1268238,
       "globalid": "d864b1a6-02ce-4b13-9bc6-a6872166233c",
@@ -95884,36 +95914,6 @@
       "alertpull": 4.75,
       "minorpull": 6,
       "majorpull": 7
-    },
-    {
-      "objectid": 1261833,
-      "globalid": "2c09bad1-b7ca-496d-85e4-f3b9b2cffaf7",
-      "basin": "Nilwala Ganga",
-      "gauge": "Thalgahagoda",
-      "water_level": 0.51,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-23T18:19:20.094000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-23T18:19:20.094000+00:00",
-      "Editor": "",
-      "alertpull": 1.4,
-      "minorpull": 1.7,
-      "majorpull": 2.8
-    },
-    {
-      "objectid": 1261832,
-      "globalid": "23e81d08-ffdb-4c72-bd2f-8db900a28f84",
-      "basin": "Nilwala Ganga",
-      "gauge": "Thalgahagoda",
-      "water_level": 0.53,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-23T18:19:17.735000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-23T18:19:17.735000+00:00",
-      "Editor": "",
-      "alertpull": 1.4,
-      "minorpull": 1.7,
-      "majorpull": 2.8
     }
   ]
 }
