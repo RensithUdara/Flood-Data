@@ -1,10 +1,55 @@
 {
-  "last_updated_utc": "2025-12-30T04:45:21.221822+00:00",
+  "last_updated_utc": "2025-12-30T05:00:39.486531+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6389,
+  "record_count": 6390,
   "records": [
+    {
+      "objectid": 1267740,
+      "globalid": "859e7044-3e76-4ce6-861b-6f2041de4666",
+      "basin": "Nilwala Ganga",
+      "gauge": "Thalgahagoda",
+      "water_level": 0.35,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-30T04:50:02.121000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-30T04:50:02.121000+00:00",
+      "Editor": "",
+      "alertpull": 1.4,
+      "minorpull": 1.7,
+      "majorpull": 2.8
+    },
+    {
+      "objectid": 1267739,
+      "globalid": "743f9d7f-67ba-4a8d-9a7f-1f1dc3d859f2",
+      "basin": "Nilwala Ganga",
+      "gauge": "Urawa",
+      "water_level": 0.39,
+      "rain_fall": null,
+      "CreationDate": "2025-12-30T04:48:32.980000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-30T04:48:32.980000+00:00",
+      "Editor": "",
+      "alertpull": 2.5,
+      "minorpull": 4,
+      "majorpull": 6
+    },
+    {
+      "objectid": 1267738,
+      "globalid": "3cf2bbe9-f093-4ec1-8cfd-3764ad6a865f",
+      "basin": "Kirindi Oya",
+      "gauge": "Thanamalwila",
+      "water_level": 0.83,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-30T04:47:49.693000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-30T04:47:49.693000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 5,
+      "majorpull": 5.5
+    },
     {
       "objectid": 1267737,
       "globalid": "efe28e2b-31d9-4e1d-b9a8-e6c3b7b3e933",
@@ -95809,36 +95854,6 @@
       "alertpull": 3,
       "minorpull": 4.3,
       "majorpull": 6
-    },
-    {
-      "objectid": 1261336,
-      "globalid": "a602d3f2-8f64-4f64-a721-e762fc9e9e31",
-      "basin": "Maha Oya",
-      "gauge": "Giriulla",
-      "water_level": 1.08,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-23T04:59:03.837000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-23T04:59:03.837000+00:00",
-      "Editor": "",
-      "alertpull": 5.5,
-      "minorpull": 6.5,
-      "majorpull": 7.5
-    },
-    {
-      "objectid": 1261335,
-      "globalid": "01b9c76e-a516-4756-8f0b-da88491f39b5",
-      "basin": "Gin Ganga",
-      "gauge": "Thawalama",
-      "water_level": 1.5,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-23T04:46:05.459000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-23T04:46:05.459000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 6,
-      "majorpull": 7.5
     }
   ]
 }
