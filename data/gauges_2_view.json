@@ -1,9 +1,9 @@
 {
-  "last_updated_utc": "2025-12-31T21:09:05.200686+00:00",
+  "last_updated_utc": "2025-12-31T21:24:13.189948+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6398,
+  "record_count": 6393,
   "records": [
     {
       "objectid": 1269262,
@@ -95899,81 +95899,6 @@
       "alertpull": 6.9,
       "minorpull": 8.4,
       "majorpull": 8.8
-    },
-    {
-      "objectid": 1262856,
-      "globalid": "31e8e3c5-2d30-45c2-910a-a9bf5f922f60",
-      "basin": "Kelani Ganga",
-      "gauge": "Glencourse",
-      "water_level": 8.84,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-24T21:23:53.826000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-24T21:23:53.826000+00:00",
-      "Editor": "",
-      "alertpull": 15,
-      "minorpull": 16.5,
-      "majorpull": 19
-    },
-    {
-      "objectid": 1262855,
-      "globalid": "08f0c3a3-3f11-4506-b7b2-5a7b4bdc4214",
-      "basin": "Gin Ganga",
-      "gauge": "Thawalama",
-      "water_level": 2.5,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-24T21:16:44.090000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-24T21:16:44.090000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 6,
-      "majorpull": 7.5
-    },
-    {
-      "objectid": 1262854,
-      "globalid": "a7836444-72e0-4406-b3c0-c43ae0b62109",
-      "basin": "Kelani Ganga",
-      "gauge": "Holombuwa",
-      "water_level": 0.5,
-      "rain_fall": 10.9,
-      "CreationDate": "2025-12-24T21:15:12.440000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-24T21:15:12.440000+00:00",
-      "Editor": "",
-      "alertpull": 3,
-      "minorpull": 3.4,
-      "majorpull": 5
-    },
-    {
-      "objectid": 1262853,
-      "globalid": "3ad7f446-8601-42bd-82b2-093ecfef2896",
-      "basin": "Aththanagalu Oya",
-      "gauge": "Dunamale",
-      "water_level": 0.8,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-24T21:12:18.159000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-24T21:12:18.159000+00:00",
-      "Editor": "",
-      "alertpull": 3.3,
-      "minorpull": 4.4,
-      "majorpull": 5.5
-    },
-    {
-      "objectid": 1262852,
-      "globalid": "2ce7d580-31d1-4cae-a66f-67babc00b01c",
-      "basin": "Kalu Ganga",
-      "gauge": "Putupaula",
-      "water_level": 0.67,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-24T21:10:59.211000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-24T21:10:59.211000+00:00",
-      "Editor": "",
-      "alertpull": 3,
-      "minorpull": 4,
-      "majorpull": 5
     }
   ]
 }
