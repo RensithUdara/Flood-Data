@@ -1,10 +1,55 @@
 {
-  "last_updated_utc": "2025-12-31T23:40:02.534792+00:00",
+  "last_updated_utc": "2025-12-31T23:50:22.545874+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6379,
+  "record_count": 6380,
   "records": [
+    {
+      "objectid": 1269357,
+      "globalid": "e4ea0a05-14e2-4758-90af-e7bcae42fb7b",
+      "basin": "Kelani Ganga",
+      "gauge": "Holombuwa",
+      "water_level": 0.5,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-31T23:41:55.659000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-31T23:41:55.659000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 3.4,
+      "majorpull": 5
+    },
+    {
+      "objectid": 1269356,
+      "globalid": "1473176e-435c-48cc-a160-8bc5b5c230b7",
+      "basin": "Kelani Ganga",
+      "gauge": "Holombuwa",
+      "water_level": 0.5,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-31T23:41:53.919000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-31T23:41:53.919000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 3.4,
+      "majorpull": 5
+    },
+    {
+      "objectid": 1269355,
+      "globalid": "65357046-f9ee-4e3d-9a2c-5e44eeb38e4d",
+      "basin": "Kirindi Oya",
+      "gauge": "Thanamalwila",
+      "water_level": 1.97,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-31T23:40:22.826000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-31T23:40:22.826000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 5,
+      "majorpull": 5.5
+    },
     {
       "objectid": 1269354,
       "globalid": "ba63cf54-d9af-489f-9a7f-cabb4a93aedf",
@@ -95659,36 +95704,6 @@
       "alertpull": 5,
       "minorpull": 6,
       "majorpull": 7.5
-    },
-    {
-      "objectid": 1262964,
-      "globalid": "8bcebbb7-ca66-4088-b887-cd8a843ffd49",
-      "basin": "Kelani Ganga",
-      "gauge": "Glencourse",
-      "water_level": 8.98,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-24T23:44:23.731000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-24T23:44:23.731000+00:00",
-      "Editor": "",
-      "alertpull": 15,
-      "minorpull": 16.5,
-      "majorpull": 19
-    },
-    {
-      "objectid": 1262963,
-      "globalid": "f5427908-2115-49b1-a249-1535e1b15d11",
-      "basin": "Kelani Ganga",
-      "gauge": "Holombuwa",
-      "water_level": 0.51,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-24T23:43:40.966000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-24T23:43:40.966000+00:00",
-      "Editor": "",
-      "alertpull": 3,
-      "minorpull": 3.4,
-      "majorpull": 5
     }
   ]
 }
