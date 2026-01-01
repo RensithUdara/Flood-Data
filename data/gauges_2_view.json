@@ -1,10 +1,40 @@
 {
-  "last_updated_utc": "2026-01-01T17:49:59.476200+00:00",
+  "last_updated_utc": "2026-01-01T17:59:07.725597+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6380,
+  "record_count": 6379,
   "records": [
+    {
+      "objectid": 1270069,
+      "globalid": "84d917bb-05ce-4f96-be29-cbc8d64c4059",
+      "basin": "Kelani Ganga",
+      "gauge": "Glencourse",
+      "water_level": 8.9,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-01T17:56:07.291000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-01T17:56:07.291000+00:00",
+      "Editor": "",
+      "alertpull": 15,
+      "minorpull": 16.5,
+      "majorpull": 19
+    },
+    {
+      "objectid": 1270068,
+      "globalid": "04cddb78-472e-40ec-a800-e0b2c9d5d0d2",
+      "basin": "Kelani Ganga",
+      "gauge": "Glencourse",
+      "water_level": 8.9,
+      "rain_fall": 0.3,
+      "CreationDate": "2026-01-01T17:56:05.491000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-01T17:56:05.491000+00:00",
+      "Editor": "",
+      "alertpull": 15,
+      "minorpull": 16.5,
+      "majorpull": 19
+    },
     {
       "objectid": 1270067,
       "globalid": "d5fe21b6-39a7-4dce-a78f-b73edf88f946",
@@ -14974,36 +15004,6 @@
       "alertpull": 3,
       "minorpull": 3.4,
       "majorpull": 5
-    },
-    {
-      "objectid": 1269069,
-      "globalid": "a8a150b0-2787-4d73-a386-0082e32cc3c6",
-      "basin": "Yan Oya",
-      "gauge": "Horowpothana",
-      "water_level": 2.41,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-31T15:33:48.415000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-31T15:33:48.415000+00:00",
-      "Editor": "",
-      "alertpull": 6,
-      "minorpull": 7.5,
-      "majorpull": 10.5
-    },
-    {
-      "objectid": 1269068,
-      "globalid": "39707392-204e-40ce-9508-e63c73b87bf9",
-      "basin": "Ma Oya",
-      "gauge": "Yaka Wewa",
-      "water_level": 0.77,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-31T15:33:45.535000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-31T15:33:45.535000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 5,
-      "majorpull": 6
     },
     {
       "objectid": 1269067,
@@ -75006,6 +75006,36 @@
       "majorpull": 5.9
     },
     {
+      "objectid": 1265058,
+      "globalid": "41ad2e8e-52ad-484e-8201-da371ecdaa25",
+      "basin": "Nilwala Ganga",
+      "gauge": "Pitabeddara",
+      "water_level": 0.79,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-27T06:32:02.137000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-27T06:32:02.137000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 5,
+      "majorpull": 6.5
+    },
+    {
+      "objectid": 1265057,
+      "globalid": "b75cce0e-356c-41bf-8fa8-64cf5ce487d4",
+      "basin": "Kirindi Oya",
+      "gauge": "Wellawaya",
+      "water_level": 0.93,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-27T06:32:01.960000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-27T06:32:01.960000+00:00",
+      "Editor": "",
+      "alertpull": 4.4,
+      "minorpull": 5.4,
+      "majorpull": 5.9
+    },
+    {
       "objectid": 1265056,
       "globalid": "fe581048-5798-4f97-8bfc-8801549ffd4d",
       "basin": "Ma Oya",
@@ -89976,36 +90006,6 @@
       "majorpull": 8
     },
     {
-      "objectid": 1264057,
-      "globalid": "7c917dce-8e67-4288-8b91-60e602a4ebc8",
-      "basin": "Gal Oya",
-      "gauge": "Ampara",
-      "water_level": 0,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-26T04:32:00.980000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-26T04:32:00.980000+00:00",
-      "Editor": "",
-      "alertpull": null,
-      "minorpull": null,
-      "majorpull": null
-    },
-    {
-      "objectid": 1264056,
-      "globalid": "95abbd9e-3864-4cf2-a6fa-92f10b70ed7a",
-      "basin": "Malwathu Oya",
-      "gauge": "Thanthirimale",
-      "water_level": 1.75,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-26T04:31:53.032000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-26T04:31:53.032000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6.8,
-      "majorpull": 7.8
-    },
-    {
       "objectid": 1264055,
       "globalid": "535c6e2c-8534-45bb-99bb-8386f81f2dcc",
       "basin": "Kelani Ganga",
@@ -95689,21 +95689,6 @@
       "alertpull": 4,
       "minorpull": 5,
       "majorpull": 6.5
-    },
-    {
-      "objectid": 1263676,
-      "globalid": "72d03dd7-03e0-4204-823f-95ab850aade3",
-      "basin": "Kalu Ganga",
-      "gauge": "Putupaula",
-      "water_level": 0.53,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-25T17:53:42.143000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-25T17:53:42.143000+00:00",
-      "Editor": "",
-      "alertpull": 3,
-      "minorpull": 4,
-      "majorpull": 5
     }
   ]
 }
