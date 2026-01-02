@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-01-02T11:13:12.993097+00:00",
+  "last_updated_utc": "2026-01-02T11:27:21.609715+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
   "record_count": 6375,
   "records": [
+    {
+      "objectid": 1270725,
+      "globalid": "54a67953-5bcd-4955-9da8-de2b549a5603",
+      "basin": "Nilwala Ganga",
+      "gauge": "Thalgahagoda",
+      "water_level": 0.4,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-02T11:12:45.198000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-02T11:12:45.198000+00:00",
+      "Editor": "",
+      "alertpull": 1.4,
+      "minorpull": 1.7,
+      "majorpull": 2.8
+    },
     {
       "objectid": 1270724,
       "globalid": "2eb1e8fe-ffd2-49d1-84ef-ea11f0fe4b61",
@@ -14989,21 +15004,6 @@
       "alertpull": 3.3,
       "minorpull": 4.4,
       "majorpull": 5.5
-    },
-    {
-      "objectid": 1269721,
-      "globalid": "257631b1-8b96-4eb7-8c89-126329ea37f0",
-      "basin": "Nilwala Ganga",
-      "gauge": "Thalgahagoda",
-      "water_level": 0.35,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-01T08:49:46.841000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-01T08:49:46.841000+00:00",
-      "Editor": "",
-      "alertpull": 1.4,
-      "minorpull": 1.7,
-      "majorpull": 2.8
     },
     {
       "objectid": 1269721,
@@ -75006,6 +75006,21 @@
       "majorpull": 7.5
     },
     {
+      "objectid": 1265712,
+      "globalid": "350d78bf-429f-4d90-bf03-017efedbd7fb",
+      "basin": "Ma Oya",
+      "gauge": "Yaka Wewa",
+      "water_level": 0.71,
+      "rain_fall": 0,
+      "CreationDate": "2025-12-27T23:41:26.141000+00:00",
+      "Creator": "",
+      "EditDate": "2025-12-27T23:41:26.141000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 5,
+      "majorpull": 6
+    },
+    {
       "objectid": 1265711,
       "globalid": "946e56d1-76c5-4379-a630-fb8211d71142",
       "basin": "Aththanagalu Oya",
@@ -89988,21 +90003,6 @@
       "Editor": "",
       "alertpull": 5.5,
       "minorpull": 6.5,
-      "majorpull": 7.5
-    },
-    {
-      "objectid": 1264709,
-      "globalid": "492f7577-8e8c-4c86-96db-4ac46c25497a",
-      "basin": "Kumbukkan Oya",
-      "gauge": "Nakkala",
-      "water_level": 1.04,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-26T21:32:42.135000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-26T21:32:42.135000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6,
       "majorpull": 7.5
     },
     {
