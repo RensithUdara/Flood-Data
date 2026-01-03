@@ -1,9 +1,9 @@
 {
-  "last_updated_utc": "2026-01-03T14:09:21.284217+00:00",
+  "last_updated_utc": "2026-01-03T14:24:36.467272+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6383,
+  "record_count": 6382,
   "records": [
     {
       "objectid": 1271766,
@@ -95733,21 +95733,6 @@
       "Editor": "",
       "alertpull": 3,
       "minorpull": 5,
-      "majorpull": 7
-    },
-    {
-      "objectid": 1265368,
-      "globalid": "dbbd43ca-827c-4b01-acf4-7c6e70399a0e",
-      "basin": "Deduru Oya",
-      "gauge": "Moragaswewa",
-      "water_level": 0.59,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-27T14:13:52.704000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-27T14:13:52.704000+00:00",
-      "Editor": "",
-      "alertpull": 4.75,
-      "minorpull": 6,
       "majorpull": 7
     }
   ]
