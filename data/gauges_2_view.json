@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-01-04T19:20:39.537057+00:00",
+  "last_updated_utc": "2026-01-04T19:30:52.704997+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
   "record_count": 6402,
   "records": [
+    {
+      "objectid": 1272881,
+      "globalid": "2b8197f8-e96e-424c-90c8-422fe86fa470",
+      "basin": "Kirindi Oya",
+      "gauge": "Wellawaya",
+      "water_level": 1.08,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-04T19:30:18.326000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-04T19:30:18.326000+00:00",
+      "Editor": "",
+      "alertpull": 4.4,
+      "minorpull": 5.4,
+      "majorpull": 5.9
+    },
     {
       "objectid": 1272880,
       "globalid": "f309b85b-a32a-4808-89ac-4cd8637739c1",
@@ -96019,21 +96034,6 @@
       "alertpull": 5,
       "minorpull": 6.2,
       "majorpull": 9.6
-    },
-    {
-      "objectid": 1266457,
-      "globalid": "7e63ad52-6c18-4216-ad5a-51fd4e1ebb81",
-      "basin": "Mahaweli Ganga",
-      "gauge": "Thaldena",
-      "water_level": 0.64,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-28T19:30:15.310000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-28T19:30:15.310000+00:00",
-      "Editor": "",
-      "alertpull": 3,
-      "minorpull": 4,
-      "majorpull": 5
     }
   ]
 }
