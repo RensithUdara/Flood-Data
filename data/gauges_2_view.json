@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-01-04T11:47:57.554256+00:00",
+  "last_updated_utc": "2026-01-04T11:57:40.877137+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6403,
+  "record_count": 6404,
   "records": [
+    {
+      "objectid": 1272622,
+      "globalid": "05dbcfcf-ef8e-4fcc-9714-ff423de2cafc",
+      "basin": "Nilwala Ganga",
+      "gauge": "Pitabeddara",
+      "water_level": 0.73,
+      "rain_fall": null,
+      "CreationDate": "2026-01-04T11:56:11.689000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-04T11:56:11.689000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 5,
+      "majorpull": 6.5
+    },
     {
       "objectid": 1272621,
       "globalid": "78af94b7-1e1e-4d97-a6a9-f5d1962467c2",
