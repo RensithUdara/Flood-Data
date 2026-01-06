@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-01-06T22:07:18.208106+00:00",
+  "last_updated_utc": "2026-01-06T22:22:27.719706+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6408,
+  "record_count": 6407,
   "records": [
+    {
+      "objectid": 1274808,
+      "globalid": "72c42b47-c87d-46a3-b391-61d53edcdd4d",
+      "basin": "Kalu Ganga",
+      "gauge": "Magura",
+      "water_level": 0.82,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-06T22:19:32.372000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-06T22:19:32.372000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 6,
+      "majorpull": 7.5
+    },
     {
       "objectid": 1274807,
       "globalid": "e430a009-bdb3-4a05-b390-9c0d73f06236",
@@ -96094,36 +96109,6 @@
       "alertpull": 10,
       "minorpull": 10.7,
       "majorpull": 12.2
-    },
-    {
-      "objectid": 1268381,
-      "globalid": "944907d4-1612-4e8e-badf-437879826e0a",
-      "basin": "Nilwala Ganga",
-      "gauge": "Urawa",
-      "water_level": 0.34,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-30T22:22:09.514000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-30T22:22:09.514000+00:00",
-      "Editor": "",
-      "alertpull": 2.5,
-      "minorpull": 4,
-      "majorpull": 6
-    },
-    {
-      "objectid": 1268380,
-      "globalid": "fd11d00f-335d-4c00-8335-722b8b06ec77",
-      "basin": "Aththanagalu Oya",
-      "gauge": "Dunamale",
-      "water_level": 0.72,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-30T22:17:49.996000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-30T22:17:49.996000+00:00",
-      "Editor": "",
-      "alertpull": 3.3,
-      "minorpull": 4.4,
-      "majorpull": 5.5
     }
   ]
 }
