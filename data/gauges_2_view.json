@@ -1,10 +1,40 @@
 {
-  "last_updated_utc": "2026-01-07T18:52:31.222802+00:00",
+  "last_updated_utc": "2026-01-07T19:05:09.495856+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6410,
+  "record_count": 6412,
   "records": [
+    {
+      "objectid": 1275631,
+      "globalid": "4ac2896e-662b-4e8c-a348-61b853889365",
+      "basin": "Kalu Ganga",
+      "gauge": "Putupaula",
+      "water_level": 0.48,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-07T18:53:59.759000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-07T18:53:59.759000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 4,
+      "majorpull": 5
+    },
+    {
+      "objectid": 1275630,
+      "globalid": "68f06b17-1d94-40d0-8ed0-61e5a3d3aeb8",
+      "basin": "Walawe Ganga",
+      "gauge": "Moraketiya",
+      "water_level": 0.93,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-07T18:53:06.511000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-07T18:53:06.511000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 5,
+      "majorpull": 7
+    },
     {
       "objectid": 1275629,
       "globalid": "c7987002-a43d-43f1-9316-b5341c5dcc51",
