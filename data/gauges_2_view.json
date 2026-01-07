@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-01-07T23:10:51.669997+00:00",
+  "last_updated_utc": "2026-01-07T23:26:46.548121+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
   "record_count": 6415,
   "records": [
+    {
+      "objectid": 1275764,
+      "globalid": "b835fd25-6dea-40d8-a69c-6b112be33719",
+      "basin": "Kalu Ganga",
+      "gauge": "Magura",
+      "water_level": 0.8,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-07T23:24:50.209000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-07T23:24:50.209000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 6,
+      "majorpull": 7.5
+    },
     {
       "objectid": 1275763,
       "globalid": "09863f4a-3872-4ae5-bb2d-ea58156ac161",
@@ -96214,21 +96229,6 @@
       "alertpull": 10,
       "minorpull": 10.7,
       "majorpull": 12.2
-    },
-    {
-      "objectid": 1269328,
-      "globalid": "35a84cb1-5025-42d6-aa42-2c7745098994",
-      "basin": "Kirindi Oya",
-      "gauge": "Kuda Oya",
-      "water_level": 2.25,
-      "rain_fall": 0,
-      "CreationDate": "2025-12-31T23:24:12.299000+00:00",
-      "Creator": "",
-      "EditDate": "2025-12-31T23:24:12.299000+00:00",
-      "Editor": "",
-      "alertpull": 6.9,
-      "minorpull": 8.4,
-      "majorpull": 8.8
     }
   ]
 }
