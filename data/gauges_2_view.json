@@ -1,10 +1,55 @@
 {
-  "last_updated_utc": "2026-01-08T22:41:01.457019+00:00",
+  "last_updated_utc": "2026-01-08T22:52:34.885835+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6438,
+  "record_count": 6439,
   "records": [
+    {
+      "objectid": 1276694,
+      "globalid": "246e4270-4f79-4372-bb92-d6436a6769ca",
+      "basin": "Aththanagalu Oya",
+      "gauge": "Dunamale",
+      "water_level": 0.71,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-08T22:47:37.478000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-08T22:47:37.478000+00:00",
+      "Editor": "",
+      "alertpull": 3.3,
+      "minorpull": 4.4,
+      "majorpull": 5.5
+    },
+    {
+      "objectid": 1276693,
+      "globalid": "90939f9e-9afe-45e1-a4a4-5b6ecd147d99",
+      "basin": "Kelani Ganga",
+      "gauge": "Glencourse",
+      "water_level": 8.77,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-08T22:47:29.822000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-08T22:47:29.822000+00:00",
+      "Editor": "",
+      "alertpull": 15,
+      "minorpull": 16.5,
+      "majorpull": 19
+    },
+    {
+      "objectid": 1276692,
+      "globalid": "be61ee52-8e00-4256-88fc-d07bd0ac0cb8",
+      "basin": "Nilwala Ganga",
+      "gauge": "Thalgahagoda",
+      "water_level": 0.51,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-08T22:43:10.167000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-08T22:43:10.167000+00:00",
+      "Editor": "",
+      "alertpull": 1.4,
+      "minorpull": 1.7,
+      "majorpull": 2.8
+    },
     {
       "objectid": 1276691,
       "globalid": "742d5d9b-3b88-4bf4-88b7-3e3f118a0e33",
@@ -96544,36 +96589,6 @@
       "alertpull": 4,
       "minorpull": 4.6,
       "majorpull": 6.5
-    },
-    {
-      "objectid": 1270232,
-      "globalid": "f85db808-775a-405a-9adc-36c03c6dd1ad",
-      "basin": "Kirindi Oya",
-      "gauge": "Wellawaya",
-      "water_level": 1.28,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-01T22:50:50.223000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-01T22:50:50.223000+00:00",
-      "Editor": "",
-      "alertpull": 4.4,
-      "minorpull": 5.4,
-      "majorpull": 5.9
-    },
-    {
-      "objectid": 1270231,
-      "globalid": "924c3889-198f-4e71-a72e-85c5ff8c3adf",
-      "basin": "Kelani Ganga",
-      "gauge": "Glencourse",
-      "water_level": 8.95,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-01T22:50:07.566000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-01T22:50:07.566000+00:00",
-      "Editor": "",
-      "alertpull": 15,
-      "minorpull": 16.5,
-      "majorpull": 19
     }
   ]
 }
