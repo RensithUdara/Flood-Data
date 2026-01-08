@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-01-08T20:10:56.903931+00:00",
+  "last_updated_utc": "2026-01-08T20:28:01.456324+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
   "record_count": 6427,
   "records": [
+    {
+      "objectid": 1276584,
+      "globalid": "3ff80138-b57b-46b6-8c65-e4c748225ae0",
+      "basin": "Heda Oya",
+      "gauge": "Siyambalanduwa",
+      "water_level": 1.21,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-08T20:25:32.006000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-08T20:25:32.006000+00:00",
+      "Editor": "",
+      "alertpull": 4.5,
+      "minorpull": 6,
+      "majorpull": 7
+    },
     {
       "objectid": 1276583,
       "globalid": "90d3d4db-ba74-4f93-ba6e-32e66a1afab8",
@@ -96394,21 +96409,6 @@
       "alertpull": 6.9,
       "minorpull": 8.4,
       "majorpull": 8.8
-    },
-    {
-      "objectid": 1270134,
-      "globalid": "619895b2-9f82-4a0d-a9fc-52e6a8d66135",
-      "basin": "Yan Oya",
-      "gauge": "Horowpothana",
-      "water_level": 3.8,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-01T20:26:16.573000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-01T20:26:16.573000+00:00",
-      "Editor": "",
-      "alertpull": 6,
-      "minorpull": 7.5,
-      "majorpull": 10.5
     }
   ]
 }
