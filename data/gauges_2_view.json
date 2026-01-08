@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-01-08T08:49:46.769818+00:00",
+  "last_updated_utc": "2026-01-08T09:02:57.467856+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
   "record_count": 6418,
   "records": [
+    {
+      "objectid": 1276161,
+      "globalid": "b7911f0c-967a-42b9-a183-2919101b2254",
+      "basin": "Nilwala Ganga",
+      "gauge": "Thalgahagoda",
+      "water_level": 0.7,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-08T08:58:04.227000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-08T08:58:04.227000+00:00",
+      "Editor": "",
+      "alertpull": 1.4,
+      "minorpull": 1.7,
+      "majorpull": 2.8
+    },
     {
       "objectid": 1276160,
       "globalid": "bc07e669-807e-470e-9632-b9c0dfd469c1",
@@ -96259,21 +96274,6 @@
       "alertpull": 3.3,
       "minorpull": 4.4,
       "majorpull": 5.5
-    },
-    {
-      "objectid": 1269721,
-      "globalid": "257631b1-8b96-4eb7-8c89-126329ea37f0",
-      "basin": "Nilwala Ganga",
-      "gauge": "Thalgahagoda",
-      "water_level": 0.35,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-01T08:49:46.841000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-01T08:49:46.841000+00:00",
-      "Editor": "",
-      "alertpull": 1.4,
-      "minorpull": 1.7,
-      "majorpull": 2.8
     }
   ]
 }
