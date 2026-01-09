@@ -1,10 +1,40 @@
 {
-  "last_updated_utc": "2026-01-09T04:46:41.256064+00:00",
+  "last_updated_utc": "2026-01-09T05:01:23.272350+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6432,
+  "record_count": 6434,
   "records": [
+    {
+      "objectid": 1276938,
+      "globalid": "f8fc520e-0e8c-4b35-af46-c6805b6d2ece",
+      "basin": "Gin Ganga",
+      "gauge": "Thawalama",
+      "water_level": 1.24,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-09T04:48:04.913000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-09T04:48:04.913000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 6,
+      "majorpull": 7.5
+    },
+    {
+      "objectid": 1276937,
+      "globalid": "523e52e9-6212-46bc-91a4-a9b66f696e6c",
+      "basin": "Nilwala Ganga",
+      "gauge": "Pitabeddara",
+      "water_level": 0.8,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-09T04:47:10.346000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-09T04:47:10.346000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 5,
+      "majorpull": 6.5
+    },
     {
       "objectid": 1276936,
       "globalid": "529e0049-9ed6-4244-9315-d8a2220f5080",
