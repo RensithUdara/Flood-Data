@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-01-09T23:16:37.575998+00:00",
+  "last_updated_utc": "2026-01-09T23:30:59.550353+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6435,
+  "record_count": 6433,
   "records": [
+    {
+      "objectid": 1277624,
+      "globalid": "50febc02-0d40-4092-97e1-3c9319a985f8",
+      "basin": "Heda Oya",
+      "gauge": "Siyambalanduwa",
+      "water_level": 1.05,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-09T23:26:07.218000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-09T23:26:07.218000+00:00",
+      "Editor": "",
+      "alertpull": 4.5,
+      "minorpull": 6,
+      "majorpull": 7
+    },
     {
       "objectid": 1277623,
       "globalid": "706bf93d-efb2-400d-b4f2-cd853269e535",
@@ -96484,51 +96499,6 @@
       "alertpull": 3.3,
       "minorpull": 4.4,
       "majorpull": 5.5
-    },
-    {
-      "objectid": 1271171,
-      "globalid": "08a8a2e2-c288-413c-9416-eb2d3f293e87",
-      "basin": "Maha Oya",
-      "gauge": "Badalgama",
-      "water_level": 2.1,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-02T23:30:54.812000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-02T23:30:54.812000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6.2,
-      "majorpull": 9.6
-    },
-    {
-      "objectid": 1271170,
-      "globalid": "fb89f558-30a7-48d8-aa57-a14ddb2ff417",
-      "basin": "Gal Oya",
-      "gauge": "Ampara",
-      "water_level": 0,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-02T23:30:52.891000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-02T23:30:52.891000+00:00",
-      "Editor": "",
-      "alertpull": null,
-      "minorpull": null,
-      "majorpull": null
-    },
-    {
-      "objectid": 1271169,
-      "globalid": "e1a4ac60-8a89-4067-a295-9c80f581da1d",
-      "basin": "Nilwala Ganga",
-      "gauge": "Thalgahagoda",
-      "water_level": 0.47,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-02T23:26:11.714000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-02T23:26:11.714000+00:00",
-      "Editor": "",
-      "alertpull": 1.4,
-      "minorpull": 1.7,
-      "majorpull": 2.8
     }
   ]
 }
