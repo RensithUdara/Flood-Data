@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-01-09T13:59:27.568825+00:00",
+  "last_updated_utc": "2026-01-09T14:13:10.361451+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6442,
+  "record_count": 6441,
   "records": [
+    {
+      "objectid": 1277303,
+      "globalid": "67959de8-560c-4e46-8edb-d170df299b73",
+      "basin": "Yan Oya",
+      "gauge": "Horowpothana",
+      "water_level": 2.36,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-09T14:05:03.814000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-09T14:05:03.814000+00:00",
+      "Editor": "",
+      "alertpull": 6,
+      "minorpull": 7.5,
+      "majorpull": 10.5
+    },
     {
       "objectid": 1277302,
       "globalid": "f1551a0b-3d42-4882-8b3c-614abe01325a",
@@ -96604,36 +96619,6 @@
       "alertpull": 1.4,
       "minorpull": 1.7,
       "majorpull": 2.8
-    },
-    {
-      "objectid": 1270841,
-      "globalid": "8b00c852-2bc1-49f9-8745-669e3760a89b",
-      "basin": "Kalu Ganga",
-      "gauge": "Magura",
-      "water_level": 0.89,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-02T14:00:54.552000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-02T14:00:54.552000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 6,
-      "majorpull": 7.5
-    },
-    {
-      "objectid": 1270840,
-      "globalid": "c12406ff-0744-4fec-a818-2f0a70d7fea8",
-      "basin": "Deduru Oya",
-      "gauge": "Moragaswewa",
-      "water_level": 0.77,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-02T14:00:38.049000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-02T14:00:38.049000+00:00",
-      "Editor": "",
-      "alertpull": 4.75,
-      "minorpull": 6,
-      "majorpull": 7
     }
   ]
 }
