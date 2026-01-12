@@ -1,10 +1,55 @@
 {
-  "last_updated_utc": "2026-01-12T23:19:54.954652+00:00",
+  "last_updated_utc": "2026-01-12T23:30:58.748038+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6441,
+  "record_count": 6443,
   "records": [
+    {
+      "objectid": 1280390,
+      "globalid": "22495f8a-b230-48da-a9ff-5aa6a1b171b3",
+      "basin": "Deduru Oya",
+      "gauge": "Moragaswewa",
+      "water_level": 0.65,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-12T23:30:55.336000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-12T23:30:55.336000+00:00",
+      "Editor": "",
+      "alertpull": 4.75,
+      "minorpull": 6,
+      "majorpull": 7
+    },
+    {
+      "objectid": 1280389,
+      "globalid": "065b86b8-36dd-4450-b041-1daa455346ee",
+      "basin": "Mahaweli Ganga",
+      "gauge": "Nawalapitiya",
+      "water_level": 0.79,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-12T23:30:55.298000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-12T23:30:55.298000+00:00",
+      "Editor": "",
+      "alertpull": 3.5,
+      "minorpull": 5,
+      "majorpull": 6
+    },
+    {
+      "objectid": 1280388,
+      "globalid": "924cd718-47bd-4f73-a253-5eafdc718dbf",
+      "basin": "Mahaweli Ganga",
+      "gauge": "Manampitiya",
+      "water_level": 2.11,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-12T23:30:27.792000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-12T23:30:27.792000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 4.3,
+      "majorpull": 6
+    },
     {
       "objectid": 1280387,
       "globalid": "3b9b3060-edf4-4f0f-b05a-fdb108c42e01",
@@ -96603,21 +96648,6 @@
       "Editor": "",
       "alertpull": 3.5,
       "minorpull": 5,
-      "majorpull": 6
-    },
-    {
-      "objectid": 1273930,
-      "globalid": "c0a591ca-81da-4647-931f-3d0b51bd0ef7",
-      "basin": "Mahaweli Ganga",
-      "gauge": "Manampitiya",
-      "water_level": 2.31,
-      "rain_fall": 2.4,
-      "CreationDate": "2026-01-05T23:30:48.182000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-05T23:30:48.182000+00:00",
-      "Editor": "",
-      "alertpull": 3,
-      "minorpull": 4.3,
       "majorpull": 6
     }
   ]
