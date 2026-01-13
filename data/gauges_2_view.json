@@ -1,10 +1,55 @@
 {
-  "last_updated_utc": "2026-01-13T17:13:02.923118+00:00",
+  "last_updated_utc": "2026-01-13T17:30:47.338041+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6432,
+  "record_count": 6434,
   "records": [
+    {
+      "objectid": 1281093,
+      "globalid": "37126686-815e-4ecd-afc6-429f270524f5",
+      "basin": "Mahaweli Ganga",
+      "gauge": "Manampitiya",
+      "water_level": 1.99,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-13T17:30:20.142000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-13T17:30:20.142000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 4.3,
+      "majorpull": 6
+    },
+    {
+      "objectid": 1281092,
+      "globalid": "8a625c83-32cf-481f-a26b-851139dfdf72",
+      "basin": "Heda Oya",
+      "gauge": "Siyambalanduwa",
+      "water_level": 0.99,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-13T17:30:06.942000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-13T17:30:06.942000+00:00",
+      "Editor": "",
+      "alertpull": 4.5,
+      "minorpull": 6,
+      "majorpull": 7
+    },
+    {
+      "objectid": 1281091,
+      "globalid": "f1a8629d-4f65-437d-b591-86bb6696753f",
+      "basin": "Nilwala Ganga",
+      "gauge": "Urawa",
+      "water_level": 0.23,
+      "rain_fall": null,
+      "CreationDate": "2026-01-13T17:18:02.499000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-13T17:18:02.499000+00:00",
+      "Editor": "",
+      "alertpull": 2.5,
+      "minorpull": 4,
+      "majorpull": 6
+    },
     {
       "objectid": 1281090,
       "globalid": "4bff5f98-6345-4710-a67e-32431de7e194",
@@ -96469,21 +96514,6 @@
       "alertpull": 3,
       "minorpull": 4,
       "majorpull": 5
-    },
-    {
-      "objectid": 1274644,
-      "globalid": "14219bfc-df95-47ff-b005-122aba36ca4f",
-      "basin": "Kumbukkan Oya",
-      "gauge": "Nakkala",
-      "water_level": 1.66,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-06T17:30:25.477000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-06T17:30:25.477000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6,
-      "majorpull": 7.5
     }
   ]
 }
