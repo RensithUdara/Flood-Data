@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-01-13T02:46:58.934731+00:00",
+  "last_updated_utc": "2026-01-13T03:23:21.150744+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6439,
+  "record_count": 6437,
   "records": [
+    {
+      "objectid": 1280540,
+      "globalid": "29531c99-1822-4b90-bb77-7b6dd3695b06",
+      "basin": "Nilwala Ganga",
+      "gauge": "Urawa",
+      "water_level": 0.27,
+      "rain_fall": null,
+      "CreationDate": "2026-01-13T02:58:30.162000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-13T02:58:30.162000+00:00",
+      "Editor": "",
+      "alertpull": 2.5,
+      "minorpull": 4,
+      "majorpull": 6
+    },
     {
       "objectid": 1280539,
       "globalid": "cd635bbc-be3f-4b1b-90d3-5f948993f0e8",
@@ -96544,51 +96559,6 @@
       "alertpull": 3,
       "minorpull": 4.3,
       "majorpull": 6
-    },
-    {
-      "objectid": 1274086,
-      "globalid": "b5af84b0-934f-4ae1-828c-1708362dce47",
-      "basin": "Nilwala Ganga",
-      "gauge": "Urawa",
-      "water_level": 0.35,
-      "rain_fall": null,
-      "CreationDate": "2026-01-06T02:57:22.648000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-06T02:57:22.648000+00:00",
-      "Editor": "",
-      "alertpull": 2.5,
-      "minorpull": 4,
-      "majorpull": 6
-    },
-    {
-      "objectid": 1274085,
-      "globalid": "3815301b-f22f-4e48-9e59-fc7883e599bb",
-      "basin": "Nilwala Ganga",
-      "gauge": "Thalgahagoda",
-      "water_level": 0.52,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-06T02:48:16.815000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-06T02:48:16.815000+00:00",
-      "Editor": "",
-      "alertpull": 1.4,
-      "minorpull": 1.7,
-      "majorpull": 2.8
-    },
-    {
-      "objectid": 1274084,
-      "globalid": "12d52f12-b5db-4c3a-92a5-d4352b7577fd",
-      "basin": "Yan Oya",
-      "gauge": "Horowpothana",
-      "water_level": 1.7,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-06T02:47:26.060000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-06T02:47:26.060000+00:00",
-      "Editor": "",
-      "alertpull": 6,
-      "minorpull": 7.5,
-      "majorpull": 10.5
     }
   ]
 }
