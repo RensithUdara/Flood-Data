@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-01-13T19:02:47.614304+00:00",
+  "last_updated_utc": "2026-01-13T19:16:51.542220+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6437,
+  "record_count": 6438,
   "records": [
+    {
+      "objectid": 1281162,
+      "globalid": "5ce7a5a8-12da-4a31-8323-9a79812384b3",
+      "basin": "Yan Oya",
+      "gauge": "Horowpothana",
+      "water_level": 3.74,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-13T19:07:58.224000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-13T19:07:58.224000+00:00",
+      "Editor": "",
+      "alertpull": 6,
+      "minorpull": 7.5,
+      "majorpull": 10.5
+    },
     {
       "objectid": 1281161,
       "globalid": "33aae9e0-a5d7-4b6a-9ea8-54fcc2f12be9",
