@@ -1,9 +1,9 @@
 {
-  "last_updated_utc": "2026-01-13T19:16:51.542220+00:00",
+  "last_updated_utc": "2026-01-13T19:30:21.571726+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6438,
+  "record_count": 6436,
   "records": [
     {
       "objectid": 1281162,
@@ -96544,36 +96544,6 @@
       "alertpull": 6,
       "minorpull": 7.5,
       "majorpull": 10.5
-    },
-    {
-      "objectid": 1274711,
-      "globalid": "b45f7027-d6cc-43d1-b94c-7ffdc87f917d",
-      "basin": "Kelani Ganga",
-      "gauge": "Kithulgala",
-      "water_level": 1.5,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-06T19:30:11.187000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-06T19:30:11.187000+00:00",
-      "Editor": "",
-      "alertpull": 3,
-      "minorpull": 4,
-      "majorpull": 6
-    },
-    {
-      "objectid": 1274710,
-      "globalid": "8cfe822a-ed73-40f3-b610-070dbb534fd5",
-      "basin": "Nilwala Ganga",
-      "gauge": "Urawa",
-      "water_level": 0.28,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-06T19:24:48.951000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-06T19:24:48.951000+00:00",
-      "Editor": "",
-      "alertpull": 2.5,
-      "minorpull": 4,
-      "majorpull": 6
     }
   ]
 }
