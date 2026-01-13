@@ -1,9 +1,9 @@
 {
-  "last_updated_utc": "2026-01-13T19:50:55.639060+00:00",
+  "last_updated_utc": "2026-01-13T19:59:59.668386+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6439,
+  "record_count": 6437,
   "records": [
     {
       "objectid": 1281188,
@@ -96559,36 +96559,6 @@
       "alertpull": 2.5,
       "minorpull": 4,
       "majorpull": 6
-    },
-    {
-      "objectid": 1274736,
-      "globalid": "232a42df-9801-468b-a84e-c2d6cc3f28cf",
-      "basin": "Kelani Ganga",
-      "gauge": "Nagalagam Street",
-      "water_level": 1.5,
-      "rain_fall": null,
-      "CreationDate": "2026-01-06T19:54:21.063000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-06T19:54:21.063000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 5,
-      "majorpull": 7
-    },
-    {
-      "objectid": 1274735,
-      "globalid": "80b5c47d-e5f2-49bd-aea1-0c87465f4330",
-      "basin": "Kalu Ganga",
-      "gauge": "Putupaula",
-      "water_level": 0.45,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-06T19:52:35.971000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-06T19:52:35.971000+00:00",
-      "Editor": "",
-      "alertpull": 3,
-      "minorpull": 4,
-      "majorpull": 5
     }
   ]
 }
