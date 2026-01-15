@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-01-15T17:55:30.214984+00:00",
+  "last_updated_utc": "2026-01-15T18:17:02.186048+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6431,
+  "record_count": 6430,
   "records": [
+    {
+      "objectid": 1282957,
+      "globalid": "010117fa-b9df-4895-a695-a7c7172fbc75",
+      "basin": "Kelani Ganga",
+      "gauge": "Nagalagam Street",
+      "water_level": 2,
+      "rain_fall": null,
+      "CreationDate": "2026-01-15T17:56:07.488000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-15T17:56:07.488000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 5,
+      "majorpull": 7
+    },
     {
       "objectid": 1282956,
       "globalid": "754c547c-968f-48d7-9289-cf78ade02374",
@@ -96439,36 +96454,6 @@
       "alertpull": 2.5,
       "minorpull": 4,
       "majorpull": 6
-    },
-    {
-      "objectid": 1276513,
-      "globalid": "03d38e2f-deee-44fc-a363-2138413b48f3",
-      "basin": "Ma Oya",
-      "gauge": "Yaka Wewa",
-      "water_level": 0.76,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-08T18:16:07.681000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-08T18:16:07.681000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 5,
-      "majorpull": 6
-    },
-    {
-      "objectid": 1276512,
-      "globalid": "da70b3c2-12fd-4b83-804e-efe86fd90b53",
-      "basin": "Kalu Ganga",
-      "gauge": "Putupaula",
-      "water_level": 0.37,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-08T18:05:52.013000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-08T18:05:52.013000+00:00",
-      "Editor": "",
-      "alertpull": 3,
-      "minorpull": 4,
-      "majorpull": 5
     }
   ]
 }
