@@ -1,10 +1,40 @@
 {
-  "last_updated_utc": "2026-01-15T22:53:57.941548+00:00",
+  "last_updated_utc": "2026-01-15T23:06:43.775954+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6417,
+  "record_count": 6419,
   "records": [
+    {
+      "objectid": 1283126,
+      "globalid": "97cab4ac-44d5-4b0a-b15d-285d3db155a9",
+      "basin": "Mahaweli Ganga",
+      "gauge": "Manampitiya",
+      "water_level": 1.37,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-15T23:01:48.023000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-15T23:01:48.023000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 4.3,
+      "majorpull": 6
+    },
+    {
+      "objectid": 1283125,
+      "globalid": "60a41842-85e6-424a-8a1b-3c705bdb9772",
+      "basin": "Aththanagalu Oya",
+      "gauge": "Dunamale",
+      "water_level": 0.75,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-15T22:54:57.739000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-15T22:54:57.739000+00:00",
+      "Editor": "",
+      "alertpull": 3.3,
+      "minorpull": 4.4,
+      "majorpull": 5.5
+    },
     {
       "objectid": 1283124,
       "globalid": "2b23c12b-5e07-4f26-8955-73a52edd8c04",
