@@ -1,10 +1,55 @@
 {
-  "last_updated_utc": "2026-01-15T13:49:23.041736+00:00",
+  "last_updated_utc": "2026-01-15T14:01:40.511252+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6428,
+  "record_count": 6429,
   "records": [
+    {
+      "objectid": 1282806,
+      "globalid": "d9b30180-7a6f-4453-9310-074e5174402f",
+      "basin": "Yan Oya",
+      "gauge": "Horowpothana",
+      "water_level": 2.3,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-15T13:57:14.025000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-15T13:57:14.025000+00:00",
+      "Editor": "",
+      "alertpull": 6,
+      "minorpull": 7.5,
+      "majorpull": 10.5
+    },
+    {
+      "objectid": 1282805,
+      "globalid": "f5685c6e-d14b-4052-8755-5d0b7bc881a3",
+      "basin": "Gin Ganga",
+      "gauge": "Thawalama",
+      "water_level": 1.27,
+      "rain_fall": 8.6,
+      "CreationDate": "2026-01-15T13:52:29.434000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-15T13:52:29.434000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 6,
+      "majorpull": 7.5
+    },
+    {
+      "objectid": 1282804,
+      "globalid": "36f312cf-372f-4b90-86af-6448b337cbfc",
+      "basin": "Nilwala Ganga",
+      "gauge": "Thalgahagoda",
+      "water_level": 0.43,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-15T13:50:23.778000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-15T13:50:23.778000+00:00",
+      "Editor": "",
+      "alertpull": 1.4,
+      "minorpull": 1.7,
+      "majorpull": 2.8
+    },
     {
       "objectid": 1282803,
       "globalid": "9f6a459a-e41a-43e2-a884-ee98b04507cd",
@@ -96394,36 +96439,6 @@
       "alertpull": 5,
       "minorpull": 6.2,
       "majorpull": 9.6
-    },
-    {
-      "objectid": 1276364,
-      "globalid": "b36b1f35-74c2-4fe5-9e22-be89f03f509b",
-      "basin": "Kalu Ganga",
-      "gauge": "Kalawellawa (Millakanda)",
-      "water_level": 1.78,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-08T13:50:10.760000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-08T13:50:10.760000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6.5,
-      "majorpull": 8
-    },
-    {
-      "objectid": 1276363,
-      "globalid": "cb62261a-2b15-42e0-97b0-f8e18a1e204b",
-      "basin": "Mahaweli Ganga",
-      "gauge": "Peradeniya",
-      "water_level": 1.95,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-08T13:49:54.780000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-08T13:49:54.780000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 7,
-      "majorpull": 9
     }
   ]
 }
