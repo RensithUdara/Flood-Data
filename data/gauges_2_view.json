@@ -1,10 +1,40 @@
 {
-  "last_updated_utc": "2026-01-15T07:50:47.986212+00:00",
+  "last_updated_utc": "2026-01-15T08:00:00.175918+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6426,
+  "record_count": 6427,
   "records": [
+    {
+      "objectid": 1282564,
+      "globalid": "26eab7f9-c41d-48c5-bcef-9ca46233142a",
+      "basin": "Nilwala Ganga",
+      "gauge": "Thalgahagoda",
+      "water_level": 0.38,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-15T07:53:59.583000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-15T07:53:59.583000+00:00",
+      "Editor": "",
+      "alertpull": 1.4,
+      "minorpull": 1.7,
+      "majorpull": 2.8
+    },
+    {
+      "objectid": 1282563,
+      "globalid": "a106f105-17ea-4a03-b365-3e3de31019f6",
+      "basin": "Kelani Ganga",
+      "gauge": "Nagalagam Street",
+      "water_level": 1.5,
+      "rain_fall": null,
+      "CreationDate": "2026-01-15T07:50:54.867000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-15T07:50:54.867000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 5,
+      "majorpull": 7
+    },
     {
       "objectid": 1282562,
       "globalid": "a03cc1a5-1b78-4330-b318-548e10a3b6b5",
@@ -96377,21 +96407,6 @@
       "EditDate": "2026-01-08T08:30:38.510000+00:00",
       "Editor": "",
       "alertpull": 3,
-      "minorpull": 5,
-      "majorpull": 7
-    },
-    {
-      "objectid": 1276123,
-      "globalid": "9ac88b8d-7e88-407a-9a2e-6754672ca793",
-      "basin": "Kelani Ganga",
-      "gauge": "Nagalagam Street",
-      "water_level": 1,
-      "rain_fall": null,
-      "CreationDate": "2026-01-08T07:53:21.859000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-08T07:53:21.859000+00:00",
-      "Editor": "",
-      "alertpull": 4,
       "minorpull": 5,
       "majorpull": 7
     }
