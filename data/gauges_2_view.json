@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-01-18T19:40:59.967424+00:00",
+  "last_updated_utc": "2026-01-18T19:50:03.618654+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
   "record_count": 6455,
   "records": [
+    {
+      "objectid": 1285833,
+      "globalid": "147b7b1f-837b-4e36-9e63-33fe094620d5",
+      "basin": "Heda Oya",
+      "gauge": "Siyambalanduwa",
+      "water_level": 0.7,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-18T19:46:36.238000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-18T19:46:36.238000+00:00",
+      "Editor": "",
+      "alertpull": 4.5,
+      "minorpull": 6,
+      "majorpull": 7
+    },
     {
       "objectid": 1285832,
       "globalid": "d47e98eb-79c3-4577-9a3f-e3846aaf6587",
@@ -96814,21 +96829,6 @@
       "alertpull": 15,
       "minorpull": 16.5,
       "majorpull": 19
-    },
-    {
-      "objectid": 1279369,
-      "globalid": "2089ef7c-80e1-4c3b-9459-e45019a02cb0",
-      "basin": "Nilwala Ganga",
-      "gauge": "Pitabeddara",
-      "water_level": 0.53,
-      "rain_fall": null,
-      "CreationDate": "2026-01-11T19:41:36.294000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-11T19:41:36.294000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 5,
-      "majorpull": 6.5
     }
   ]
 }
