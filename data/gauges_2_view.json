@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-01-19T20:13:23.564813+00:00",
+  "last_updated_utc": "2026-01-19T20:30:37.719872+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6457,
+  "record_count": 6458,
   "records": [
+    {
+      "objectid": 1286750,
+      "globalid": "ed7dde8e-7552-4914-b588-f270cb36e214",
+      "basin": "Kelani Ganga",
+      "gauge": "Deraniyagala",
+      "water_level": 0.22,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-19T20:27:09.713000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-19T20:27:09.713000+00:00",
+      "Editor": "",
+      "alertpull": 4.8,
+      "minorpull": 5.8,
+      "majorpull": 6.4
+    },
     {
       "objectid": 1286749,
       "globalid": "42e911d7-daa1-4774-983e-82e5d4526c10",
