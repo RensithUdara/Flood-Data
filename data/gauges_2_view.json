@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-01-19T00:43:45.299023+00:00",
+  "last_updated_utc": "2026-01-19T01:18:23.567069+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6456,
+  "record_count": 6454,
   "records": [
+    {
+      "objectid": 1286011,
+      "globalid": "d39f93b1-82ff-4e98-b7d8-e69dc6cd0e12",
+      "basin": "Mee Oya",
+      "gauge": "Galgamuwa",
+      "water_level": 0.1,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-19T01:10:47.328000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-19T01:10:47.328000+00:00",
+      "Editor": "",
+      "alertpull": 4.84,
+      "minorpull": 5.94,
+      "majorpull": 8
+    },
     {
       "objectid": 1286010,
       "globalid": "4ef2a9bc-980c-4212-8331-d90ff1c0483d",
@@ -96799,51 +96814,6 @@
       "alertpull": 5,
       "minorpull": 6.8,
       "majorpull": 7.8
-    },
-    {
-      "objectid": 1279549,
-      "globalid": "ce14f68a-99ad-4cba-9a7b-eb434bb2e8cc",
-      "basin": "Mee Oya",
-      "gauge": "Galgamuwa",
-      "water_level": 0.32,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-12T01:07:10.385000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-12T01:07:10.385000+00:00",
-      "Editor": "",
-      "alertpull": 4.84,
-      "minorpull": 5.94,
-      "majorpull": 8
-    },
-    {
-      "objectid": 1279548,
-      "globalid": "8b3f19c3-65bb-4b79-93be-b61456a51604",
-      "basin": "Kalu Ganga",
-      "gauge": "Magura",
-      "water_level": 1.24,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-12T00:49:04.814000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-12T00:49:04.814000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 6,
-      "majorpull": 7.5
-    },
-    {
-      "objectid": 1279547,
-      "globalid": "70abd57b-868d-4bed-a6a1-d840f5049ebe",
-      "basin": "Nilwala Ganga",
-      "gauge": "Pitabeddara",
-      "water_level": 0.52,
-      "rain_fall": null,
-      "CreationDate": "2026-01-12T00:44:18.467000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-12T00:44:18.467000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 5,
-      "majorpull": 6.5
     }
   ]
 }
