@@ -1,9 +1,9 @@
 {
-  "last_updated_utc": "2026-01-20T16:55:17.378885+00:00",
+  "last_updated_utc": "2026-01-20T17:13:54.703378+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6467,
+  "record_count": 6466,
   "records": [
     {
       "objectid": 1287565,
@@ -96994,21 +96994,6 @@
       "alertpull": 2.5,
       "minorpull": 4,
       "majorpull": 6
-    },
-    {
-      "objectid": 1281090,
-      "globalid": "4bff5f98-6345-4710-a67e-32431de7e194",
-      "basin": "Gal Oya",
-      "gauge": "Ampara",
-      "water_level": 0,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-13T17:12:37.870000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-13T17:12:37.870000+00:00",
-      "Editor": "",
-      "alertpull": null,
-      "minorpull": null,
-      "majorpull": null
     }
   ]
 }
