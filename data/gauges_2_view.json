@@ -1,10 +1,55 @@
 {
-  "last_updated_utc": "2026-01-21T10:12:59.356432+00:00",
+  "last_updated_utc": "2026-01-21T10:31:08.526296+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
   "record_count": 6474,
   "records": [
+    {
+      "objectid": 1288222,
+      "globalid": "d027206b-87d8-4732-8436-100dde21e934",
+      "basin": "Mee Oya",
+      "gauge": "Galgamuwa",
+      "water_level": 0.3,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-21T10:30:52.474000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-21T10:30:52.474000+00:00",
+      "Editor": "",
+      "alertpull": 4.84,
+      "minorpull": 5.94,
+      "majorpull": 8
+    },
+    {
+      "objectid": 1288221,
+      "globalid": "842ef97e-be34-49cf-befa-f8542ee2cf36",
+      "basin": "Deduru Oya",
+      "gauge": "Moragaswewa",
+      "water_level": 0.43,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-21T10:30:44.941000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-21T10:30:44.941000+00:00",
+      "Editor": "",
+      "alertpull": 4.75,
+      "minorpull": 6,
+      "majorpull": 7
+    },
+    {
+      "objectid": 1288220,
+      "globalid": "480105b8-1fda-486f-87ec-499b657b847f",
+      "basin": "Kumbukkan Oya",
+      "gauge": "Nakkala",
+      "water_level": 0.9,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-21T10:30:14.034000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-21T10:30:14.034000+00:00",
+      "Editor": "",
+      "alertpull": 5,
+      "minorpull": 6,
+      "majorpull": 7.5
+    },
     {
       "objectid": 1288219,
       "globalid": "7b7fc0f9-dc38-4cae-bdf6-f59c3243109b",
@@ -97069,51 +97114,6 @@
       "alertpull": 4.75,
       "minorpull": 6,
       "majorpull": 7
-    },
-    {
-      "objectid": 1281738,
-      "globalid": "5e0f5201-d9cd-4b45-9854-e9c032da74b6",
-      "basin": "Mahaweli Ganga",
-      "gauge": "Weraganthota",
-      "water_level": -1.51,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-14T10:31:00.282000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-14T10:31:00.282000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6,
-      "majorpull": 8
-    },
-    {
-      "objectid": 1281737,
-      "globalid": "3f6c0910-26cc-44a4-a042-28aee77ff2a0",
-      "basin": "Kalu Ganga",
-      "gauge": "Magura",
-      "water_level": 0.87,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-14T10:30:53.419000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-14T10:30:53.419000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 6,
-      "majorpull": 7.5
-    },
-    {
-      "objectid": 1281736,
-      "globalid": "1a3f3312-bec8-4eb5-be04-eecf639f019c",
-      "basin": "Kumbukkan Oya",
-      "gauge": "Nakkala",
-      "water_level": 1.07,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-14T10:30:22.689000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-14T10:30:22.689000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6,
-      "majorpull": 7.5
     }
   ]
 }
