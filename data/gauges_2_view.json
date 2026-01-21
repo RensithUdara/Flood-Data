@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-01-21T18:04:42.793699+00:00",
+  "last_updated_utc": "2026-01-21T18:25:14.602872+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6477,
+  "record_count": 6478,
   "records": [
+    {
+      "objectid": 1288522,
+      "globalid": "c64a4218-e315-419a-a0dc-7e682f584487",
+      "basin": "Mahaweli Ganga",
+      "gauge": "Manampitiya",
+      "water_level": 1.07,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-21T18:16:09.985000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-21T18:16:09.985000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 4.3,
+      "majorpull": 6
+    },
     {
       "objectid": 1288521,
       "globalid": "fb0c57be-4ea9-4461-b539-7486c488093d",
