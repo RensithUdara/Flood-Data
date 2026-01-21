@@ -1,9 +1,9 @@
 {
-  "last_updated_utc": "2026-01-21T08:51:40.455086+00:00",
+  "last_updated_utc": "2026-01-21T09:05:27.413162+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6476,
+  "record_count": 6474,
   "records": [
     {
       "objectid": 1288176,
@@ -97114,36 +97114,6 @@
       "alertpull": 6,
       "minorpull": 7.5,
       "majorpull": 10.5
-    },
-    {
-      "objectid": 1281692,
-      "globalid": "3bfca053-53f4-4cb0-9298-b9db264a49fa",
-      "basin": "Mahaweli Ganga",
-      "gauge": "Manampitiya",
-      "water_level": 1.87,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-14T08:58:18.269000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-14T08:58:18.269000+00:00",
-      "Editor": "",
-      "alertpull": 3,
-      "minorpull": 4.3,
-      "majorpull": 6
-    },
-    {
-      "objectid": 1281691,
-      "globalid": "3a2deafa-7acc-41d0-b423-a0da52d218be",
-      "basin": "Kelani Ganga",
-      "gauge": "Holombuwa",
-      "water_level": 0.44,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-14T08:52:03.011000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-14T08:52:03.011000+00:00",
-      "Editor": "",
-      "alertpull": 3,
-      "minorpull": 3.4,
-      "majorpull": 5
     }
   ]
 }
