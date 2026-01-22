@@ -1,9 +1,9 @@
 {
-  "last_updated_utc": "2026-01-22T22:09:55.046341+00:00",
+  "last_updated_utc": "2026-01-22T22:25:42.739605+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6483,
+  "record_count": 6480,
   "records": [
     {
       "objectid": 1289591,
@@ -97204,51 +97204,6 @@
       "alertpull": 3,
       "minorpull": 5,
       "majorpull": 7
-    },
-    {
-      "objectid": 1283100,
-      "globalid": "5d56508b-c852-44d9-9bf7-954a058cecda",
-      "basin": "Heda Oya",
-      "gauge": "Siyambalanduwa",
-      "water_level": 0.8,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-15T22:25:18.260000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-15T22:25:18.260000+00:00",
-      "Editor": "",
-      "alertpull": 4.5,
-      "minorpull": 6,
-      "majorpull": 7
-    },
-    {
-      "objectid": 1283099,
-      "globalid": "a5aeb4b8-7fb0-43c3-92f4-b1227cb01f47",
-      "basin": "Kalu Ganga",
-      "gauge": "Putupaula",
-      "water_level": 0.71,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-15T22:18:58.607000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-15T22:18:58.607000+00:00",
-      "Editor": "",
-      "alertpull": 3,
-      "minorpull": 4,
-      "majorpull": 5
-    },
-    {
-      "objectid": 1283098,
-      "globalid": "389597d0-7fcd-4e99-b8ee-aabbd0c2ddb4",
-      "basin": "Menik Ganga",
-      "gauge": "Katharagama",
-      "water_level": 0.02,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-15T22:10:53.271000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-15T22:10:53.271000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 4.6,
-      "majorpull": 6.5
     }
   ]
 }
