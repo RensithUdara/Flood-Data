@@ -1,10 +1,40 @@
 {
-  "last_updated_utc": "2026-01-22T18:00:24.086123+00:00",
+  "last_updated_utc": "2026-01-22T18:14:50.415375+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6494,
+  "record_count": 6496,
   "records": [
+    {
+      "objectid": 1289464,
+      "globalid": "eeb64482-a4d9-4eff-a015-b00e63a921b0",
+      "basin": "Kalu Ganga",
+      "gauge": "Putupaula",
+      "water_level": 0.25,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-22T18:08:01.143000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-22T18:08:01.143000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 4,
+      "majorpull": 5
+    },
+    {
+      "objectid": 1289463,
+      "globalid": "8fedec78-a0a1-4971-b761-9565bc49b7e4",
+      "basin": "Aththanagalu Oya",
+      "gauge": "Dunamale",
+      "water_level": 0.58,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-22T18:03:14.282000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-22T18:03:14.282000+00:00",
+      "Editor": "",
+      "alertpull": 3.3,
+      "minorpull": 4.4,
+      "majorpull": 5.5
+    },
     {
       "objectid": 1289462,
       "globalid": "3f15bd1a-fee8-46c3-8cae-4d0d91ae2773",
