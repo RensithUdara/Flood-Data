@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-01-23T06:43:05.941499+00:00",
+  "last_updated_utc": "2026-01-23T06:59:49.843238+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6492,
+  "record_count": 6489,
   "records": [
+    {
+      "objectid": 1289954,
+      "globalid": "e940447e-603a-4d94-a7e2-c8f0c56f53e6",
+      "basin": "Kalu Ganga",
+      "gauge": "Magura",
+      "water_level": 0.66,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-23T06:45:05.606000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-23T06:45:05.606000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 6,
+      "majorpull": 7.5
+    },
     {
       "objectid": 1289953,
       "globalid": "1bba52cb-19ff-4845-9ff0-6b3fd02c6504",
@@ -97324,66 +97339,6 @@
       "alertpull": 3.5,
       "minorpull": 5,
       "majorpull": 6
-    },
-    {
-      "objectid": 1283453,
-      "globalid": "f0bd7073-17ca-4ed4-acf5-69a12f9d3134",
-      "basin": "Yan Oya",
-      "gauge": "Horowpothana",
-      "water_level": 2.12,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-16T06:53:40.336000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-16T06:53:40.336000+00:00",
-      "Editor": "",
-      "alertpull": 6,
-      "minorpull": 7.5,
-      "majorpull": 10.5
-    },
-    {
-      "objectid": 1283452,
-      "globalid": "44f70742-20db-4a80-b6a4-0d23b206b2dd",
-      "basin": "Nilwala Ganga",
-      "gauge": "Panadugama",
-      "water_level": 2.25,
-      "rain_fall": null,
-      "CreationDate": "2026-01-16T06:51:09.101000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-16T06:51:09.101000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6,
-      "majorpull": 7.5
-    },
-    {
-      "objectid": 1283451,
-      "globalid": "9f5b880c-3ba2-4d84-a5cb-3d9be355eb23",
-      "basin": "Kalu Ganga",
-      "gauge": "Putupaula",
-      "water_level": 0.51,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-16T06:44:12.279000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-16T06:44:12.279000+00:00",
-      "Editor": "",
-      "alertpull": 3,
-      "minorpull": 4,
-      "majorpull": 5
-    },
-    {
-      "objectid": 1283450,
-      "globalid": "73cd8597-6ec0-4823-b9df-8bc37aa08364",
-      "basin": "Kalu Ganga",
-      "gauge": "Magura",
-      "water_level": 1.46,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-16T06:44:09.863000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-16T06:44:09.863000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 6,
-      "majorpull": 7.5
     }
   ]
 }
