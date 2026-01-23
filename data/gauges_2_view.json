@@ -1,9 +1,9 @@
 {
-  "last_updated_utc": "2026-01-23T14:01:36.348213+00:00",
+  "last_updated_utc": "2026-01-23T14:16:03.956826+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6482,
+  "record_count": 6481,
   "records": [
     {
       "objectid": 1290229,
@@ -97219,21 +97219,6 @@
       "alertpull": 5,
       "minorpull": 6.5,
       "majorpull": 8
-    },
-    {
-      "objectid": 1283737,
-      "globalid": "7f9a7f8c-025c-477b-b99e-046a9387397d",
-      "basin": "Mahaweli Ganga",
-      "gauge": "Thaldena",
-      "water_level": 0.61,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-16T14:10:46.971000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-16T14:10:46.971000+00:00",
-      "Editor": "",
-      "alertpull": 3,
-      "minorpull": 4,
-      "majorpull": 5
     }
   ]
 }
