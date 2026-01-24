@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-01-24T22:07:49.942028+00:00",
+  "last_updated_utc": "2026-01-24T22:22:49.512006+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
   "record_count": 6465,
   "records": [
+    {
+      "objectid": 1291446,
+      "globalid": "c6eb3856-94ef-498e-a3fe-51de04073a72",
+      "basin": "Yan Oya",
+      "gauge": "Horowpothana",
+      "water_level": 1.46,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-24T22:08:11.286000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-24T22:08:11.286000+00:00",
+      "Editor": "",
+      "alertpull": 6,
+      "minorpull": 7.5,
+      "majorpull": 10.5
+    },
     {
       "objectid": 1291445,
       "globalid": "fe630b15-851f-42f2-8030-0e6240f5773c",
@@ -96964,21 +96979,6 @@
       "alertpull": 4.8,
       "minorpull": 5.8,
       "majorpull": 6.4
-    },
-    {
-      "objectid": 1284965,
-      "globalid": "b5e071f2-6896-4c6e-843d-edaa029f8680",
-      "basin": "Mahaweli Ganga",
-      "gauge": "Nawalapitiya",
-      "water_level": 0.7,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-17T22:10:19.624000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-17T22:10:19.624000+00:00",
-      "Editor": "",
-      "alertpull": 3.5,
-      "minorpull": 5,
-      "majorpull": 6
     }
   ]
 }
