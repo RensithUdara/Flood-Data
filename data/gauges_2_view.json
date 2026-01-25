@@ -1,10 +1,40 @@
 {
-  "last_updated_utc": "2026-01-25T20:09:48.354708+00:00",
+  "last_updated_utc": "2026-01-25T20:26:11.955537+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6441,
+  "record_count": 6442,
   "records": [
+    {
+      "objectid": 1292292,
+      "globalid": "b50ac721-effc-4e4b-b907-e1c80fd2b07a",
+      "basin": "Gin Ganga",
+      "gauge": "Baddegama",
+      "water_level": 1.11,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-25T20:16:24.278000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-25T20:16:24.278000+00:00",
+      "Editor": "",
+      "alertpull": 3.5,
+      "minorpull": 4,
+      "majorpull": 5
+    },
+    {
+      "objectid": 1292291,
+      "globalid": "35025113-0c61-4dce-886c-e88d38184e64",
+      "basin": "Kelani Ganga",
+      "gauge": "Holombuwa",
+      "water_level": 0.32,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-25T20:12:13.128000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-25T20:12:13.128000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 3.4,
+      "majorpull": 5
+    },
     {
       "objectid": 1292290,
       "globalid": "5101ed66-a436-4fd2-b9f3-654702c5a3f8",
@@ -96604,21 +96634,6 @@
       "alertpull": 3.5,
       "minorpull": 5,
       "majorpull": 6
-    },
-    {
-      "objectid": 1285834,
-      "globalid": "91c51996-9894-4233-a3b5-3be93c780711",
-      "basin": "Kelani Ganga",
-      "gauge": "Glencourse",
-      "water_level": 8.38,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-18T20:17:58.623000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-18T20:17:58.623000+00:00",
-      "Editor": "",
-      "alertpull": 15,
-      "minorpull": 16.5,
-      "majorpull": 19
     }
   ]
 }
