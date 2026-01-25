@@ -1,10 +1,40 @@
 {
-  "last_updated_utc": "2026-01-25T09:39:00.227712+00:00",
+  "last_updated_utc": "2026-01-25T09:49:37.622863+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6450,
+  "record_count": 6451,
   "records": [
+    {
+      "objectid": 1291920,
+      "globalid": "db5af206-3492-4d8a-8576-309c62bdfe0c",
+      "basin": "Kalu Ganga",
+      "gauge": "Putupaula",
+      "water_level": 0.57,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-25T09:46:55.076000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-25T09:46:55.076000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 4,
+      "majorpull": 5
+    },
+    {
+      "objectid": 1291919,
+      "globalid": "ef3ee33f-671c-4f1d-8bbe-6dc2afbaa5c9",
+      "basin": "Maha Oya",
+      "gauge": "Badalgama",
+      "water_level": 1.86,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-25T09:43:37.781000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-25T09:43:37.781000+00:00",
+      "Editor": "",
+      "alertpull": 5,
+      "minorpull": 6.2,
+      "majorpull": 9.6
+    },
     {
       "objectid": 1291918,
       "globalid": "7e553204-665d-42ca-9d99-e5b94f0c1fdb",
@@ -96739,21 +96769,6 @@
       "alertpull": 1.4,
       "minorpull": 1.7,
       "majorpull": 2.8
-    },
-    {
-      "objectid": 1285452,
-      "globalid": "332b6c9a-52dc-4027-b08e-389190bfc039",
-      "basin": "Nilwala Ganga",
-      "gauge": "Panadugama",
-      "water_level": 2.14,
-      "rain_fall": null,
-      "CreationDate": "2026-01-18T09:40:59.443000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-18T09:40:59.443000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6,
-      "majorpull": 7.5
     }
   ]
 }
