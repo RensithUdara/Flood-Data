@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-01-26T22:51:45.757575+00:00",
+  "last_updated_utc": "2026-01-26T23:02:18.177515+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
   "record_count": 6433,
   "records": [
+    {
+      "objectid": 1293301,
+      "globalid": "461461b8-9b58-4240-9602-f2b1c8e67887",
+      "basin": "Kelani Ganga",
+      "gauge": "Holombuwa",
+      "water_level": 0.32,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-26T22:56:06.015000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-26T22:56:06.015000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 3.4,
+      "majorpull": 5
+    },
     {
       "objectid": 1293300,
       "globalid": "a0d4cdb9-6c69-4075-ba82-db62bc094d0f",
@@ -96484,21 +96499,6 @@
       "alertpull": 5,
       "minorpull": 6.2,
       "majorpull": 9.6
-    },
-    {
-      "objectid": 1286851,
-      "globalid": "075626f4-3b64-4fd8-97b8-a662d7dc3a66",
-      "basin": "Kalu Ganga",
-      "gauge": "Putupaula",
-      "water_level": 0.7,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-19T22:52:39.089000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-19T22:52:39.089000+00:00",
-      "Editor": "",
-      "alertpull": 3,
-      "minorpull": 4,
-      "majorpull": 5
     }
   ]
 }
