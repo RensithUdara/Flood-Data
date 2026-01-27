@@ -1,10 +1,55 @@
 {
-  "last_updated_utc": "2026-01-27T22:41:48.183600+00:00",
+  "last_updated_utc": "2026-01-27T22:53:31.909926+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6436,
+  "record_count": 6438,
   "records": [
+    {
+      "objectid": 1294223,
+      "globalid": "b7021aa3-fadf-4208-a6f0-a550bfe83aee",
+      "basin": "Gin Ganga",
+      "gauge": "Thawalama",
+      "water_level": 1,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-27T22:52:24.172000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-27T22:52:24.172000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 6,
+      "majorpull": 7.5
+    },
+    {
+      "objectid": 1294222,
+      "globalid": "b1f36ec1-694f-4b47-bcf3-11e370da4ffb",
+      "basin": "Kelani Ganga",
+      "gauge": "Nagalagam Street",
+      "water_level": 1.9,
+      "rain_fall": null,
+      "CreationDate": "2026-01-27T22:44:53.808000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-27T22:44:53.808000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 5,
+      "majorpull": 7
+    },
+    {
+      "objectid": 1294221,
+      "globalid": "a2ed881a-e52c-45d6-ba64-72232762a763",
+      "basin": "Mahaweli Ganga",
+      "gauge": "Manampitiya",
+      "water_level": 1.04,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-27T22:44:00.150000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-27T22:44:00.150000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 4.3,
+      "majorpull": 6
+    },
     {
       "objectid": 1294220,
       "globalid": "96215ae0-b0e9-411b-8e72-5531a3c8efca",
@@ -96529,21 +96574,6 @@
       "alertpull": 1.4,
       "minorpull": 1.7,
       "majorpull": 2.8
-    },
-    {
-      "objectid": 1287766,
-      "globalid": "8e4af8e7-c42f-4599-ad2d-35df008309b3",
-      "basin": "Kirindi Oya",
-      "gauge": "Wellawaya",
-      "water_level": 0.91,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-20T22:51:15.969000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-20T22:51:15.969000+00:00",
-      "Editor": "",
-      "alertpull": 4.4,
-      "minorpull": 5.4,
-      "majorpull": 5.9
     }
   ]
 }
