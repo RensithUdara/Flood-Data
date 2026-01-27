@@ -1,10 +1,40 @@
 {
-  "last_updated_utc": "2026-01-27T13:55:46.214562+00:00",
+  "last_updated_utc": "2026-01-27T14:16:34.387598+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6436,
+  "record_count": 6437,
   "records": [
+    {
+      "objectid": 1293907,
+      "globalid": "ace54bbb-23a7-4a81-96b5-ef01fd69f328",
+      "basin": "Nilwala Ganga",
+      "gauge": "Urawa",
+      "water_level": 0.02,
+      "rain_fall": null,
+      "CreationDate": "2026-01-27T14:14:13.542000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-27T14:14:13.542000+00:00",
+      "Editor": "",
+      "alertpull": 2.5,
+      "minorpull": 4,
+      "majorpull": 6
+    },
+    {
+      "objectid": 1293906,
+      "globalid": "ceb8ff21-7b7f-4832-bb05-84aa1d3a9187",
+      "basin": "Nilwala Ganga",
+      "gauge": "Urawa",
+      "water_level": 0.02,
+      "rain_fall": null,
+      "CreationDate": "2026-01-27T14:05:22.384000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-27T14:05:22.384000+00:00",
+      "Editor": "",
+      "alertpull": 2.5,
+      "minorpull": 4,
+      "majorpull": 6
+    },
     {
       "objectid": 1293905,
       "globalid": "4e5da9d8-d758-49e1-9059-cbec4e6bd555",
@@ -96529,21 +96559,6 @@
       "alertpull": 4.4,
       "minorpull": 5.4,
       "majorpull": 5.9
-    },
-    {
-      "objectid": 1287451,
-      "globalid": "02955fae-4323-4c69-b305-9495836787f5",
-      "basin": "Kalu Ganga",
-      "gauge": "Kalawellawa (Millakanda)",
-      "water_level": 1.24,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-20T14:05:16.654000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-20T14:05:16.654000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6.5,
-      "majorpull": 8
     }
   ]
 }
