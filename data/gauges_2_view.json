@@ -1,9 +1,9 @@
 {
-  "last_updated_utc": "2026-01-28T04:02:23.308770+00:00",
+  "last_updated_utc": "2026-01-28T04:30:34.248342+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6441,
+  "record_count": 6438,
   "records": [
     {
       "objectid": 1294430,
@@ -96574,51 +96574,6 @@
       "alertpull": 4,
       "minorpull": 5,
       "majorpull": 6.5
-    },
-    {
-      "objectid": 1287973,
-      "globalid": "45f9a5dc-7c81-477d-b3b2-63fd263a55ac",
-      "basin": "Kumbukkan Oya",
-      "gauge": "Nakkala",
-      "water_level": 0.9,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-21T04:30:32.536000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-21T04:30:32.536000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6,
-      "majorpull": 7.5
-    },
-    {
-      "objectid": 1287972,
-      "globalid": "55bf40bb-a1d9-4846-a1ba-5fee08752b2d",
-      "basin": "Deduru Oya",
-      "gauge": "Moragaswewa",
-      "water_level": 0.42,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-21T04:30:22.691000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-21T04:30:22.691000+00:00",
-      "Editor": "",
-      "alertpull": 4.75,
-      "minorpull": 6,
-      "majorpull": 7
-    },
-    {
-      "objectid": 1287971,
-      "globalid": "2cbb66b3-430c-46b1-ae5e-8e567554040a",
-      "basin": "Maduru Oya",
-      "gauge": "Padiyathalawa",
-      "water_level": 0.62,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-21T04:30:07.879000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-21T04:30:07.879000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 4.5,
-      "majorpull": 6
     }
   ]
 }
