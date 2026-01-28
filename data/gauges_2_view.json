@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-01-28T12:40:32.834126+00:00",
+  "last_updated_utc": "2026-01-28T13:10:16.160875+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6432,
+  "record_count": 6430,
   "records": [
+    {
+      "objectid": 1294787,
+      "globalid": "cf22ea8c-ba8a-43d7-9262-71bdeaeee921",
+      "basin": "Menik Ganga",
+      "gauge": "Katharagama",
+      "water_level": -0.04,
+      "rain_fall": 0,
+      "CreationDate": "2026-01-28T12:41:43.719000+00:00",
+      "Creator": "",
+      "EditDate": "2026-01-28T12:41:43.719000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 4.6,
+      "majorpull": 6.5
+    },
     {
       "objectid": 1294786,
       "globalid": "56833bd1-056b-442d-a56b-20b8e87ed7dc",
@@ -96439,51 +96454,6 @@
       "alertpull": 3.3,
       "minorpull": 4.4,
       "majorpull": 5.5
-    },
-    {
-      "objectid": 1288339,
-      "globalid": "8e0e5f3e-5117-49ab-92f7-545fde49060d",
-      "basin": "Kalu Ganga",
-      "gauge": "Magura",
-      "water_level": 0.69,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-21T12:48:48.609000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-21T12:48:48.609000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 6,
-      "majorpull": 7.5
-    },
-    {
-      "objectid": 1288338,
-      "globalid": "30e14076-7cd9-48a6-8e50-7e7876e22d4c",
-      "basin": "Kirindi Oya",
-      "gauge": "Kuda Oya",
-      "water_level": 1.24,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-21T12:45:37.072000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-21T12:45:37.072000+00:00",
-      "Editor": "",
-      "alertpull": 6.9,
-      "minorpull": 8.4,
-      "majorpull": 8.8
-    },
-    {
-      "objectid": 1288337,
-      "globalid": "49648652-62bb-4511-9302-40cd1f2de6f2",
-      "basin": "Yan Oya",
-      "gauge": "Horowpothana",
-      "water_level": 1.46,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-21T12:42:32.318000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-21T12:42:32.318000+00:00",
-      "Editor": "",
-      "alertpull": 6,
-      "minorpull": 7.5,
-      "majorpull": 10.5
     }
   ]
 }
