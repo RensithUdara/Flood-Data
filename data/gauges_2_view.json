@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-02-07T19:46:04.960910+00:00",
+  "last_updated_utc": "2026-02-07T19:59:46.541751+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
   "record_count": 6294,
   "records": [
+    {
+      "objectid": 1304128,
+      "globalid": "8a477c28-e35b-4942-b55e-f819974ebafc",
+      "basin": "Kelani Ganga",
+      "gauge": "Nagalagam Street",
+      "water_level": 1.4,
+      "rain_fall": null,
+      "CreationDate": "2026-02-07T19:57:38.696000+00:00",
+      "Creator": "",
+      "EditDate": "2026-02-07T19:57:38.696000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 5,
+      "majorpull": 7
+    },
     {
       "objectid": 1304127,
       "globalid": "b6c29f8b-b930-492f-a738-f3858d7215d3",
@@ -94399,21 +94414,6 @@
       "alertpull": 15,
       "minorpull": 16.5,
       "majorpull": 19
-    },
-    {
-      "objectid": 1297826,
-      "globalid": "077c408d-51e2-414a-9a8a-724944f6a6f0",
-      "basin": "Kalu Ganga",
-      "gauge": "Ellagawa",
-      "water_level": 3.83,
-      "rain_fall": 0,
-      "CreationDate": "2026-01-31T19:48:53.763000+00:00",
-      "Creator": "",
-      "EditDate": "2026-01-31T19:48:53.763000+00:00",
-      "Editor": "",
-      "alertpull": 10,
-      "minorpull": 10.7,
-      "majorpull": 12.2
     }
   ]
 }
