@@ -1,9 +1,9 @@
 {
-  "last_updated_utc": "2026-02-14T10:42:43.223428+00:00",
+  "last_updated_utc": "2026-02-14T11:02:24.880706+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6417,
+  "record_count": 6414,
   "records": [
     {
       "objectid": 1310231,
@@ -96213,51 +96213,6 @@
       "Editor": "",
       "alertpull": 3.5,
       "minorpull": 5,
-      "majorpull": 6
-    },
-    {
-      "objectid": 1303801,
-      "globalid": "7903291d-1c24-4ce7-bbf5-a3723f718780",
-      "basin": "Mahaweli Ganga",
-      "gauge": "Manampitiya",
-      "water_level": 2.12,
-      "rain_fall": 0,
-      "CreationDate": "2026-02-07T10:46:38.165000+00:00",
-      "Creator": "",
-      "EditDate": "2026-02-07T10:46:38.165000+00:00",
-      "Editor": "",
-      "alertpull": 3,
-      "minorpull": 4.3,
-      "majorpull": 6
-    },
-    {
-      "objectid": 1303800,
-      "globalid": "5b8c68fd-7159-43c0-91e4-b0ed3b0dc4bd",
-      "basin": "Ma Oya",
-      "gauge": "Yaka Wewa",
-      "water_level": 0.84,
-      "rain_fall": 0,
-      "CreationDate": "2026-02-07T10:44:50.436000+00:00",
-      "Creator": "",
-      "EditDate": "2026-02-07T10:44:50.436000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 5,
-      "majorpull": 6
-    },
-    {
-      "objectid": 1303799,
-      "globalid": "cc9f632e-22f0-4d98-9d82-4d5e764d3e50",
-      "basin": "Nilwala Ganga",
-      "gauge": "Urawa",
-      "water_level": 0.07,
-      "rain_fall": 0,
-      "CreationDate": "2026-02-07T10:44:36.930000+00:00",
-      "Creator": "",
-      "EditDate": "2026-02-07T10:44:36.930000+00:00",
-      "Editor": "",
-      "alertpull": 2.5,
-      "minorpull": 4,
       "majorpull": 6
     }
   ]
