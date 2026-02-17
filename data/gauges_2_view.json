@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-02-17T20:50:06.823943+00:00",
+  "last_updated_utc": "2026-02-17T21:29:51.959741+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6407,
+  "record_count": 6406,
   "records": [
+    {
+      "objectid": 1313337,
+      "globalid": "acfd225d-2c84-40ab-aae9-c96570739c36",
+      "basin": "Kalu Ganga",
+      "gauge": "Putupaula",
+      "water_level": 0.7,
+      "rain_fall": 0,
+      "CreationDate": "2026-02-17T21:25:25.372000+00:00",
+      "Creator": "",
+      "EditDate": "2026-02-17T21:25:25.372000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 4,
+      "majorpull": 5
+    },
     {
       "objectid": 1313336,
       "globalid": "44bc100f-1438-4b9f-931e-d08c7f0af7bb",
@@ -96079,36 +96094,6 @@
       "alertpull": 6.9,
       "minorpull": 8.4,
       "majorpull": 8.8
-    },
-    {
-      "objectid": 1306910,
-      "globalid": "c0f699a4-e733-444b-9138-ecacb4e43745",
-      "basin": "Nilwala Ganga",
-      "gauge": "Panadugama",
-      "water_level": 2.24,
-      "rain_fall": null,
-      "CreationDate": "2026-02-10T21:09:17.844000+00:00",
-      "Creator": "",
-      "EditDate": "2026-02-10T21:09:17.844000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6,
-      "majorpull": 7.5
-    },
-    {
-      "objectid": 1306909,
-      "globalid": "701298f8-dddf-49fb-83cd-36119b8f2d3a",
-      "basin": "Menik Ganga",
-      "gauge": "Katharagama",
-      "water_level": -0.07,
-      "rain_fall": 0,
-      "CreationDate": "2026-02-10T21:01:55.476000+00:00",
-      "Creator": "",
-      "EditDate": "2026-02-10T21:01:55.476000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 4.6,
-      "majorpull": 6.5
     }
   ]
 }
