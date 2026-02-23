@@ -1,10 +1,40 @@
 {
-  "last_updated_utc": "2026-02-23T19:45:53.235163+00:00",
+  "last_updated_utc": "2026-02-23T20:29:53.989471+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6438,
+  "record_count": 6439,
   "records": [
+    {
+      "objectid": 1318842,
+      "globalid": "28cedbb9-4bc1-454f-b3a8-97a5ac93f98f",
+      "basin": "Kalu Ganga",
+      "gauge": "Ellagawa",
+      "water_level": 4.6,
+      "rain_fall": 0,
+      "CreationDate": "2026-02-23T20:12:30.972000+00:00",
+      "Creator": "",
+      "EditDate": "2026-02-23T20:12:30.972000+00:00",
+      "Editor": "",
+      "alertpull": 10,
+      "minorpull": 10.7,
+      "majorpull": 12.2
+    },
+    {
+      "objectid": 1318841,
+      "globalid": "251c836c-bc74-4794-b876-4893243380e1",
+      "basin": "Gin Ganga",
+      "gauge": "Baddegama",
+      "water_level": 1.15,
+      "rain_fall": 0,
+      "CreationDate": "2026-02-23T19:59:04.772000+00:00",
+      "Creator": "",
+      "EditDate": "2026-02-23T19:59:04.772000+00:00",
+      "Editor": "",
+      "alertpull": 3.5,
+      "minorpull": 4,
+      "majorpull": 5
+    },
     {
       "objectid": 1318840,
       "globalid": "9d671cfe-97e2-4536-b88f-45361b58f95f",
@@ -96559,21 +96589,6 @@
       "alertpull": 5,
       "minorpull": 6,
       "majorpull": 7.5
-    },
-    {
-      "objectid": 1312379,
-      "globalid": "ac9b0711-b552-4767-8dc9-1193ece6329a",
-      "basin": "Heda Oya",
-      "gauge": "Siyambalanduwa",
-      "water_level": 0.49,
-      "rain_fall": 0,
-      "CreationDate": "2026-02-16T20:12:38.687000+00:00",
-      "Creator": "",
-      "EditDate": "2026-02-16T20:12:38.687000+00:00",
-      "Editor": "",
-      "alertpull": 4.5,
-      "minorpull": 6,
-      "majorpull": 7
     }
   ]
 }
