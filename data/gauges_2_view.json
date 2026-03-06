@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-03-06T16:47:25.709804+00:00",
+  "last_updated_utc": "2026-03-06T17:24:28.750644+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6434,
+  "record_count": 6433,
   "records": [
+    {
+      "objectid": 1328871,
+      "globalid": "5810b05e-203e-4eff-80bc-75b99c7a54a8",
+      "basin": "Aththanagalu Oya",
+      "gauge": "Dunamale",
+      "water_level": 0.42,
+      "rain_fall": 0,
+      "CreationDate": "2026-03-06T17:19:19.801000+00:00",
+      "Creator": "",
+      "EditDate": "2026-03-06T17:19:19.801000+00:00",
+      "Editor": "",
+      "alertpull": 3.3,
+      "minorpull": 4.4,
+      "majorpull": 5.5
+    },
     {
       "objectid": 1328870,
       "globalid": "5f95c775-bb2a-41ab-81ea-e4c3df4d8372",
@@ -96484,36 +96499,6 @@
       "alertpull": 5,
       "minorpull": 7,
       "majorpull": 9
-    },
-    {
-      "objectid": 1322419,
-      "globalid": "c65e09b7-090d-4508-a262-b6d2313db564",
-      "basin": "Kirindi Oya",
-      "gauge": "Wellawaya",
-      "water_level": 0.9,
-      "rain_fall": 0,
-      "CreationDate": "2026-02-27T17:11:17.901000+00:00",
-      "Creator": "",
-      "EditDate": "2026-02-27T17:11:17.901000+00:00",
-      "Editor": "",
-      "alertpull": 4.4,
-      "minorpull": 5.4,
-      "majorpull": 5.9
-    },
-    {
-      "objectid": 1322418,
-      "globalid": "a133af4f-306e-45ae-89eb-f3d9f0dd058e",
-      "basin": "Gin Ganga",
-      "gauge": "Thawalama",
-      "water_level": 1.06,
-      "rain_fall": 0,
-      "CreationDate": "2026-02-27T17:00:40.133000+00:00",
-      "Creator": "",
-      "EditDate": "2026-02-27T17:00:40.133000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 6,
-      "majorpull": 7.5
     }
   ]
 }
