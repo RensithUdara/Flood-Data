@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-03-07T11:43:11.438253+00:00",
+  "last_updated_utc": "2026-03-07T11:57:26.059037+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6444,
+  "record_count": 6443,
   "records": [
+    {
+      "objectid": 1329604,
+      "globalid": "e72c3344-be21-45f5-aa91-473bcc4ded63",
+      "basin": "Gin Ganga",
+      "gauge": "Baddegama",
+      "water_level": 1.12,
+      "rain_fall": 0,
+      "CreationDate": "2026-03-07T11:54:17.810000+00:00",
+      "Creator": "",
+      "EditDate": "2026-03-07T11:54:17.810000+00:00",
+      "Editor": "",
+      "alertpull": 3.5,
+      "minorpull": 4,
+      "majorpull": 5
+    },
     {
       "objectid": 1329603,
       "globalid": "efdf9a7a-5cbe-4886-a824-b44e700ca24a",
@@ -96634,36 +96649,6 @@
       "alertpull": 3,
       "minorpull": 4.3,
       "majorpull": 6
-    },
-    {
-      "objectid": 1323143,
-      "globalid": "2b6d4dc7-2391-4b89-b0ee-376b171511d3",
-      "basin": "Malwathu Oya",
-      "gauge": "Thanthirimale",
-      "water_level": 1.04,
-      "rain_fall": 0,
-      "CreationDate": "2026-02-28T11:45:41.415000+00:00",
-      "Creator": "",
-      "EditDate": "2026-02-28T11:45:41.415000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6.8,
-      "majorpull": 7.8
-    },
-    {
-      "objectid": 1323142,
-      "globalid": "27235bd0-66d8-4a79-882e-aaf29aafd338",
-      "basin": "Kalu Ganga",
-      "gauge": "Magura",
-      "water_level": 0.78,
-      "rain_fall": 0,
-      "CreationDate": "2026-02-28T11:43:15.393000+00:00",
-      "Creator": "",
-      "EditDate": "2026-02-28T11:43:15.393000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 6,
-      "majorpull": 7.5
     }
   ]
 }
