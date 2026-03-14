@@ -1,10 +1,55 @@
 {
-  "last_updated_utc": "2026-03-14T16:46:10.685762+00:00",
+  "last_updated_utc": "2026-03-14T17:14:51.603974+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
   "record_count": 6417,
   "records": [
+    {
+      "objectid": 1336223,
+      "globalid": "456f982f-da2f-4c3c-b780-66505eed616c",
+      "basin": "Aththanagalu Oya",
+      "gauge": "Dunamale",
+      "water_level": 1.3,
+      "rain_fall": 0,
+      "CreationDate": "2026-03-14T17:14:46.741000+00:00",
+      "Creator": "",
+      "EditDate": "2026-03-14T17:14:46.741000+00:00",
+      "Editor": "",
+      "alertpull": 3.3,
+      "minorpull": 4.4,
+      "majorpull": 5.5
+    },
+    {
+      "objectid": 1336222,
+      "globalid": "61ebfdee-3ff7-409b-9c5a-09a2475423af",
+      "basin": "Mahaweli Ganga",
+      "gauge": "Nawalapitiya",
+      "water_level": 0.73,
+      "rain_fall": 0,
+      "CreationDate": "2026-03-14T17:13:20.782000+00:00",
+      "Creator": "",
+      "EditDate": "2026-03-14T17:13:20.782000+00:00",
+      "Editor": "",
+      "alertpull": 3.5,
+      "minorpull": 5,
+      "majorpull": 6
+    },
+    {
+      "objectid": 1336221,
+      "globalid": "ff88be2f-827b-41ed-99ac-8c879f7d4ffc",
+      "basin": "Yan Oya",
+      "gauge": "Horowpothana",
+      "water_level": 1.26,
+      "rain_fall": 0,
+      "CreationDate": "2026-03-14T16:47:10.764000+00:00",
+      "Creator": "",
+      "EditDate": "2026-03-14T16:47:10.764000+00:00",
+      "Editor": "",
+      "alertpull": 6,
+      "minorpull": 7.5,
+      "majorpull": 10.5
+    },
     {
       "objectid": 1336220,
       "globalid": "a6dfa9ed-8691-4430-bf37-121035039e20",
@@ -96214,51 +96259,6 @@
       "alertpull": 3.3,
       "minorpull": 4.4,
       "majorpull": 5.5
-    },
-    {
-      "objectid": 1329796,
-      "globalid": "78f83185-0b0c-4e45-a53a-f59030b4829a",
-      "basin": "Kalu Ganga",
-      "gauge": "Kalawellawa (Millakanda)",
-      "water_level": 1.29,
-      "rain_fall": 0,
-      "CreationDate": "2026-03-07T16:51:05.282000+00:00",
-      "Creator": "",
-      "EditDate": "2026-03-07T16:51:05.282000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6.5,
-      "majorpull": 8
-    },
-    {
-      "objectid": 1329795,
-      "globalid": "fafe45d9-1dc0-4d43-b039-155e5da53a04",
-      "basin": "Nilwala Ganga",
-      "gauge": "Thalgahagoda",
-      "water_level": 0.28,
-      "rain_fall": 0,
-      "CreationDate": "2026-03-07T16:48:52.417000+00:00",
-      "Creator": "",
-      "EditDate": "2026-03-07T16:48:52.417000+00:00",
-      "Editor": "",
-      "alertpull": 1.4,
-      "minorpull": 1.7,
-      "majorpull": 2.8
-    },
-    {
-      "objectid": 1329794,
-      "globalid": "94270734-c814-4950-a629-a8a9f1cc8557",
-      "basin": "Kalu Ganga",
-      "gauge": "Magura",
-      "water_level": 0.61,
-      "rain_fall": 0,
-      "CreationDate": "2026-03-07T16:47:57.208000+00:00",
-      "Creator": "",
-      "EditDate": "2026-03-07T16:47:57.208000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 6,
-      "majorpull": 7.5
     }
   ]
 }
