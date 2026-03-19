@@ -1,10 +1,40 @@
 {
-  "last_updated_utc": "2026-03-19T11:42:47.718201+00:00",
+  "last_updated_utc": "2026-03-19T12:28:52.820514+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6426,
+  "record_count": 6425,
   "records": [
+    {
+      "objectid": 1340637,
+      "globalid": "34053df2-e4f5-4183-ac2d-c8363b7154d0",
+      "basin": "Walawe Ganga",
+      "gauge": "Moraketiya",
+      "water_level": 0.79,
+      "rain_fall": 0,
+      "CreationDate": "2026-03-19T12:24:59.572000+00:00",
+      "Creator": "",
+      "EditDate": "2026-03-19T12:24:59.572000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 5,
+      "majorpull": 7
+    },
+    {
+      "objectid": 1340636,
+      "globalid": "dcef25ad-b541-455b-a49d-b2cd17b7db68",
+      "basin": "Yan Oya",
+      "gauge": "Horowpothana",
+      "water_level": 1.2,
+      "rain_fall": 0,
+      "CreationDate": "2026-03-19T12:13:08.519000+00:00",
+      "Creator": "",
+      "EditDate": "2026-03-19T12:13:08.519000+00:00",
+      "Editor": "",
+      "alertpull": 6,
+      "minorpull": 7.5,
+      "majorpull": 10.5
+    },
     {
       "objectid": 1340635,
       "globalid": "7948964b-eb89-43f2-ae02-64d5310cba4b",
@@ -96349,51 +96379,6 @@
       "alertpull": 3.5,
       "minorpull": 5,
       "majorpull": 6
-    },
-    {
-      "objectid": 1334205,
-      "globalid": "a9c1e803-13b5-41b2-82f0-bb2efb7ea8bf",
-      "basin": "Nilwala Ganga",
-      "gauge": "Urawa",
-      "water_level": 0.2,
-      "rain_fall": 19,
-      "CreationDate": "2026-03-12T11:45:44.718000+00:00",
-      "Creator": "",
-      "EditDate": "2026-03-12T11:45:44.718000+00:00",
-      "Editor": "",
-      "alertpull": 2.5,
-      "minorpull": 4,
-      "majorpull": 6
-    },
-    {
-      "objectid": 1334204,
-      "globalid": "b2e3e037-115a-4bf6-961a-e76a5fbb7cc3",
-      "basin": "Kalu Ganga",
-      "gauge": "Magura",
-      "water_level": 0.55,
-      "rain_fall": 0,
-      "CreationDate": "2026-03-12T11:44:08.541000+00:00",
-      "Creator": "",
-      "EditDate": "2026-03-12T11:44:08.541000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 6,
-      "majorpull": 7.5
-    },
-    {
-      "objectid": 1334203,
-      "globalid": "02ba9488-b4bb-4158-98c5-687744432f7a",
-      "basin": "Kirindi Oya",
-      "gauge": "Kuda Oya",
-      "water_level": 1.02,
-      "rain_fall": 0,
-      "CreationDate": "2026-03-12T11:42:58.731000+00:00",
-      "Creator": "",
-      "EditDate": "2026-03-12T11:42:58.731000+00:00",
-      "Editor": "",
-      "alertpull": 6.9,
-      "minorpull": 8.4,
-      "majorpull": 8.8
     }
   ]
 }
