@@ -1,9 +1,9 @@
 {
-  "last_updated_utc": "2026-04-04T16:48:48.393013+00:00",
+  "last_updated_utc": "2026-04-04T17:21:56.561271+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6428,
+  "record_count": 6426,
   "records": [
     {
       "objectid": 1355542,
@@ -96394,36 +96394,6 @@
       "alertpull": 3.5,
       "minorpull": 5,
       "majorpull": 6
-    },
-    {
-      "objectid": 1349103,
-      "globalid": "72e52627-1026-4e1e-94e5-0b57db62fb33",
-      "basin": "Mahaweli Ganga",
-      "gauge": "Nawalapitiya",
-      "water_level": 0.57,
-      "rain_fall": 0,
-      "CreationDate": "2026-03-28T17:12:28.803000+00:00",
-      "Creator": "",
-      "EditDate": "2026-03-28T17:12:28.803000+00:00",
-      "Editor": "",
-      "alertpull": 3.5,
-      "minorpull": 5,
-      "majorpull": 6
-    },
-    {
-      "objectid": 1349102,
-      "globalid": "219e01ff-8add-4610-b53c-667f7f5e5123",
-      "basin": "Nilwala Ganga",
-      "gauge": "Pitabeddara",
-      "water_level": 0.05,
-      "rain_fall": null,
-      "CreationDate": "2026-03-28T17:04:25.340000+00:00",
-      "Creator": "",
-      "EditDate": "2026-03-28T17:04:25.340000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 5,
-      "majorpull": 6.5
     }
   ]
 }
