@@ -1,10 +1,40 @@
 {
-  "last_updated_utc": "2026-06-28T15:40:07.348204+00:00",
+  "last_updated_utc": "2026-06-28T16:11:14.225802+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
   "record_count": 6424,
   "records": [
+    {
+      "objectid": 1433469,
+      "globalid": "6d2fb4f4-8759-420a-8139-c7501a6e5431",
+      "basin": "Kalu Ganga",
+      "gauge": "Magura",
+      "water_level": 1.55,
+      "rain_fall": 0,
+      "CreationDate": "2026-06-28T15:40:42.730000+00:00",
+      "Creator": "",
+      "EditDate": "2026-06-28T15:40:42.730000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 6,
+      "majorpull": 7.5
+    },
+    {
+      "objectid": 1433468,
+      "globalid": "4a88b334-62d4-485e-8423-c5608c5ae980",
+      "basin": "Kelani Ganga",
+      "gauge": "Holombuwa",
+      "water_level": 0.66,
+      "rain_fall": 0,
+      "CreationDate": "2026-06-28T15:40:25.641000+00:00",
+      "Creator": "",
+      "EditDate": "2026-06-28T15:40:25.641000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 3.4,
+      "majorpull": 5
+    },
     {
       "objectid": 1433467,
       "globalid": "6c10ced6-a3ca-42b6-9a2a-f57960d34f84",
@@ -96334,36 +96364,6 @@
       "alertpull": 3.5,
       "minorpull": 5,
       "majorpull": 6
-    },
-    {
-      "objectid": 1427038,
-      "globalid": "c064c8b4-af8e-4869-969e-a42edc9f76dd",
-      "basin": "Nilwala Ganga",
-      "gauge": "Pitabeddara",
-      "water_level": 0.58,
-      "rain_fall": null,
-      "CreationDate": "2026-06-21T15:49:55.822000+00:00",
-      "Creator": "",
-      "EditDate": "2026-06-21T15:49:55.822000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 5,
-      "majorpull": 6.5
-    },
-    {
-      "objectid": 1427037,
-      "globalid": "afd3aa26-c421-422e-a9bc-ba026139e836",
-      "basin": "Kelani Ganga",
-      "gauge": "Nagalagam Street",
-      "water_level": 1.8,
-      "rain_fall": null,
-      "CreationDate": "2026-06-21T15:41:04.393000+00:00",
-      "Creator": "",
-      "EditDate": "2026-06-21T15:41:04.393000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 5,
-      "majorpull": 7
     }
   ]
 }
