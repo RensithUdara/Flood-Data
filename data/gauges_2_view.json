@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "last_updated_utc": "2026-08-03T21:04:49.280329+00:00",
+=======
+  "last_updated_utc": "2026-08-03T21:15:50.745259+00:00",
+>>>>>>> 1a3e3616dd9cf10f116c2837b5e9d25c66525d21
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "1=1",
@@ -95869,6 +95873,7 @@
       "alertpull": 5,
       "minorpull": 6,
       "majorpull": 7.5
+<<<<<<< HEAD
     },
     {
       "objectid": 1460284,
@@ -95884,6 +95889,8 @@
       "alertpull": 3,
       "minorpull": 4,
       "majorpull": 5
+=======
+>>>>>>> 1a3e3616dd9cf10f116c2837b5e9d25c66525d21
     }
   ]
 }
