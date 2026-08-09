@@ -1,9 +1,9 @@
 {
-  "last_updated_utc": "2026-08-09T11:42:53.466675+00:00",
+  "last_updated_utc": "2026-08-09T12:17:18.349970+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6470,
+  "record_count": 6465,
   "records": [
     {
       "objectid": 1471903,
@@ -96979,81 +96979,6 @@
       "alertpull": 3,
       "minorpull": 4,
       "majorpull": 5
-    },
-    {
-      "objectid": 1465435,
-      "globalid": "c97621f6-7a3f-40ab-b460-38c4d622e831",
-      "basin": "Maduru Oya",
-      "gauge": "Padiyathalawa",
-      "water_level": 0.02,
-      "rain_fall": 0,
-      "CreationDate": "2026-08-02T12:05:42.235000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-02T12:05:42.235000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 4.5,
-      "majorpull": 6
-    },
-    {
-      "objectid": 1465434,
-      "globalid": "de7584ca-b0ee-47aa-91d3-180ea82ed87f",
-      "basin": "Maduru Oya",
-      "gauge": "Padiyathalawa",
-      "water_level": 0.03,
-      "rain_fall": 0,
-      "CreationDate": "2026-08-02T12:05:40.621000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-02T12:05:40.621000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 4.5,
-      "majorpull": 6
-    },
-    {
-      "objectid": 1465433,
-      "globalid": "907a0ae0-1150-4226-9d60-56e63a2e5fa8",
-      "basin": "Nilwala Ganga",
-      "gauge": "Pitabeddara",
-      "water_level": 0.44,
-      "rain_fall": 0,
-      "CreationDate": "2026-08-02T11:51:48.344000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-02T11:51:48.344000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 5,
-      "majorpull": 6.5
-    },
-    {
-      "objectid": 1465432,
-      "globalid": "4ffd1c81-be71-4f76-8d77-516a6acb4249",
-      "basin": "Deduru Oya",
-      "gauge": "Moragaswewa",
-      "water_level": -0.05,
-      "rain_fall": 0,
-      "CreationDate": "2026-08-02T11:49:46.255000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-02T11:49:46.255000+00:00",
-      "Editor": "",
-      "alertpull": 4.75,
-      "minorpull": 6,
-      "majorpull": 7
-    },
-    {
-      "objectid": 1465431,
-      "globalid": "45598b76-905a-4c0a-ac44-d2d2f1d7e3a5",
-      "basin": "Kalu Ganga",
-      "gauge": "Magura",
-      "water_level": 1.94,
-      "rain_fall": 0,
-      "CreationDate": "2026-08-02T11:43:37.728000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-02T11:43:37.728000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 6,
-      "majorpull": 7.5
     }
   ]
 }
