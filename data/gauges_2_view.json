@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-08-15T04:44:10.995271+00:00",
+  "last_updated_utc": "2026-08-15T05:11:02.182085+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6446,
+  "record_count": 6443,
   "records": [
+    {
+      "objectid": 1477135,
+      "globalid": "67394e5e-c517-445d-bf7e-fd8d3af03d21",
+      "basin": "Nilwala Ganga",
+      "gauge": "Thalgahagoda",
+      "water_level": 0.35,
+      "rain_fall": 0,
+      "CreationDate": "2026-08-15T04:49:12.337000+00:00",
+      "Creator": "",
+      "EditDate": "2026-08-15T04:49:12.337000+00:00",
+      "Editor": "",
+      "alertpull": 1.4,
+      "minorpull": 1.7,
+      "majorpull": 2.8
+    },
     {
       "objectid": 1477134,
       "globalid": "d688bbc5-cfe3-4054-b690-700c97c96e19",
@@ -96634,66 +96649,6 @@
       "alertpull": 4,
       "minorpull": 5,
       "majorpull": 5.5
-    },
-    {
-      "objectid": 1470686,
-      "globalid": "3076df68-051f-4e53-bff0-2726a15b4f86",
-      "basin": "Maha Oya",
-      "gauge": "Giriulla",
-      "water_level": 1.06,
-      "rain_fall": 0,
-      "CreationDate": "2026-08-08T04:51:07.009000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-08T04:51:07.009000+00:00",
-      "Editor": "",
-      "alertpull": 5.5,
-      "minorpull": 6.5,
-      "majorpull": 7.5
-    },
-    {
-      "objectid": 1470685,
-      "globalid": "17ad96d7-d29b-4103-ba3d-5adfd0e1ec9a",
-      "basin": "Maha Oya",
-      "gauge": "Badalgama",
-      "water_level": 2.15,
-      "rain_fall": 0,
-      "CreationDate": "2026-08-08T04:48:20.802000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-08T04:48:20.802000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6.2,
-      "majorpull": 9.6
-    },
-    {
-      "objectid": 1470684,
-      "globalid": "a0cb989c-365f-41a6-b7d1-77fb425098a4",
-      "basin": "Nilwala Ganga",
-      "gauge": "Pitabeddara",
-      "water_level": 0.87,
-      "rain_fall": 1.6,
-      "CreationDate": "2026-08-08T04:45:22.137000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-08T04:45:22.137000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 5,
-      "majorpull": 6.5
-    },
-    {
-      "objectid": 1470683,
-      "globalid": "65d25e56-95bd-4291-8620-6974b88213bf",
-      "basin": "Gin Ganga",
-      "gauge": "Baddegama",
-      "water_level": 1.85,
-      "rain_fall": 2.8,
-      "CreationDate": "2026-08-08T04:44:54.359000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-08T04:44:54.359000+00:00",
-      "Editor": "",
-      "alertpull": 3.5,
-      "minorpull": 4,
-      "majorpull": 5
     }
   ]
 }
