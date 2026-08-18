@@ -1,10 +1,40 @@
 {
-  "last_updated_utc": "2026-08-18T14:46:22.842880+00:00",
+  "last_updated_utc": "2026-08-18T15:16:47.139710+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6408,
+  "record_count": 6410,
   "records": [
+    {
+      "objectid": 1480273,
+      "globalid": "9fbeeab9-4222-4666-af06-0aab886a1416",
+      "basin": "Kalu Ganga",
+      "gauge": "Ellagawa",
+      "water_level": 5.6,
+      "rain_fall": 0,
+      "CreationDate": "2026-08-18T14:46:53.218000+00:00",
+      "Creator": "",
+      "EditDate": "2026-08-18T14:46:53.218000+00:00",
+      "Editor": "",
+      "alertpull": 10,
+      "minorpull": 10.7,
+      "majorpull": 12.2
+    },
+    {
+      "objectid": 1480272,
+      "globalid": "ec872657-59c2-4345-a979-ef4e26afd86c",
+      "basin": "Nilwala Ganga",
+      "gauge": "Urawa",
+      "water_level": 0.03,
+      "rain_fall": 0,
+      "CreationDate": "2026-08-18T14:46:31.546000+00:00",
+      "Creator": "",
+      "EditDate": "2026-08-18T14:46:31.546000+00:00",
+      "Editor": "",
+      "alertpull": 2.5,
+      "minorpull": 4,
+      "majorpull": 6
+    },
     {
       "objectid": 1480271,
       "globalid": "2522f396-1344-421e-b8ca-c4b3348042cb",
