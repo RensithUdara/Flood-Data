@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-08-19T18:45:42.096977+00:00",
+  "last_updated_utc": "2026-08-19T19:13:37.070467+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6411,
+  "record_count": 6408,
   "records": [
+    {
+      "objectid": 1481344,
+      "globalid": "512b7964-933c-4b64-a8b6-08ecdc663fbe",
+      "basin": "Aththanagalu Oya",
+      "gauge": "Dunamale",
+      "water_level": 0.5,
+      "rain_fall": 0,
+      "CreationDate": "2026-08-19T18:59:13.052000+00:00",
+      "Creator": "",
+      "EditDate": "2026-08-19T18:59:13.052000+00:00",
+      "Editor": "",
+      "alertpull": 3.3,
+      "minorpull": 4.4,
+      "majorpull": 5.5
+    },
     {
       "objectid": 1481343,
       "globalid": "fd156a0e-4990-40d4-8ee3-3b8c5a2dbc34",
@@ -96109,66 +96124,6 @@
       "alertpull": 4.4,
       "minorpull": 5.4,
       "majorpull": 5.9
-    },
-    {
-      "objectid": 1474935,
-      "globalid": "4a38d4e2-3ab9-47a3-ba66-dab1699dab25",
-      "basin": "Kalu Ganga",
-      "gauge": "Ellagawa",
-      "water_level": 5.08,
-      "rain_fall": 0,
-      "CreationDate": "2026-08-12T18:54:09.744000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-12T18:54:09.744000+00:00",
-      "Editor": "",
-      "alertpull": 10,
-      "minorpull": 10.7,
-      "majorpull": 12.2
-    },
-    {
-      "objectid": 1474934,
-      "globalid": "71698e56-0a1d-44ea-bd0a-821fb91e38d8",
-      "basin": "Nilwala Ganga",
-      "gauge": "Panadugama",
-      "water_level": 2.68,
-      "rain_fall": 0,
-      "CreationDate": "2026-08-12T18:52:18.360000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-12T18:52:18.360000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6,
-      "majorpull": 7.5
-    },
-    {
-      "objectid": 1474933,
-      "globalid": "e01b4227-7ac0-4dd8-b9d4-e976d170599e",
-      "basin": "Kalu Ganga",
-      "gauge": "Magura",
-      "water_level": 1.77,
-      "rain_fall": 0,
-      "CreationDate": "2026-08-12T18:52:07.751000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-12T18:52:07.751000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 6,
-      "majorpull": 7.5
-    },
-    {
-      "objectid": 1474932,
-      "globalid": "79060e2b-80ca-41c7-9fa5-8a5ce34cc2be",
-      "basin": "Nilwala Ganga",
-      "gauge": "Thalgahagoda",
-      "water_level": 0.3,
-      "rain_fall": 0,
-      "CreationDate": "2026-08-12T18:49:03.886000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-12T18:49:03.886000+00:00",
-      "Editor": "",
-      "alertpull": 1.4,
-      "minorpull": 1.7,
-      "majorpull": 2.8
     }
   ]
 }
