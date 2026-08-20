@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-08-20T11:45:56.711765+00:00",
+  "last_updated_utc": "2026-08-20T12:16:27.210034+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6423,
+  "record_count": 6422,
   "records": [
+    {
+      "objectid": 1482006,
+      "globalid": "8f14f62c-d16f-42ed-85b9-df00a2e73633",
+      "basin": "Maduru Oya",
+      "gauge": "Padiyathalawa",
+      "water_level": 0.05,
+      "rain_fall": 0,
+      "CreationDate": "2026-08-20T11:51:02.717000+00:00",
+      "Creator": "",
+      "EditDate": "2026-08-20T11:51:02.717000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 4.5,
+      "majorpull": 6
+    },
     {
       "objectid": 1482005,
       "globalid": "483a090c-6b13-4a7e-ab4e-bfbc8d258e07",
@@ -96319,36 +96334,6 @@
       "alertpull": 3,
       "minorpull": 5,
       "majorpull": 7
-    },
-    {
-      "objectid": 1475583,
-      "globalid": "d7c29145-391f-4d11-9185-023fde0c2729",
-      "basin": "Malwathu Oya",
-      "gauge": "Thanthirimale",
-      "water_level": 0.84,
-      "rain_fall": 0,
-      "CreationDate": "2026-08-13T11:56:07.757000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-13T11:56:07.757000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6.8,
-      "majorpull": 7.8
-    },
-    {
-      "objectid": 1475582,
-      "globalid": "b92c5ef6-71ce-45be-b666-db7744de31fc",
-      "basin": "Nilwala Ganga",
-      "gauge": "Urawa",
-      "water_level": 0.04,
-      "rain_fall": 0,
-      "CreationDate": "2026-08-13T11:48:05.850000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-13T11:48:05.850000+00:00",
-      "Editor": "",
-      "alertpull": 2.5,
-      "minorpull": 4,
-      "majorpull": 6
     }
   ]
 }
