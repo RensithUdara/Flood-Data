@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-08-21T17:48:49.158616+00:00",
+  "last_updated_utc": "2026-08-21T18:21:38.740032+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6425,
+  "record_count": 6424,
   "records": [
+    {
+      "objectid": 1483151,
+      "globalid": "5a8f3ac8-19f0-4d54-a1f6-c74e2386c313",
+      "basin": "Kalu Ganga",
+      "gauge": "Kalawellawa (Millakanda)",
+      "water_level": 3.04,
+      "rain_fall": 0,
+      "CreationDate": "2026-08-21T18:18:21.008000+00:00",
+      "Creator": "",
+      "EditDate": "2026-08-21T18:18:21.008000+00:00",
+      "Editor": "",
+      "alertpull": 5,
+      "minorpull": 6.5,
+      "majorpull": 8
+    },
     {
       "objectid": 1483150,
       "globalid": "ace1ae76-1e9b-4879-b9cc-00cfc07a87f2",
@@ -96348,36 +96363,6 @@
       "Editor": "",
       "alertpull": 4.5,
       "minorpull": 6,
-      "majorpull": 7
-    },
-    {
-      "objectid": 1476724,
-      "globalid": "9ca63b11-b832-43a6-9a0c-9690ff06024d",
-      "basin": "Kelani Ganga",
-      "gauge": "Norwood",
-      "water_level": 0.72,
-      "rain_fall": 0,
-      "CreationDate": "2026-08-14T18:09:01.637000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-14T18:09:01.637000+00:00",
-      "Editor": "",
-      "alertpull": 1.5,
-      "minorpull": 3,
-      "majorpull": 4.5
-    },
-    {
-      "objectid": 1476723,
-      "globalid": "f6c7b39d-2aa4-462f-bcdf-a38defe67cfb",
-      "basin": "Walawe Ganga",
-      "gauge": "Moraketiya",
-      "water_level": 0.63,
-      "rain_fall": 0,
-      "CreationDate": "2026-08-14T17:50:12.295000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-14T17:50:12.295000+00:00",
-      "Editor": "",
-      "alertpull": 3,
-      "minorpull": 5,
       "majorpull": 7
     }
   ]
