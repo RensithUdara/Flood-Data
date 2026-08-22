@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-08-22T14:57:35.096920+00:00",
+  "last_updated_utc": "2026-08-22T15:29:37.315302+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6435,
+  "record_count": 6436,
   "records": [
+    {
+      "objectid": 1483973,
+      "globalid": "be8a207f-27e6-4387-b476-7c4b40ebaae3",
+      "basin": "Kalu Ganga",
+      "gauge": "Ellagawa",
+      "water_level": 5.4,
+      "rain_fall": 0,
+      "CreationDate": "2026-08-22T15:11:28.229000+00:00",
+      "Creator": "",
+      "EditDate": "2026-08-22T15:11:28.229000+00:00",
+      "Editor": "",
+      "alertpull": 10,
+      "minorpull": 10.7,
+      "majorpull": 12.2
+    },
     {
       "objectid": 1483972,
       "globalid": "f3dc0b5b-7c44-4ba6-9a10-7be29b809c8e",
