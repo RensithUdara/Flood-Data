@@ -1,10 +1,25 @@
 {
-  "last_updated_utc": "2026-08-23T03:41:00.827543+00:00",
+  "last_updated_utc": "2026-08-23T04:23:07.640498+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6437,
+  "record_count": 6435,
   "records": [
+    {
+      "objectid": 1484457,
+      "globalid": "0ad7e105-eb36-4e2d-a77b-7815638f9935",
+      "basin": "Gin Ganga",
+      "gauge": "Thawalama",
+      "water_level": 1.39,
+      "rain_fall": 0,
+      "CreationDate": "2026-08-23T03:47:59.877000+00:00",
+      "Creator": "",
+      "EditDate": "2026-08-23T03:47:59.877000+00:00",
+      "Editor": "",
+      "alertpull": 4,
+      "minorpull": 6,
+      "majorpull": 7.5
+    },
     {
       "objectid": 1484456,
       "globalid": "8c22cdb7-b493-4019-9566-4a58893b785f",
@@ -96514,51 +96529,6 @@
       "alertpull": 4.4,
       "minorpull": 5.4,
       "majorpull": 5.9
-    },
-    {
-      "objectid": 1478018,
-      "globalid": "f3981cb2-fc24-4215-bf86-b81ed66a2aac",
-      "basin": "Kalu Ganga",
-      "gauge": "Ellagawa",
-      "water_level": 5.33,
-      "rain_fall": 0,
-      "CreationDate": "2026-08-16T03:43:09.084000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-16T03:43:09.084000+00:00",
-      "Editor": "",
-      "alertpull": 10,
-      "minorpull": 10.7,
-      "majorpull": 12.2
-    },
-    {
-      "objectid": 1478017,
-      "globalid": "dfab4790-8a05-4569-8b98-a1b280b04302",
-      "basin": "Gin Ganga",
-      "gauge": "Baddegama",
-      "water_level": 1.2,
-      "rain_fall": 1.6,
-      "CreationDate": "2026-08-16T03:41:39.322000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-16T03:41:39.322000+00:00",
-      "Editor": "",
-      "alertpull": 3.5,
-      "minorpull": 4,
-      "majorpull": 5
-    },
-    {
-      "objectid": 1478016,
-      "globalid": "b3135abf-80e6-40fe-82ca-8efd608b0205",
-      "basin": "Nilwala Ganga",
-      "gauge": "Panadugama",
-      "water_level": 2.47,
-      "rain_fall": 0,
-      "CreationDate": "2026-08-16T03:41:07.978000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-16T03:41:07.978000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6,
-      "majorpull": 7.5
     }
   ]
 }
