@@ -1,10 +1,40 @@
 {
-  "last_updated_utc": "2026-08-23T19:52:21.837513+00:00",
+  "last_updated_utc": "2026-08-23T20:21:33.165906+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
   "record_count": 6424,
   "records": [
+    {
+      "objectid": 1485065,
+      "globalid": "cf1f6d58-fc1b-40c1-8425-06d493bb7f76",
+      "basin": "Mahaweli Ganga",
+      "gauge": "Peradeniya",
+      "water_level": 3.12,
+      "rain_fall": 0,
+      "CreationDate": "2026-08-23T19:58:34.115000+00:00",
+      "Creator": "",
+      "EditDate": "2026-08-23T19:58:34.115000+00:00",
+      "Editor": "",
+      "alertpull": 5,
+      "minorpull": 7,
+      "majorpull": 9
+    },
+    {
+      "objectid": 1485064,
+      "globalid": "e1ee3c04-05b4-4155-862b-4a00860328e6",
+      "basin": "Nilwala Ganga",
+      "gauge": "Panadugama",
+      "water_level": 2.71,
+      "rain_fall": 0,
+      "CreationDate": "2026-08-23T19:56:55.274000+00:00",
+      "Creator": "",
+      "EditDate": "2026-08-23T19:56:55.274000+00:00",
+      "Editor": "",
+      "alertpull": 5,
+      "minorpull": 6,
+      "majorpull": 7.5
+    },
     {
       "objectid": 1485063,
       "globalid": "adcc02d9-4b44-4b31-9d5a-34f08f767cfa",
@@ -96333,36 +96363,6 @@
       "Editor": "",
       "alertpull": 4.75,
       "minorpull": 6,
-      "majorpull": 7
-    },
-    {
-      "objectid": 1478637,
-      "globalid": "b20a6816-95c0-4d73-b3fb-6885dc5ad4bf",
-      "basin": "Ma Oya",
-      "gauge": "Yaka Wewa",
-      "water_level": 0.42,
-      "rain_fall": 0,
-      "CreationDate": "2026-08-16T20:09:04.420000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-16T20:09:04.420000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 5,
-      "majorpull": 6
-    },
-    {
-      "objectid": 1478636,
-      "globalid": "038b3f82-ce1f-4b02-b7c7-7c8cf7978e39",
-      "basin": "Walawe Ganga",
-      "gauge": "Moraketiya",
-      "water_level": 0.64,
-      "rain_fall": 0,
-      "CreationDate": "2026-08-16T20:00:50.741000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-16T20:00:50.741000+00:00",
-      "Editor": "",
-      "alertpull": 3,
-      "minorpull": 5,
       "majorpull": 7
     }
   ]
