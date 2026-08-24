@@ -1,10 +1,40 @@
 {
-  "last_updated_utc": "2026-08-24T19:43:32.901169+00:00",
+  "last_updated_utc": "2026-08-24T20:11:57.629513+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6433,
+  "record_count": 6432,
   "records": [
+    {
+      "objectid": 1485972,
+      "globalid": "e08a8934-179e-4901-91e7-91110fa27b99",
+      "basin": "Mahaweli Ganga",
+      "gauge": "Thaldena",
+      "water_level": 0.08,
+      "rain_fall": 0,
+      "CreationDate": "2026-08-24T20:03:25.292000+00:00",
+      "Creator": "",
+      "EditDate": "2026-08-24T20:03:25.292000+00:00",
+      "Editor": "",
+      "alertpull": 3,
+      "minorpull": 4,
+      "majorpull": 5
+    },
+    {
+      "objectid": 1485971,
+      "globalid": "5543af95-cda8-45d4-bc95-189ba053f202",
+      "basin": "Kelani Ganga",
+      "gauge": "Hanwella",
+      "water_level": 1.02,
+      "rain_fall": 0,
+      "CreationDate": "2026-08-24T19:58:15.119000+00:00",
+      "Creator": "",
+      "EditDate": "2026-08-24T19:58:15.119000+00:00",
+      "Editor": "",
+      "alertpull": 6.5,
+      "minorpull": 7.5,
+      "majorpull": 9.5
+    },
     {
       "objectid": 1485970,
       "globalid": "25ebb8c4-e5c0-427a-b2ee-c19de8704131",
@@ -96454,51 +96484,6 @@
       "alertpull": 6,
       "minorpull": 7.5,
       "majorpull": 10.5
-    },
-    {
-      "objectid": 1479535,
-      "globalid": "7b728daf-2968-46ca-afb5-c00ab6600844",
-      "basin": "Nilwala Ganga",
-      "gauge": "Thalgahagoda",
-      "water_level": 0.2,
-      "rain_fall": 0,
-      "CreationDate": "2026-08-17T20:04:09.013000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-17T20:04:09.013000+00:00",
-      "Editor": "",
-      "alertpull": 1.4,
-      "minorpull": 1.7,
-      "majorpull": 2.8
-    },
-    {
-      "objectid": 1479534,
-      "globalid": "5c5811a5-9fa4-456d-b0ae-ea2fdfabb42b",
-      "basin": "Mahaweli Ganga",
-      "gauge": "Manampitiya",
-      "water_level": -0.045,
-      "rain_fall": 0,
-      "CreationDate": "2026-08-17T19:52:42.670000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-17T19:52:42.670000+00:00",
-      "Editor": "",
-      "alertpull": 3,
-      "minorpull": 4.3,
-      "majorpull": 6
-    },
-    {
-      "objectid": 1479533,
-      "globalid": "bcd803a5-84be-4460-9ba6-e24e6ff6a65a",
-      "basin": "Heda Oya",
-      "gauge": "Siyambalanduwa",
-      "water_level": 0.19,
-      "rain_fall": 0,
-      "CreationDate": "2026-08-17T19:44:20.315000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-17T19:44:20.315000+00:00",
-      "Editor": "",
-      "alertpull": 4.5,
-      "minorpull": 6,
-      "majorpull": 7
     }
   ]
 }
