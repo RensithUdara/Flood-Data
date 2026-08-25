@@ -1,9 +1,9 @@
 {
-  "last_updated_utc": "2026-08-25T19:48:36.649613+00:00",
+  "last_updated_utc": "2026-08-25T20:16:07.107045+00:00",
   "source": "rise_lk_gauges_scraper",
   "source_url": "https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/gauges_2_view/FeatureServer/0",
   "where": "",
-  "record_count": 6433,
+  "record_count": 6429,
   "records": [
     {
       "objectid": 1486885,
@@ -96439,66 +96439,6 @@
       "alertpull": 1.4,
       "minorpull": 1.7,
       "majorpull": 2.8
-    },
-    {
-      "objectid": 1480451,
-      "globalid": "a6048c7b-e4b0-429f-bad6-f3fac1076eb0",
-      "basin": "Gin Ganga",
-      "gauge": "Thawalama",
-      "water_level": 1.42,
-      "rain_fall": 0,
-      "CreationDate": "2026-08-18T20:09:08.959000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-18T20:09:08.959000+00:00",
-      "Editor": "",
-      "alertpull": 4,
-      "minorpull": 6,
-      "majorpull": 7.5
-    },
-    {
-      "objectid": 1480450,
-      "globalid": "47287b5a-78fb-48e3-aec0-c96de344d4e6",
-      "basin": "Mahaweli Ganga",
-      "gauge": "Nawalapitiya",
-      "water_level": 1.41,
-      "rain_fall": 0,
-      "CreationDate": "2026-08-18T20:01:32.157000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-18T20:01:32.157000+00:00",
-      "Editor": "",
-      "alertpull": 3.5,
-      "minorpull": 5,
-      "majorpull": 6
-    },
-    {
-      "objectid": 1480449,
-      "globalid": "dab579da-49ca-4b5b-91d7-bb22bf3b3d91",
-      "basin": "Kumbukkan Oya",
-      "gauge": "Nakkala",
-      "water_level": 0.58,
-      "rain_fall": 0,
-      "CreationDate": "2026-08-18T19:57:51.079000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-18T19:57:51.079000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6,
-      "majorpull": 7.5
-    },
-    {
-      "objectid": 1480448,
-      "globalid": "1b2709c2-b88d-4b9b-83ca-c36352c701ae",
-      "basin": "Nilwala Ganga",
-      "gauge": "Panadugama",
-      "water_level": 2.39,
-      "rain_fall": 0,
-      "CreationDate": "2026-08-18T19:49:48.343000+00:00",
-      "Creator": "",
-      "EditDate": "2026-08-18T19:49:48.343000+00:00",
-      "Editor": "",
-      "alertpull": 5,
-      "minorpull": 6,
-      "majorpull": 7.5
     }
   ]
 }
