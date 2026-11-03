@@ -10,6 +10,7 @@ Pull the public gauges_2_view layer and persist the latest gauge readings.
 
 from __future__ import annotations
 
+import utils.session
 import csv
 import json
 import os

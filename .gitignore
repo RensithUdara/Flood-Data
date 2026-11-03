@@ -28,7 +28,6 @@ env/
 .virtualenv
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -36,5 +35,5 @@ env/
 .DS_Store
 
 # Environment variables
-.env
-.env.local
+config.bat
+node_modules
